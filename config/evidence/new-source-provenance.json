@@ -1,0 +1,27 @@
+{
+  "ETH_FIGURES": {
+    "doi": "10.3929/ethz-b-000469811",
+    "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/3e254e13-807f-4887-b864-aa1a603a03e2/content",
+    "sha256_original_xlsx": "70f64283ee5925e050899a6403942522fcaa27d5bfbd7891e0633d83be5d4b55",
+    "license": "CC BY-NC 4.0",
+    "attribution": "Iwan Haechler (2021), Extended Data for Exploiting Radiative Cooling for Uninterrupted 24-hour Water Harvesting from the Atmosphere, ETH Zurich",
+    "extracted_sheets": [
+      "Figure 1C",
+      "Figure 4B",
+      "Figure 4C"
+    ],
+    "above_one_count": 13,
+    "policy": "raw retained; nominal trusted range limited to .25..20 um; no clipping in trusted range"
+  },
+  "ASTM_G173": {
+    "url": "https://www.nlr.gov/media/docs/libraries/grid/zip/astmg173.zip?sfvrsn=1ef05e45_5",
+    "sha256_zip": "de6ed831cd7426d9a7147d5c0a48b1e67a483cb7f8ecd6d3ae846848154a5657",
+    "scope": "reference spectral shape, NOT a per-city hourly spectrum"
+  },
+  "CONE_2024": {
+    "url": "https://conedrive.com.cn/wp-content/uploads/sites/2/2024/03/Solar-Tracker-Catalog-2024-V1-2.pdf",
+    "sha256": "ec4bd1db715a4e29df963569711aa0cbc593d77fbe48e20f6e604cd2f7680eb6",
+    "scope": "alternative catalogue only; not combined with HangTuo motor specifications"
+  },
+  "retrieved_UTC": "2026-10-17"
+}

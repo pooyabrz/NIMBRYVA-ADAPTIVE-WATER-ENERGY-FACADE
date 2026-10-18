@@ -1,0 +1,1467 @@
+{
+  "episode": {
+    "city": "phoenix",
+    "year": 2023,
+    "role": "test",
+    "episode": 0,
+    "seed": 2192,
+    "hours": 48,
+    "start": "2023-02-20 04:00:00+00:00",
+    "config": {
+      "external_h_multiplier": 1.0,
+      "coating_condition": 1.0,
+      "collector_efficiency": 0.85,
+      "bridge_multiplier": 1.0,
+      "motor_running_upper_W": 72.0
+    },
+    "conditional_warm_window": true,
+    "selection_uses_future_for_domain_only": true,
+    "forecast_contains_future_reanalysis": false,
+    "initial_eval_battery_Wh": 100.0,
+    "case_group": "test-phoenix-2023-e0"
+  },
+  "rows": [
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 05:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 05:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 05:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 06:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 06:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 06:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 07:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 07:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 07:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 08:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 08:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 08:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 09:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 09:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 09:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 10:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 10:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 11:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 11:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 11:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 12:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 12:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 12:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 13:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 13:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 13:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 14:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 14:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 14:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 15:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 15:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 15:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 16:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 16:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 16:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 17:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 17:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 17:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 18:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 18:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 18:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 19:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 19:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 19:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 20:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 20:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 20:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 21:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 21:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 21:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 22:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 22:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 22:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 23:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 23:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-20 23:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 00:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 00:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 00:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 01:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 01:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 01:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 02:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 02:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 02:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 03:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 03:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 03:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 04:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 04:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 04:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 05:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 05:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 05:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 06:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 06:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 06:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 07:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 07:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 07:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 08:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 08:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 08:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 09:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 09:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 09:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 10:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 10:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 11:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 11:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 11:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 12:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 12:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 12:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 13:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 13:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 13:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 14:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 14:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 14:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 15:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 15:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 15:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 16:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 16:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 16:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 17:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 17:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 17:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 18:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 18:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 18:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 19:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 19:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 19:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 20:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 20:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 20:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 21:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 21:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 21:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 22:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 22:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 22:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 23:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 23:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-21 23:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 00:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 00:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 00:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 01:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 01:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 01:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 02:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 02:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 02:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 03:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 03:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 03:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 04:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 04:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-02-22 04:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    }
+  ],
+  "failures": [],
+  "teacher": "cassette-v2.0 + B1 hourly wall/ground boundary; no CFD closure qualification"
+}

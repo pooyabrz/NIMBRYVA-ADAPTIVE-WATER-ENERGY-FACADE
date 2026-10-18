@@ -1,0 +1,666 @@
+{
+  "area_m2": {
+    "screening_low": "1.9981079999999998",
+    "screening_high": "1.9981079999999998",
+    "source_id": "TRINA",
+    "evidence": "derived_from_frozen_dimensions",
+    "unit": "m2",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "dew_area_m2": {
+    "screening_low": "1.6",
+    "screening_high": "1.6",
+    "source_id": "DESIGN",
+    "evidence": "fixed_design_or_numerical_choice",
+    "unit": "m2",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "panel_width_m": {
+    "screening_low": 1.132,
+    "screening_high": 1.136,
+    "source_id": "TRINA",
+    "evidence": "datasheet",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "rotation_chord_m": {
+    "screening_low": 1.76,
+    "screening_high": 1.764,
+    "source_id": "TRINA",
+    "evidence": "datasheet",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "wall_standoff_m": {
+    "screening_low": "0.95",
+    "screening_high": "1.25",
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "mounting_height_m": {
+    "screening_low": 2.0,
+    "screening_high": 10.0,
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "building_height_m": {
+    "screening_low": "11.8872",
+    "screening_high": "11.8872",
+    "source_id": "DOE",
+    "evidence": "source_model",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "building_width_m": {
+    "screening_low": 49.911,
+    "screening_high": 49.911,
+    "source_id": "DOE",
+    "evidence": "source_model",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "facade_azimuth_north_cw_deg": {
+    "screening_low": 0.0,
+    "screening_high": 270.0,
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "ground_shortwave_albedo": {
+    "screening_low": "0.2",
+    "screening_high": "0.2",
+    "source_id": "DESIGN",
+    "evidence": "fixed_design_or_numerical_choice",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_efficiency_at25": {
+    "screening_low": "0.21",
+    "screening_high": "0.227",
+    "source_id": "TRINA",
+    "evidence": "derived_rating",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_gamma_per_K": {
+    "screening_low": "-0.003",
+    "screening_high": "-0.003",
+    "source_id": "TRINA",
+    "evidence": "datasheet",
+    "unit": "K^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_effective_absorptance": {
+    "screening_low": "0.8",
+    "screening_high": "0.96",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_longwave_emissivity": {
+    "screening_low": "0.78",
+    "screening_high": "0.92",
+    "source_id": "FLOAT",
+    "evidence": "generic_bare_glass_proxy",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_solar_heat_cell_fraction": {
+    "screening_low": "0.8",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_capacity_multiplier": {
+    "screening_low": "0.5",
+    "screening_high": "1.5",
+    "source_id": "DESIGN",
+    "evidence": "screening_multiplier",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "laminate_contact_R_m2_K_W": {
+    "screening_low": "0",
+    "screening_high": "0.01",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "m2 K W^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pv_xps_contact_R_m2_K_W": {
+    "screening_low": "0.001",
+    "screening_high": "0.1",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "m2 K W^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "frame_cp_J_kg_K": {
+    "screening_low": "700",
+    "screening_high": "1000",
+    "source_id": "DESIGN",
+    "evidence": "aluminium_property_proxy",
+    "unit": "J kg^-1 K^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "frame_pv_contact_W_K": {
+    "screening_low": "0.1",
+    "screening_high": "10",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "W K^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "frame_ambient_W_K": {
+    "screening_low": "0",
+    "screening_high": "5",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "W K^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "bridge_multiplier": {
+    "screening_low": "0.1",
+    "screening_high": "10",
+    "source_id": "DESIGN",
+    "evidence": "screening_multiplier",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "cavity_gap_m": {
+    "screening_low": 0.01,
+    "screening_high": 0.04,
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "port_inlet_m2": {
+    "screening_low": "0.00567",
+    "screening_high": "0.02268",
+    "source_id": "DESIGN",
+    "evidence": "proposed_geometry",
+    "unit": "m2",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "port_outlet_m2": {
+    "screening_low": "0.00567",
+    "screening_high": "0.02268",
+    "source_id": "DESIGN",
+    "evidence": "proposed_geometry",
+    "unit": "m2",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "port_discharge_coefficient": {
+    "screening_low": "0.4",
+    "screening_high": "0.8",
+    "source_id": "ENERGYPLUS_AFN",
+    "evidence": "uncalibrated_network_input",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "port_delta_Cp": {
+    "screening_low": "-0.6",
+    "screening_high": "0.6",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "channel_h_multiplier": {
+    "screening_low": "0.5",
+    "screening_high": "2",
+    "source_id": "DESIGN",
+    "evidence": "closure_sensitivity",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "cavity_radiation_effective_epsilon": {
+    "screening_low": "0.2",
+    "screening_high": "0.95",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "lewis_number": {
+    "screening_low": "0.7",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "humid_air_proxy",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "external_h_multiplier": {
+    "screening_low": "0.5",
+    "screening_high": "2",
+    "source_id": "ANSYS_FLAT_PLATE",
+    "evidence": "closure_sensitivity",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "natural_convection_floor_W_m2_K": {
+    "screening_low": "1",
+    "screening_high": "5",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_floor",
+    "unit": "W m^-2 K^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "rain_interception_efficiency": {
+    "screening_low": "0.5",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "drop_fall_speed_m_s": {
+    "screening_low": "3",
+    "screening_high": "9",
+    "source_id": "DESIGN",
+    "evidence": "monodisperse_rain_proxy",
+    "unit": "s",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "jump_fraction": {
+    "screening_low": "0",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "unidentified_transport_fraction",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "collector_efficiency": {
+    "screening_low": "0",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "unidentified_capture_fraction",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "coating_condition": {
+    "screening_low": "0",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "stress_state_not_time_law",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "droplet_footprints_m2": {
+    "screening_low": "1000.0",
+    "screening_high": "100000000.0",
+    "source_id": "DESIGN",
+    "evidence": "unidentified_population",
+    "unit": "m^-2",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "outer_adv_deg": {
+    "screening_low": "60",
+    "screening_high": "120",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "outer_rec_deg": {
+    "screening_low": "20",
+    "screening_high": "90",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "water_viscosity_Pa_s": {
+    "screening_low": "0.0005",
+    "screening_high": "0.0018",
+    "source_id": "DESIGN",
+    "evidence": "near_20C_proxy",
+    "unit": "Pa s",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "battery_capacity_Wh": {
+    "screening_low": "100",
+    "screening_high": "500",
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "Wh",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "charge_efficiency": {
+    "screening_low": "0.85",
+    "screening_high": "0.99",
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "discharge_efficiency": {
+    "screening_low": "0.85",
+    "screening_high": "0.99",
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "dc_efficiency": {
+    "screening_low": "0.85",
+    "screening_high": "0.99",
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "idle_W": {
+    "screening_low": "0.2",
+    "screening_high": "2",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_controller_load",
+    "unit": "W",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_running_W": {
+    "screening_low": "30",
+    "screening_high": "30",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue_motor_nominal_not_load_curve",
+    "unit": "W",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_running_upper_W": {
+    "screening_low": "72",
+    "screening_high": "72",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "derived_24V_times_3A_running_envelope",
+    "unit": "W",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_output_rpm": {
+    "screening_low": "0.065",
+    "screening_high": "0.065",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue_combined_output",
+    "unit": "rev min^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_ramp_s": {
+    "screening_low": "1",
+    "screening_high": "20",
+    "source_id": "DESIGN",
+    "evidence": "controller_choice",
+    "unit": "s",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_rated_output_Nm": {
+    "screening_low": "600",
+    "screening_high": "600",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue_combined_output",
+    "unit": "N m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_holding_Nm": {
+    "screening_low": "3000",
+    "screening_high": "3000",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue",
+    "unit": "N m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_tilting_Nm": {
+    "screening_low": "1500",
+    "screening_high": "1500",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue",
+    "unit": "N m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_radial_N": {
+    "screening_low": "16000",
+    "screening_high": "16000",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue",
+    "unit": "N",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_min_output_deg": {
+    "screening_low": "0",
+    "screening_high": "0",
+    "source_id": "DESIGN",
+    "evidence": "unconfirmed_cable_limit",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_max_output_deg": {
+    "screening_low": "360",
+    "screening_high": "360",
+    "source_id": "DESIGN",
+    "evidence": "unconfirmed_cable_limit",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_accuracy_deg": {
+    "screening_low": "0.1",
+    "screening_high": "0.1",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue_precision_not_loaded_error",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_temperature_min_C": {
+    "screening_low": "-30",
+    "screening_high": "-30",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue",
+    "unit": "degC",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "motor_temperature_max_C": {
+    "screening_low": "80",
+    "screening_high": "80",
+    "source_id": "HANGTUO_SE3",
+    "evidence": "catalogue",
+    "unit": "degC",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "pivot_CG_offset_m": {
+    "screening_low": "0.0",
+    "screening_high": "0.005",
+    "source_id": "DESIGN",
+    "evidence": "design_tolerance",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "bearing_friction_Nm": {
+    "screening_low": "0.1",
+    "screening_high": "1.0",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "N m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "wind_force_coefficient": {
+    "screening_low": "1.0",
+    "screening_high": "2.0",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "wind_CP_offset_fraction": {
+    "screening_low": "0.0",
+    "screening_high": "0.5",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_prior",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "wind_gust_factor": {
+    "screening_low": "1",
+    "screening_high": "2",
+    "source_id": "DESIGN",
+    "evidence": "not_a_code_gust_conversion",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "wind_mount_lever_m": {
+    "screening_low": "0.05",
+    "screening_high": "0.3",
+    "source_id": "DESIGN",
+    "evidence": "unconfirmed_bracket_geometry",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "torque_screening_factor": {
+    "screening_low": "2.0",
+    "screening_high": "2.0",
+    "source_id": "DESIGN",
+    "evidence": "engineering_screen",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "clearance_allowance_m": {
+    "screening_low": "0.05",
+    "screening_high": "0.05",
+    "source_id": "DESIGN",
+    "evidence": "design_choice",
+    "unit": "m",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "terrain_alpha": {
+    "screening_low": "0.14",
+    "screening_high": "0.33",
+    "source_id": "ENERGYPLUS;DESIGN",
+    "evidence": "terrain_scenario",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "local_lapse_K_m": {
+    "screening_low": "-0.01",
+    "screening_high": "0.0",
+    "source_id": "ENERGYPLUS",
+    "evidence": "background_atmosphere_proxy",
+    "unit": "K m^-1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "spectral_points": {
+    "screening_low": "512",
+    "screening_high": "2048",
+    "source_id": "DESIGN",
+    "evidence": "numerical_resolution",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "dew_unknown_tail_epsilon": {
+    "screening_low": "0",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "missing_spectrum_scenario",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "dew_angular_multiplier": {
+    "screening_low": "0.8",
+    "screening_high": "1",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_angle_sensitivity",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "sky_temperature_cap_offset_K": {
+    "screening_low": "5",
+    "screening_high": "20",
+    "source_id": "DESIGN",
+    "evidence": "spectral_envelope_boundary",
+    "unit": "K",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "wall_temperature_offset_K": {
+    "screening_low": "-10",
+    "screening_high": "15",
+    "source_id": "DESIGN",
+    "evidence": "unmeasured_boundary",
+    "unit": "K",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "integration_dt_s": {
+    "screening_low": "15",
+    "screening_high": "60",
+    "source_id": "DESIGN",
+    "evidence": "numerical_resolution",
+    "unit": "s",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "nonlinear_tolerance_K": {
+    "screening_low": "1e-09",
+    "screening_high": "1e-07",
+    "source_id": "DESIGN",
+    "evidence": "numerical_tolerance",
+    "unit": "K",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "geometry_angle_step_deg": {
+    "screening_low": "0.5",
+    "screening_high": "4",
+    "source_id": "DESIGN",
+    "evidence": "numerical_resolution",
+    "unit": "degree",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "geometry_rays": {
+    "screening_low": "1024",
+    "screening_high": "8192",
+    "source_id": "DESIGN",
+    "evidence": "numerical_resolution",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "geometry_area_samples": {
+    "screening_low": "3",
+    "screening_high": "7",
+    "source_id": "DESIGN",
+    "evidence": "numerical_resolution",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "reward_water_per_L": {
+    "screening_low": "1.0",
+    "screening_high": "1.0",
+    "source_id": "DESIGN",
+    "evidence": "fixed_design_or_numerical_choice",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "reward_unserved_per_Wh": {
+    "screening_low": "1.0",
+    "screening_high": "1.0",
+    "source_id": "DESIGN",
+    "evidence": "fixed_design_or_numerical_choice",
+    "unit": "Wh",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "reward_switch_penalty": {
+    "screening_low": "0.002",
+    "screening_high": "0.002",
+    "source_id": "DESIGN",
+    "evidence": "fixed_design_or_numerical_choice",
+    "unit": "1",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  },
+  "reward_final_SOC_deficit_per_Wh": {
+    "screening_low": "0.1",
+    "screening_high": "0.1",
+    "source_id": "DESIGN",
+    "evidence": "fixed_design_or_numerical_choice",
+    "unit": "Wh",
+    "interval_meaning": "Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance"
+  }
+}

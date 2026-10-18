@@ -1,0 +1,21 @@
+{
+  "city": "phoenix",
+  "year": 2021,
+  "role": "train",
+  "episode": 2,
+  "seed": 2058,
+  "hours": 72,
+  "start": "2021-08-17 03:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.055052471565602,
+    "coating_condition": 0.6396728519390471,
+    "collector_efficiency": 0.8382768063443226,
+    "bridge_multiplier": 0.9797664575555969,
+    "motor_running_upper_W": 61.98689419361689
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-phoenix-2021-e2"
+}

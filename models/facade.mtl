@@ -1,0 +1,15 @@
+newmtl pv
+Kd 0.1 0.25 0.42
+illum 1
+
+newmtl frame
+Kd 0.4 0.45 0.5
+illum 1
+
+newmtl insulation
+Kd 0.8 0.75 0.6
+illum 1
+
+newmtl dew
+Kd 0.7 0.88 0.9
+illum 1

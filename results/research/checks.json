@@ -1,0 +1,123 @@
+{
+  "checks": [
+    {
+      "name": "absolute criterion works near zero water",
+      "pass": true
+    },
+    {
+      "name": "Richardson recovers known order two",
+      "pass": true
+    },
+    {
+      "name": "oscillatory grid result does not invent GCI",
+      "pass": true
+    },
+    {
+      "name": "surrogate projection closes water for wet dry evaporation cases",
+      "pass": true
+    },
+    {
+      "name": "dry zero inventory remains exactly zero",
+      "pass": true
+    },
+    {
+      "name": "battery ledger soc=0 pv=0 motor=20",
+      "pass": true
+    },
+    {
+      "name": "battery ledger soc=200 pv=200 motor=0",
+      "pass": true
+    },
+    {
+      "name": "battery ledger soc=100 pv=0 motor=1",
+      "pass": true
+    },
+    {
+      "name": "battery ledger soc=100 pv=100 motor=10",
+      "pass": true
+    },
+    {
+      "name": "observation cannot see changed future reanalysis",
+      "pass": true
+    },
+    {
+      "name": "causal rule sees current row only",
+      "pass": true
+    },
+    {
+      "name": "train selection test years disjoint",
+      "pass": true
+    },
+    {
+      "name": "unseen test cities excluded from training",
+      "pass": true
+    },
+    {
+      "name": "train features finite and supported label binary",
+      "pass": true
+    },
+    {
+      "name": "selection features finite and supported label binary",
+      "pass": true
+    },
+    {
+      "name": "test features finite and supported label binary",
+      "pass": true
+    },
+    {
+      "name": "nonoperating rain gauges excluded by source uncertainty table",
+      "pass": true
+    },
+    {
+      "name": "rain amount is cumulative not summed over rows",
+      "pass": true
+    },
+    {
+      "name": "dew overlapping short runs excluded before holdout",
+      "pass": true
+    },
+    {
+      "name": "independent PV data do not qualify unknown cassette BOM",
+      "pass": true
+    },
+    {
+      "name": "missing radiative cooling boundary data remains a blocked gate",
+      "pass": true
+    },
+    {
+      "name": "experimental component fits do not label new product validated",
+      "pass": true
+    },
+    {
+      "name": "all model weights match frozen source hashes",
+      "pass": true
+    },
+    {
+      "name": "fast plant inventory and battery closure",
+      "pass": true
+    },
+    {
+      "name": "turbulence model change invalidates old CFD signature",
+      "pass": true
+    },
+    {
+      "name": "alternate gas closure conserves material and enthalpy",
+      "pass": true
+    },
+    {
+      "name": "actual three PPO seeds trained without final test selection",
+      "pass": true
+    },
+    {
+      "name": "frozen policy and selection hashes match final test",
+      "pass": true
+    },
+    {
+      "name": "controller test includes four methods with identical episode count",
+      "pass": true
+    }
+  ],
+  "passed": 29,
+  "total": 29,
+  "experimental_validation": false
+}

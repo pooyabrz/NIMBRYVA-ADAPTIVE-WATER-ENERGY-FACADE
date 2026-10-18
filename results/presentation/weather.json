@@ -1,0 +1,126 @@
+{
+  "datasets": [
+    {
+      "city": "mumbai",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "d8384863a4e507379d4ed9812df90eabf91d6eae9187d67283f447d74e6c2180",
+      "source": {
+        "city": "mumbai",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 9.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "bandar-abbas",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "26aaa05b74f90062bb8751cbfb912033660b64e6812e29ce6509775fec4329b6",
+      "source": {
+        "city": "bandar-abbas",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 10.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "singapore",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "978b3ea45dd7254c37c27dbf21831b84e8f3ea24624aa6bf91fd384aa8d3c753",
+      "source": {
+        "city": "singapore",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 39.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "rasht",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "626678f3e5cdbe5f2b62227dbcbcf49166815eb5bbd12284f966b0dcae210b95",
+      "source": {
+        "city": "rasht",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": -3.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "phoenix",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "4047c07148b4af6f562d0cd5a726684c70c74987472d5987c5cd3d0afe08cb40",
+      "source": {
+        "city": "phoenix",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 335.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "dubai",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "ee689f8fb27159d38e4402c91303d02670a111df85502eef4129b8da86bb64a1",
+      "source": {
+        "city": "dubai",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 0.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "seville",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "e249db6d97f300a942bf530ea57a321bc13d0c3b657c621470c00f7cc8abf80b",
+      "source": {
+        "city": "seville",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 16.0,
+        "status": "downloaded"
+      }
+    },
+    {
+      "city": "istanbul",
+      "year": 2025,
+      "status": "passed",
+      "hours": 8760,
+      "sha256": "292b715efe83a34f0bcebf2685ea85b140a31f7e767764d66438f85e342d4d4e",
+      "source": {
+        "city": "istanbul",
+        "year": 2025,
+        "hours_era5": 8760,
+        "hours_longwave": 8760,
+        "era5_elevation_m": 48.0,
+        "status": "downloaded"
+      }
+    }
+  ],
+  "reanalysis_not_experimental_truth": true,
+  "issued_forecasts_used": false
+}

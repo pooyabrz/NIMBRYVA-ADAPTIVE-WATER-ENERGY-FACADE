@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "scope": "Actual Canvas rasterization and control callback execution in native JS Canvas. Full browser/host layout not verified: browser binary unavailable.",
+  "checks": [
+    {
+      "name": "solar",
+      "mode": "solar",
+      "tilt": 45,
+      "status": "روی خورشیدی رو به محیط",
+      "nonemptyPixels": 58873,
+      "sha256": "9fe53bdb0906c001ed38b3e96567a717fe883ce4e12169e9da6da1d8fac3a241"
+    },
+    {
+      "name": "dew",
+      "mode": "dew",
+      "tilt": 25,
+      "status": "روی میعان رو به محیط",
+      "nonemptyPixels": 71409,
+      "sha256": "5c586b6010dd9783dcd158c2656a0136a224ad515451f61206ee052b52b0681b"
+    },
+    {
+      "name": "exploded",
+      "mode": "dew",
+      "tilt": 25,
+      "status": "دو روی تخصصی و هستهٔ میانی",
+      "nonemptyPixels": 73702,
+      "sha256": "198d14572032fcae5d8563d3b086eaa0c823cdda18254f1a3a66c4e88d658871"
+    },
+    {
+      "name": "rain",
+      "mode": "rain",
+      "tilt": 65,
+      "status": "دو روی تخصصی و هستهٔ میانی",
+      "nonemptyPixels": 67412,
+      "sha256": "5d9b7b1c256248a1c0d96c7dfa299097e1b83b6555f9c6c6b42e94458804207b"
+    },
+    {
+      "name": "mobile",
+      "mode": "rain",
+      "tilt": 80,
+      "status": "دو روی تخصصی و هستهٔ میانی",
+      "nonemptyPixels": 62853,
+      "sha256": "b7a9c175bba4e8f3f63e39c7f8e0e7e9b44d8b426c4ca2ef72d5bd8fc9160586"
+    },
+    {
+      "name": "dark",
+      "mode": "rain",
+      "tilt": 80,
+      "status": "دو روی تخصصی و هستهٔ میانی",
+      "nonemptyPixels": 62853,
+      "sha256": "d5e26796f392db5f14eefb4bc1cc0bcd9673668a2c26ed192095ead487eedd31"
+    }
+  ]
+}

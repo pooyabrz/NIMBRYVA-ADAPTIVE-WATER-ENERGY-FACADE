@@ -1,0 +1,302 @@
+{
+  "model_version": "cassette-v2.0",
+  "scientific_gate": "BLOCKED_FINAL_DEVICE_AND_HIGH_FIDELITY_CLAIMS",
+  "config_sha256": "35d091cf7f8ee2e7d838bac79ee0be3b15f877cf8092bbed48fe195caf74c904",
+  "closed_implementation": [
+    "original project integration",
+    "finite physical rotation",
+    "8-node laminate/cavity thermal and moisture balances",
+    "source-data/QC separation",
+    "policy version guard"
+  ],
+  "critical_gaps": [
+    {
+      "id": "G01",
+      "topic": "PV-specific internal stack and optics",
+      "status": "OPEN_DATA",
+      "implemented": "5 PV finite volumes + XPS, electrical rating anchored to Trina TSM_DE_2023_A",
+      "missing": "actual encapsulant grade/thickness, wafer/passivation/metallization stack, n/k/EQE/angular optics and contact resistance of this serial product",
+      "close_with": "manufacturer BOM or a fully specified research laminate with public optical constants; no physical lab required to ingest those data"
+    },
+    {
+      "id": "G02",
+      "topic": "full spectral/angle/hourly radiation",
+      "status": "PARTIAL_DATA_AND_SOLVER",
+      "implemented": "2321 raw ETH optical samples, QC, trusted .25..20 um, spectral thermal integral 2.5..1000 um, G173 reference and external NPZ interface; broadband identifiability bounds",
+      "missing": "reliable emitter data beyond 20 um, angular optical measurements, water-covered optics, real hourly atmospheric profiles/clouds/aerosols and radiance spectra",
+      "close_with": "author/supplier optical data plus a documented libRadtran/ARTS calculation with actual atmospheric profiles; broadband LW alone is insufficient"
+    },
+    {
+      "id": "G03",
+      "topic": "coating durability and condensate delivery",
+      "status": "OPEN_TRANSFER_VALIDATION",
+      "implemented": "actual ETH 1.5 h/12 h flux series, film mass balance, jumping/sliding/collector scenarios, wet hours and UV exposure counters without lifetime inference",
+      "missing": "outdoor ageing law, adhesion on selected Ag/Cr stack, droplet population/jumping/capture under the proposed moving 20 mm cavity; orientation-dependent collection plumbing",
+      "close_with": "existing independent durability/transport datasets for this stack or a validated droplet-scale numerical model; accelerated steam hours cannot be mapped to facade years"
+    },
+    {
+      "id": "G04",
+      "topic": "cassette flow and thermal bridges",
+      "status": "IMPLEMENTED_REDUCED_ORDER_OPEN_VALIDATION",
+      "implemented": "8 solid nodes, 2-port pressure/stack network, moist-air energy+humidity balance, 2 explicit parallel bridge paths and contact resistance",
+      "missing": "resolved external/entrance flow, local port Cp, developing unequal-wall transfer, 3D thermal spreading, drain/cover/frame geometry and condensation on other internal walls",
+      "close_with": "converged CFD/CHT + 3D thermal FE for a fixed CAD and comparison with published benchmark cases"
+    },
+    {
+      "id": "G05",
+      "topic": "final motor/wind qualification",
+      "status": "PRELIMINARY_SIZE_ONLY",
+      "implemented": "one HangTuo SE3+24V reference, rated/hold/tilt/radial checks, finite motion/inertia, upper running-energy scenario and action protection",
+      "missing": "order-specific load-speed-current/start/stall/duty curves, verified rotation limits/IP/corrosion, local design gust/site code, anchors/bearings/cable/drain routing and aeroelastic fatigue",
+      "close_with": "supplier confirmed order sheet and site-specific CFD/structural sizing; a catalogue static pass is not final compatibility"
+    }
+  ],
+  "assembly": {
+    "layers": [
+      {
+        "name": "PV front glass",
+        "d_m": 0.0016,
+        "rho_kg_m3": 2500.0,
+        "cp_J_kg_K": 880.0,
+        "k_W_m_K": 0.937,
+        "area_m2": 1.9981079999999998,
+        "C_J_K": 7033.340159999999,
+        "R_K_W": 0.0008545971361907298,
+        "evidence": "datasheet thickness / generic glass proxy"
+      },
+      {
+        "name": "PV front encapsulant",
+        "d_m": 0.0004,
+        "rho_kg_m3": 960.0,
+        "cp_J_kg_K": 2090.0,
+        "k_W_m_K": 0.35,
+        "area_m2": 1.9981079999999998,
+        "C_J_K": 1603.6015564799998,
+        "R_K_W": 0.0005719696547219385,
+        "evidence": "EVA proxy; actual EVA/POE grade unknown"
+      },
+      {
+        "name": "PV Si cell",
+        "d_m": 0.00015,
+        "rho_kg_m3": 2330.0,
+        "cp_J_kg_K": 677.0,
+        "k_W_m_K": 148.0,
+        "area_m2": 1.9981079999999998,
+        "C_J_K": 472.77533104199995,
+        "R_K_W": 5.072366025828002e-07,
+        "evidence": "unknown wafer thickness / literature proxy"
+      },
+      {
+        "name": "PV back encapsulant",
+        "d_m": 0.0004,
+        "rho_kg_m3": 960.0,
+        "cp_J_kg_K": 2090.0,
+        "k_W_m_K": 0.35,
+        "area_m2": 1.9981079999999998,
+        "C_J_K": 1603.6015564799998,
+        "R_K_W": 0.0005719696547219385,
+        "evidence": "EVA proxy"
+      },
+      {
+        "name": "PV back glass",
+        "d_m": 0.0016,
+        "rho_kg_m3": 2500.0,
+        "cp_J_kg_K": 880.0,
+        "k_W_m_K": 0.937,
+        "area_m2": 1.9981079999999998,
+        "C_J_K": 7033.340159999999,
+        "R_K_W": 0.0008545971361907298,
+        "evidence": "datasheet thickness / generic glass proxy"
+      },
+      {
+        "name": "XPS",
+        "d_m": 0.02,
+        "rho_kg_m3": 34.0,
+        "cp_J_kg_K": 1450.0,
+        "k_W_m_K": 0.029,
+        "area_m2": 1.9981079999999998,
+        "C_J_K": 1970.1344879999997,
+        "R_K_W": 0.3451541019873766,
+        "evidence": "material property proxy at proposed thickness"
+      },
+      {
+        "name": "Dew emitter/condenser",
+        "C_J_K": 1360.4800000000005,
+        "area_m2": 1.6,
+        "R_K_W": 0.0004559457671957673,
+        "evidence": "Haechler geometry; thermal-property proxies; nanolayer storage neglected"
+      },
+      {
+        "name": "Frame/support",
+        "C_J_K": 5294.025279000003,
+        "area_m2": 0,
+        "R_K_W": 0,
+        "evidence": "unallocated mass with aluminium heat-capacity proxy"
+      }
+    ],
+    "bridge_W_K": 0.007394222866959245,
+    "bridge_paths": [
+      {
+        "name": "six protected PEEK spacers, proposed geometry",
+        "G_W_K": 0.0020086354608053144
+      },
+      {
+        "name": "two stainless M4 parallel leakage paths, proposed geometry",
+        "G_W_K": 0.005385587406153931
+      }
+    ],
+    "moving_mass_kg": 27.38351344,
+    "PV_proxy_mass_kg": 18.217749689999998,
+    "unallocated_module_mass_kg": 2.8822503100000034,
+    "assembly_depth_m": 0.0706021415
+  },
+  "spectral_audit": {
+    "raw_samples": 2321,
+    "raw_above_one": 13,
+    "trusted_range_um": [
+      0.25,
+      19.943774510898873
+    ],
+    "thermal_grid_range_um": [
+      2.5,
+      1000.0
+    ],
+    "spectral_grid_points": 2318,
+    "thermal_integral_vs_sigma_relative_error": 2.0766760841827923e-05,
+    "blackbody_fraction_above_trusted_20um": 0.26682659977328105,
+    "reference_G173_dew_alpha": 0.030769701637230733,
+    "reference_G173_UV_fraction": 0.046085615843571064,
+    "angular_emissivity_measured": false,
+    "real_city_hourly_spectrum_available": false,
+    "optical_tail_is_scenario": true
+  },
+  "flip_180": {
+    "start": 50,
+    "end": 230,
+    "distance_deg": 180,
+    "duration_s": 466.53846153846155,
+    "ramp_s": 5.0,
+    "peak_deg_s": 0.39,
+    "nominal_Wh": 3.8878205128205128,
+    "running_upper_Wh": 9.330769230769231
+  },
+  "preliminary_wind_limit_local_mean_m_s": 12.822553195202193,
+  "wind_cases": [
+    {
+      "mean_wind_m_s": 5,
+      "force_N": 103.26159703124999,
+      "required_drive_Nm": 92.6669186451286,
+      "required_hold_Nm": 92.6669186451286,
+      "required_tilting_Nm": 20.65231940625,
+      "required_radial_N": 743.604258215252,
+      "drive_utilization": 0.15444486440854768,
+      "hold_utilization": 0.030888972881709536,
+      "tilt_utilization": 0.013768212937500001,
+      "radial_utilization": 0.04647526613845325,
+      "screen_pass": true
+    },
+    {
+      "mean_wind_m_s": 10,
+      "force_N": 413.04638812499996,
+      "required_drive_Nm": 365.58731959872233,
+      "required_hold_Nm": 365.58731959872233,
+      "required_tilting_Nm": 82.609277625,
+      "required_radial_N": 1363.173840402752,
+      "drive_utilization": 0.6093121993312038,
+      "hold_utilization": 0.12186243986624078,
+      "tilt_utilization": 0.055072851750000006,
+      "radial_utilization": 0.085198365025172,
+      "screen_pass": true
+    },
+    {
+      "mean_wind_m_s": 15,
+      "force_N": 929.3543732812499,
+      "required_drive_Nm": 820.4546545213785,
+      "required_hold_Nm": 820.4546545213785,
+      "required_tilting_Nm": 185.87087465624998,
+      "required_radial_N": 2395.789810715252,
+      "drive_utilization": 1.3674244242022975,
+      "hold_utilization": 0.2734848848404595,
+      "tilt_utilization": 0.1239139164375,
+      "radial_utilization": 0.14973686316970325,
+      "screen_pass": false
+    },
+    {
+      "mean_wind_m_s": 20,
+      "force_N": 1652.1855524999999,
+      "required_drive_Nm": 1457.2689234130971,
+      "required_hold_Nm": 1457.2689234130971,
+      "required_tilting_Nm": 330.4371105,
+      "required_radial_N": 3841.4521691527516,
+      "drive_utilization": 2.4287815390218284,
+      "hold_utilization": 0.4857563078043657,
+      "tilt_utilization": 0.22029140700000002,
+      "radial_utilization": 0.24009076057204698,
+      "screen_pass": false
+    },
+    {
+      "mean_wind_m_s": 30,
+      "force_N": 3717.4174931249995,
+      "required_drive_Nm": 3276.738263103722,
+      "required_hold_Nm": 3276.738263103722,
+      "required_tilting_Nm": 743.4834986249999,
+      "required_radial_N": 7971.916050402751,
+      "drive_utilization": 5.461230438506203,
+      "hold_utilization": 1.0922460877012408,
+      "tilt_utilization": 0.49565566575,
+      "radial_utilization": 0.49824475315017197,
+      "screen_pass": false
+    },
+    {
+      "mean_wind_m_s": 40,
+      "force_N": 6608.742209999999,
+      "required_drive_Nm": 5823.995338670597,
+      "required_hold_Nm": 5823.995338670597,
+      "required_tilting_Nm": 1321.748442,
+      "required_radial_N": 13754.56548415275,
+      "drive_utilization": 9.70665889778433,
+      "hold_utilization": 1.9413317795568659,
+      "tilt_utilization": 0.8811656280000001,
+      "radial_utilization": 0.859660342759547,
+      "screen_pass": false
+    }
+  ],
+  "actuator_reference": {
+    "manufacturer": "Changzhou Hangtuo Mechanical Co., Ltd.",
+    "model": "SE3 with 24VDC motor; webpage reference, not confirmed order code",
+    "url": "https://www.solarslewdrive.com/sale-12281963-se3-solar-slew-drive-enclosed-housing-with-24vdc-planetary-motor-for-solar-tracker-and-csp.html",
+    "rated_Nm": 600,
+    "hold_Nm": 3000,
+    "tilt_Nm": 1500,
+    "output_rpm": 0.065,
+    "motor_nominal_W": 30,
+    "running_current_A_less_than": 3,
+    "IP_rating": null,
+    "qualified_final": false
+  },
+  "coating_evidence": [
+    {
+      "source": "Haechler 2021 Fig4C",
+      "duration_h": 12,
+      "replicates": 2,
+      "environment": "humid air, Peltier-driven lab collection, not facade service"
+    },
+    {
+      "source": "Donati et al. DOI 10.1002/admi.202001176",
+      "environment": "111 C steam, 1.42 bar, approximately 3 m/s; Cu with Al primer",
+      "jumping_h_approx": 10,
+      "additional_dropwise_h_approx": 50,
+      "filmwise_failure_h_approx": 72,
+      "transfer_to_facade_years": false
+    }
+  ],
+  "prohibited_claims": [
+    "all layer values specific to purchased PV module",
+    "complete measured full-spectrum forcing in 12 cities",
+    "outdoor coating lifetime established",
+    "CFD/3D FE validated cassette",
+    "final wind-compatible motor",
+    "validated annual water yield",
+    "old RL policy remains compatible"
+  ]
+}

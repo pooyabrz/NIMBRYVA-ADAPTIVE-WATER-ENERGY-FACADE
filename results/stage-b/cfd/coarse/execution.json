@@ -1,0 +1,14 @@
+{
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "blockMesh"
+      ],
+      "returncode": 1,
+      "seconds": 0.05071759223937988,
+      "log_sha256": "a6cc3eb63d6f9f257adfa355cfd2dc94c5789373ad68f7f22fb41f1d49e52930"
+    }
+  ],
+  "status": "FAILED"
+}

@@ -1,0 +1,6 @@
+{
+  "pages": 7,
+  "renderer": "PyMuPDF",
+  "outside_page_text_boxes": [],
+  "visual_inspection": "All seven pages inspected; final energy-axis label shortened and page 6 re-rendered."
+}

@@ -1,0 +1,38 @@
+{
+  "HANGTUO_SE3": {
+    "url": "https://www.solarslewdrive.com/sale-12281963-se3-solar-slew-drive-enclosed-housing-with-24vdc-planetary-motor-for-solar-tracker-and-csp.html",
+    "scope": "one combined SE3/24V reference; no order/IP/start-current qualification"
+  },
+  "ETH_FIGURES": {
+    "doi": "10.3929/ethz-b-000469811",
+    "url": "https://www.research-collection.ethz.ch/entities/researchdata/3cd6e8d0-2272-485a-a8df-eadc74f06801"
+  },
+  "DONATI": {
+    "doi": "10.1002/admi.202001176",
+    "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202001176"
+  },
+  "ENSINGER_PEEK": {
+    "url": "https://www.ensingerplastics.com/en/shapes/peek-tecapeek-natural",
+    "used": "k=.27 W/m/K; protected internal spacers; proposed geometry not strength-qualified"
+  },
+  "OUTOKUMPU_316L": {
+    "url": "https://www.outokumpu.com/en/products/product-ranges/supra",
+    "used": "k=15 W/m/K property proxy; chosen bolt area is a design input"
+  },
+  "ENERGYPLUS_AFN": {
+    "url": "https://energyplus.readthedocs.io/en/v26.2.0/guides/engineering-reference/13.1-airflownetwork-model.html",
+    "scope": "network equations; not local Cp or transfer coefficient values"
+  },
+  "ANSYS_FLAT_PLATE": {
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/MotorCAD/v252/en/Motor-CAD_UG/MotorCAD/topics/flatplateconvectioncorrelation.html",
+    "scope": "external parallel-flow forced-convection correlation; mixed/normal facade flow unvalidated"
+  },
+  "LIBRADTRAN": {
+    "url": "https://www.libradtran.org/doku.php?id=basic_usage",
+    "scope": "required atmospheric/solar/thermal inputs, not executed here"
+  },
+  "ASTM_G173": {
+    "url": "https://www.nlr.gov/grid/solar-resource/spectra-am1.5",
+    "scope": "one reference atmosphere, not all cities/hourly spectra"
+  }
+}

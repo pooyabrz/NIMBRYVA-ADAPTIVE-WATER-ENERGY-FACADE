@@ -1,0 +1,21 @@
+{
+  "city": "bandar-abbas",
+  "year": 2020,
+  "role": "train",
+  "episode": 1,
+  "seed": 1972,
+  "hours": 72,
+  "start": "2020-05-17 06:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.1552826750469236,
+    "coating_condition": 0.9140766756909366,
+    "collector_efficiency": 0.992101455426778,
+    "bridge_multiplier": 0.5811411570941165,
+    "motor_running_upper_W": 69.98125124236583
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-bandar-abbas-2020-e1"
+}

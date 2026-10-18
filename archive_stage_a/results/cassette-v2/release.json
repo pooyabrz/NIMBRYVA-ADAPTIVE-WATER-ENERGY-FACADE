@@ -1,0 +1,64 @@
+{
+  "model_version": "cassette-v2.0",
+  "status": "SCREENING_WITH_OPEN_DATA_AND_VALIDATION_GAPS",
+  "created_utc": "2026-10-17T13:39:26.284010+00:00",
+  "scientific_gate": "BLOCKED_FINAL_DEVICE_AND_HIGH_FIDELITY_CLAIMS",
+  "checks": {
+    "model_version": "cassette-v2.0",
+    "tests": 31,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "seconds": 7.722384214401245,
+    "empirical_validation_performed": false
+  },
+  "benchmark": {
+    "cities": 12,
+    "cases": 24,
+    "hours_each": 48,
+    "warmup_hours_each": 24,
+    "simulated_case_hours": 1152,
+    "scored_case_hours": 576,
+    "supported_liquid_regime_windows": 18,
+    "unsupported_windows": 6,
+    "annual_yield_or_physical_validation_claimed": false,
+    "max_mass_residual_kg": 1.9184653865522705e-13,
+    "max_battery_residual_Wh": 8.242295734817162e-13,
+    "max_solid_balance_residual_J_per_substep": 4.455818100268516e-05,
+    "max_cavity_enthalpy_residual_W": 5.483113962867492e-13
+  },
+  "sensitivity": {
+    "city": "singapore",
+    "hours_each": 24,
+    "warmup_hours_each": 12,
+    "scenario_count": 20,
+    "kind": "one-at-a-time conditional scenarios, no probabilistic confidence interval",
+    "conditional_drain_L_range": [
+      0.0,
+      0.2395578540006661
+    ]
+  },
+  "new_PPO_trained": false,
+  "legacy_policy_compatible": false,
+  "local_viewer_headless_check": {
+    "status": "passed",
+    "headless_callbacks_exercised": true,
+    "rendered_image_displayed_or_delivered": false
+  },
+  "unchanged_input_data": {
+    "original_archive_sha256": "27413fcfd73c041e2fed5769f37ee2524d8d0d24aa8298f767ded7d1a5849500",
+    "unchanged_original_data_files": 72,
+    "changed_or_missing_data_files": [],
+    "original_policy_preserved": true
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "pvlib": "0.16.1",
+    "gymnasium": "1.4.0"
+  },
+  "config_sha256": "35d091cf7f8ee2e7d838bac79ee0be3b15f877cf8092bbed48fe195caf74c904"
+}

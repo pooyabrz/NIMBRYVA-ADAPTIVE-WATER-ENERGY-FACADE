@@ -1,0 +1,21 @@
+{
+  "city": "mumbai",
+  "year": 2021,
+  "role": "train",
+  "episode": 3,
+  "seed": 2025,
+  "hours": 72,
+  "start": "2021-11-16 09:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.2966746831006566,
+    "coating_condition": 0.6910048704585738,
+    "collector_efficiency": 0.9481444038418299,
+    "bridge_multiplier": 1.7558829142849843,
+    "motor_running_upper_W": 83.41941624376696
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-mumbai-2021-e3"
+}

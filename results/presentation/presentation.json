@@ -1,0 +1,8 @@
+{
+  "metrics": "results/presentation/metrics.json",
+  "pdf": "output/pdf/Defensible-Report-fa.pdf",
+  "html": "output/presentation/report-fa.html",
+  "physical_product_qualification": false,
+  "RL_improvement_claim": false,
+  "active_cooling_added": false
+}

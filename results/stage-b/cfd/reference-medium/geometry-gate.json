@@ -1,0 +1,19 @@
+{
+  "patch_faces": {
+    "inlet": 1232,
+    "outlet": 1232,
+    "side1": 1232,
+    "side2": 1232,
+    "ground": 2224,
+    "top": 1936,
+    "building": 2524,
+    "cassette": 2888
+  },
+  "passed": true,
+  "cassette_area_m2": 4.36515480346641,
+  "physical_closed_box_area_m2": 4.405143603567995,
+  "relative_area_error": 0.009077751760282138,
+  "face_centre_bounds_error_m": 0.012360296024587214,
+  "geometry_tolerance_for_screening": 0.15,
+  "geometry_qualified_to_two_percent": true
+}

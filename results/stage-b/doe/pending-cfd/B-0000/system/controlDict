@@ -1,0 +1,11 @@
+FoamFile
+{ version 2.0; format ascii; class dictionary; object controlDict; }
+application simpleFoam; startFrom startTime; startTime 0; stopAt endTime; endTime 1200; deltaT 1;
+writeControl timeStep; writeInterval 1200; purgeWrite 1; writeFormat ascii; writePrecision 10; writeCompression off; timeFormat general; timePrecision 8; runTimeModifiable false;
+libs ("libatmosphericModels.so");
+functions
+{
+ heat {type scalarTransport; libs (solverFunctionObjects); field T; alphaD 1.408450704; alphaDt 1.176470588; nCorr 1; resetOnStartUp false; executeControl timeStep; executeInterval 1; writeControl writeTime;}
+ vapour {type scalarTransport; libs (solverFunctionObjects); field Yv; alphaD 1.666666667; alphaDt 1.428571429; nCorr 3; resetOnStartUp false; executeControl timeStep; executeInterval 1; writeControl writeTime;}
+ yplus {type yPlus; libs (fieldFunctionObjects); executeControl writeTime; writeControl writeTime;}
+}

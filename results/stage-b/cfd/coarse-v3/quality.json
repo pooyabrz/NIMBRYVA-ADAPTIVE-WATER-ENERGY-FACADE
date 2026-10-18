@@ -1,0 +1,53 @@
+{
+  "case": "coarse-v3",
+  "time": "189",
+  "cells": 31063,
+  "geometry": {
+    "patch_faces": {
+      "inlet": 640,
+      "outlet": 640,
+      "side1": 640,
+      "side2": 640,
+      "ground": 1224,
+      "top": 1024,
+      "building": 1409,
+      "cassette": 1512
+    },
+    "passed": true,
+    "cassette_area_m2": 4.296713956532893,
+    "physical_closed_box_area_m2": 4.405143603567995,
+    "relative_area_error": 0.02461432743016101,
+    "face_centre_bounds_error_m": 0.02124945887458818,
+    "geometry_tolerance_for_screening": 0.15,
+    "geometry_qualified_to_two_percent": false
+  },
+  "standard_checkMesh_passed": true,
+  "last_initial_residuals": {
+    "T": 5.072732296e-07,
+    "Yv": 4.906006581e-09
+  },
+  "continuity_sum_local_last": 9.525174705e-12,
+  "finite_fields": true,
+  "flow_residual_gate_passed": false,
+  "scalar_residual_and_bounds_gate_passed": true,
+  "T_range_K": [
+    292.3905181,
+    294.0659943
+  ],
+  "Yv_range": [
+    0.009762532267,
+    0.0102
+  ],
+  "U_max_m_s": 6.899197576232388,
+  "bulk_Ri": 0.07953171405764968,
+  "neutral_RANS_Ri_below_0_1": true,
+  "flow_available_for_exploratory_particle_tracking": false,
+  "qualified_scalar_transfer_available": false,
+  "qualified_for_yield_surrogate_training": false,
+  "why_not_qualified": [
+    "scalar wall treatment has no resolved/prismatic boundary layers",
+    "independent physical validation absent",
+    "grid convergence must be assessed on quantities of interest"
+  ],
+  "OpenFOAM_converged_message": true
+}

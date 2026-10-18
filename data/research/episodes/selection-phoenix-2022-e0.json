@@ -1,0 +1,21 @@
+{
+  "city": "phoenix",
+  "year": 2022,
+  "role": "selection",
+  "episode": 0,
+  "seed": 2124,
+  "hours": 48,
+  "start": "2022-02-21 04:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.0,
+    "coating_condition": 1.0,
+    "collector_efficiency": 0.85,
+    "bridge_multiplier": 1.0,
+    "motor_running_upper_W": 72.0
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "selection-phoenix-2022-e0"
+}

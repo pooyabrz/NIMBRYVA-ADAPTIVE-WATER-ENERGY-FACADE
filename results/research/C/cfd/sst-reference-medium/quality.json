@@ -1,0 +1,139 @@
+{
+  "case": "sst-reference-medium",
+  "time": "1200",
+  "cells": 73493,
+  "geometry": {
+    "patch_faces": {
+      "inlet": 1232,
+      "outlet": 1232,
+      "side1": 1232,
+      "side2": 1232,
+      "ground": 2224,
+      "top": 1936,
+      "building": 2524,
+      "cassette": 2888
+    },
+    "passed": true,
+    "cassette_area_m2": 4.36515480346641,
+    "physical_closed_box_area_m2": 4.405143603567995,
+    "relative_area_error": 0.009077751760282138,
+    "face_centre_bounds_error_m": 0.012360296024587214,
+    "geometry_tolerance_for_screening": 0.15,
+    "geometry_qualified_to_two_percent": true
+  },
+  "standard_checkMesh_passed": true,
+  "last_initial_residuals": {
+    "Ux": 0.0003142303499,
+    "Uy": 0.01040913677,
+    "Uz": 0.003386105664,
+    "p": 0.002775824904,
+    "omega": 1.743420796e-05,
+    "k": 0.004698094529,
+    "T": 7.129721708e-05,
+    "Yv": 4.333646572e-08
+  },
+  "continuity_sum_local_last": 2.258191385e-07,
+  "finite_fields": true,
+  "flow_residual_gate_passed": false,
+  "scalar_residual_and_bounds_gate_passed": false,
+  "empty_constant_scalar_preservation": false,
+  "scalar_residual_note": null,
+  "T_range_K": [
+    292.1248088,
+    293.7119745
+  ],
+  "Yv_range": [
+    0.009624812247,
+    0.0102
+  ],
+  "U_max_m_s": 6.90174577683107,
+  "bulk_Ri": 0.07953171405764968,
+  "neutral_RANS_Ri_below_0_1": true,
+  "flow_available_for_exploratory_particle_tracking": false,
+  "qualified_scalar_transfer_available": false,
+  "qualified_for_yield_surrogate_training": false,
+  "why_not_qualified": [
+    "scalar wall treatment has no resolved/prismatic boundary layers",
+    "independent physical validation absent",
+    "grid convergence must be assessed on quantities of interest"
+  ],
+  "OpenFOAM_converged_message": false,
+  "quantities_of_interest": {
+    "probe_points_m": [
+      [
+        -6.000000000000001,
+        0.0,
+        8.0
+      ],
+      [
+        -3.000000000000001,
+        0.0,
+        8.0
+      ],
+      [
+        -1.5000000000000009,
+        0.0,
+        8.0
+      ],
+      [
+        -1.0000000000000009,
+        0.0,
+        10.0
+      ],
+      [
+        -1.0000000000000009,
+        0.0,
+        6.0
+      ]
+    ],
+    "probe_U_m_s": [
+      [
+        3.202125961661529,
+        -0.00028670442402410493,
+        0.9172600203785447
+      ],
+      [
+        1.9336686302509785,
+        -0.0005459908569560285,
+        0.06876854770859962
+      ],
+      [
+        0.6718930159656196,
+        -0.0007651266960031998,
+        -0.1312609115162797
+      ],
+      [
+        1.179292284086667,
+        -0.001170859731442933,
+        0.6255710944447613
+      ],
+      [
+        -0.3048479567726873,
+        -0.001165631695247093,
+        -1.629900412428305
+      ]
+    ],
+    "pressure_only_force_N": [
+      5.288246962228139,
+      0.00010805709888172864,
+      -4.3260610936962705
+    ],
+    "pressure_only_moment_Nm": [
+      -0.0010648083990450583,
+      0.6799406119218154,
+      -0.0014885464715371126
+    ],
+    "pressure_only_rotation_axis_moment_Nm": 0.6799406119218154,
+    "diagnostic_h_W_m2_K": 16.72492669780274,
+    "diagnostic_hm_m_s": 0.016543001833829646,
+    "diagnostic_h_not_qualified": true,
+    "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+    "pressure_only_load_not_actuator_rating": true,
+    "load_omissions": [
+      "viscous traction",
+      "gust/transient load",
+      "anchor/support loads"
+    ],
+    "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+  }
+}

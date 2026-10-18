@@ -1,0 +1,315 @@
+{
+  "records": [
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2020-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 11,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2020-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 47,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2020-e2",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 31,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2020-e1",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 18,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2021-e1",
+      "role": "train",
+      "samples": 142,
+      "unsupported_samples": 41,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2021-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2021-e2",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 13,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-singapore-2021-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 25,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2020-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2020-e1",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2020-e2",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 26,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2020-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2021-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 6,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2021-e2",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2021-e1",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-bandar-abbas-2021-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2020-e2",
+      "role": "train",
+      "samples": 80,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2020-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 11,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2020-e1",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2020-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2021-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 31,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2021-e1",
+      "role": "train",
+      "samples": 200,
+      "unsupported_samples": 15,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2021-e2",
+      "role": "train",
+      "samples": 184,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-mumbai-2021-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 14,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2020-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2020-e1",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2020-e2",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2020-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2021-e0",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2021-e1",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2021-e2",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 3,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "train-phoenix-2021-e3",
+      "role": "train",
+      "samples": 216,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    }
+  ],
+  "runtime_s": 467.60998916625977,
+  "parameters": [
+    "external_h_multiplier",
+    "coating_condition",
+    "collector_efficiency",
+    "bridge_multiplier",
+    "motor_running_upper_W"
+  ],
+  "ranges": {
+    "external_h_multiplier": [
+      0.7,
+      1.3
+    ],
+    "coating_condition": [
+      0.5,
+      1.0
+    ],
+    "collector_efficiency": [
+      0.7,
+      1.0
+    ],
+    "bridge_multiplier": [
+      0.5,
+      2.0
+    ],
+    "motor_running_upper_W": [
+      60.0,
+      84.0
+    ]
+  },
+  "targets": [
+    "T0_offset",
+    "T1_offset",
+    "T2_offset",
+    "T3_offset",
+    "T4_offset",
+    "T5_offset",
+    "T6_offset",
+    "T7_offset",
+    "rain_log",
+    "cond_log",
+    "evap_log",
+    "drain_log",
+    "loss_log",
+    "film0_log",
+    "film1_log",
+    "film2_log",
+    "pv_Wh",
+    "cavity_C_offset",
+    "cavity_w",
+    "supported"
+  ],
+  "teacher_is_independent_experiment": false,
+  "CFD_surrogate": false,
+  "source": "conditional v2 solver emulator for research only"
+}

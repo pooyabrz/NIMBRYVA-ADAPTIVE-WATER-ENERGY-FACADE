@@ -1,0 +1,6 @@
+{
+  "model_version": "cassette-v2.0",
+  "canonical_configuration": "config/model.json",
+  "evidence": "config/evidence",
+  "old_geometry_archived": "legacy_v1/inputs/reference.json"
+}

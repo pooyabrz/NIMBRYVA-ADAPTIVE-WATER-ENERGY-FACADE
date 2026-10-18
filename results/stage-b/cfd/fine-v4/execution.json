@@ -1,0 +1,51 @@
+{
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "blockMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.7671859264373779,
+      "log_sha256": "17b3fafc2289678c3ebfda7c7b2cc23527c09ad70b5b19d715b9d880f7f44c79"
+    },
+    {
+      "command": [
+        "snappyHexMesh",
+        "-overwrite"
+      ],
+      "returncode": 0,
+      "seconds": 28.382894277572632,
+      "log_sha256": "aecab9c0764e07ea95b9a39e105522460744f5be82eb41dce9f265103a093928"
+    },
+    {
+      "command": [
+        "checkMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.7806940078735352,
+      "log_sha256": "633ae1489a024e338d258d3835561bb848224882e116b2d862a7c24f10384c38"
+    }
+  ],
+  "status": "GEOMETRY_REJECTED",
+  "geometry": {
+    "patch_faces": {
+      "inlet": 2280,
+      "outlet": 2280,
+      "side1": 2280,
+      "side2": 2280,
+      "ground": 3858,
+      "top": 3600,
+      "building": 4504,
+      "cassette": 102
+    },
+    "passed": false,
+    "cassette_area_m2": 3.283992459592139,
+    "physical_closed_box_area_m2": 4.405143603567995,
+    "relative_area_error": 0.25450955629863403,
+    "face_centre_bounds_error_m": 0.0882679185294718,
+    "geometry_tolerance_for_screening": 0.15,
+    "geometry_qualified_to_two_percent": false,
+    "reason": "Cassette geometry area/bounds differ excessively from physical STL"
+  }
+}

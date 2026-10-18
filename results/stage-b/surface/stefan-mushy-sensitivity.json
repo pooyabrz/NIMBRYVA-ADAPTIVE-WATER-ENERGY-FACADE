@@ -1,0 +1,32 @@
+[
+  {
+    "n": 200,
+    "dt_s": 0.5,
+    "mushy_K": 0.05,
+    "front_m": 0.009190646388913143,
+    "analytic_front_m": 0.009195923457891421,
+    "relative_front_error": 0.0005738487279109724,
+    "energy_residual_J_m2": 1.1175870895385742e-08,
+    "scope": "one-phase Neumann benchmark, equal phase properties, temperature-smoothed enthalpy"
+  },
+  {
+    "n": 200,
+    "dt_s": 0.5,
+    "mushy_K": 0.1,
+    "front_m": 0.00919017390503663,
+    "analytic_front_m": 0.009195923457891421,
+    "relative_front_error": 0.0006252284374830086,
+    "energy_residual_J_m2": 7.450580596923828e-09,
+    "scope": "one-phase Neumann benchmark, equal phase properties, temperature-smoothed enthalpy"
+  },
+  {
+    "n": 200,
+    "dt_s": 0.5,
+    "mushy_K": 0.2,
+    "front_m": 0.00918934091152313,
+    "analytic_front_m": 0.009195923457891421,
+    "relative_front_error": 0.0007158113481949318,
+    "energy_residual_J_m2": 9.778887033462524e-09,
+    "scope": "one-phase Neumann benchmark, equal phase properties, temperature-smoothed enthalpy"
+  }
+]

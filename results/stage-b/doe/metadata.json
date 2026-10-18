@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "n": 64,
+  "ranges": {
+    "air_C": [
+      -12,
+      40
+    ],
+    "rh": [
+      0.3,
+      0.99
+    ],
+    "wind10_m_s": [
+      0.5,
+      12
+    ],
+    "wind_direction_deg": [
+      -180,
+      180
+    ],
+    "rain_mm_h": [
+      0,
+      12
+    ],
+    "rain_azimuth_offset_deg": [
+      -30,
+      30
+    ],
+    "G_plane_W_m2": [
+      0,
+      900
+    ],
+    "sky_effective_emissivity": [
+      0.45,
+      0.99
+    ],
+    "angle_deg": [
+      5,
+      175
+    ],
+    "initial_offset_K": [
+      -12,
+      12
+    ],
+    "pressure_Pa": [
+      60000,
+      103000
+    ]
+  },
+  "design_sha256": "6590b31992546401d8d1ba3a6ddc16b9dfa1e6c604b16c5ca740dd1028c46751",
+  "type": "controlled numerical experiments, not a climatological joint probability distribution",
+  "LW_constraint": "epsilon_sky * sigma * T_air^4; cloud fraction not inferred",
+  "altitude": "pressure varied under fixed other inputs; not a causal comparison of real cities",
+  "neutral_RANS_count": 42,
+  "CFD_cases_executed_by_this_command": 0,
+  "surface_cases_executed": 64,
+  "surface_seconds": 300.0,
+  "rain_azimuth": "independent inlet direction variable for pending B2 work; integrated B3 rain input has no azimuth and does not claim to execute it",
+  "RL_contract": {
+    "no_CFD_in_environment_step": true,
+    "train_split": "group by geometry/weather episode before fitting",
+    "required_gate": [
+      "conservation",
+      "CFD convergence",
+      "grid/particle/source convergence",
+      "held-out reference error",
+      "out-of-domain rejection"
+    ],
+    "surrogate_trained": false,
+    "cold_PPO_training_authorized_by_these_references": false
+  },
+  "limitations": [
+    "supplied snow is SWE at surface; no aerodynamic snow capture prediction",
+    "weather correlations are intentionally absent in controlled DOE",
+    "surface film prior h/hm cannot be passed off as qualified CFD or validation"
+  ]
+}

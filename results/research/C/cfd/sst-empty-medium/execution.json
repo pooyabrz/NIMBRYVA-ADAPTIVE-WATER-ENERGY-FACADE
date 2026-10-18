@@ -1,0 +1,144 @@
+{
+  "status": "EXECUTED_NOT_EXPERIMENTALLY_VALIDATED",
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "checkMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.2707538604736328,
+      "log_sha256": "de98ec732526cb43f168f1d581f59299f83c9e90633f8d736681ba04c03d3fd8"
+    },
+    {
+      "command": [
+        "simpleFoam"
+      ],
+      "returncode": 0,
+      "seconds": 272.09398198127747,
+      "log_sha256": "03107d479868f13d01aa7ea432f3337d7853f5fbc187f6d92db6fdd9c01cf027"
+    },
+    {
+      "command": [
+        "postProcess",
+        "-func",
+        "writeCellCentres",
+        "-latestTime"
+      ],
+      "returncode": 0,
+      "seconds": 0.48389554023742676,
+      "log_sha256": "8a78faf9b9bdade74dfc521705b9c706be0d5d3d6eebfcabfb36864997fcfb13"
+    }
+  ],
+  "quality": {
+    "case": "sst-empty-medium",
+    "time": "1200",
+    "cells": 54208,
+    "geometry": {
+      "patch_faces": {
+        "inlet": 1232,
+        "outlet": 1232,
+        "side1": 1232,
+        "side2": 1232,
+        "ground": 1936,
+        "top": 1936
+      },
+      "passed": true
+    },
+    "standard_checkMesh_passed": true,
+    "last_initial_residuals": {
+      "Ux": 8.505471991e-13,
+      "Uy": 4.630990201e-06,
+      "Uz": 3.188448512e-11,
+      "p": 4.20754112e-09,
+      "omega": 9.30853442e-10,
+      "k": 9.889938286e-10,
+      "T": 4.193826159e-05,
+      "Yv": 0.0001185406741
+    },
+    "continuity_sum_local_last": 5.459002992e-13,
+    "finite_fields": true,
+    "flow_residual_gate_passed": true,
+    "scalar_residual_and_bounds_gate_passed": true,
+    "empty_constant_scalar_preservation": true,
+    "scalar_residual_note": "Zero-contrast normalized residual is not used if the constant solution is preserved to the stated tolerance",
+    "T_range_K": [
+      293.15,
+      293.15
+    ],
+    "Yv_range": [
+      0.0102,
+      0.0102
+    ],
+    "U_max_m_s": 6.793129433696843,
+    "bulk_Ri": 0.0,
+    "neutral_RANS_Ri_below_0_1": true,
+    "flow_available_for_exploratory_particle_tracking": true,
+    "qualified_scalar_transfer_available": false,
+    "qualified_for_yield_surrogate_training": false,
+    "why_not_qualified": [
+      "scalar wall treatment has no resolved/prismatic boundary layers",
+      "independent physical validation absent",
+      "grid convergence must be assessed on quantities of interest"
+    ],
+    "OpenFOAM_converged_message": false,
+    "quantities_of_interest": {
+      "probe_points_m": [
+        [
+          -6.000000000000001,
+          0.0,
+          8.0
+        ],
+        [
+          -3.000000000000001,
+          0.0,
+          8.0
+        ],
+        [
+          -1.5000000000000009,
+          0.0,
+          8.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0,
+          10.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0,
+          6.0
+        ]
+      ],
+      "probe_U_m_s": [
+        [
+          4.872265588578188,
+          4.132921861789409e-14,
+          -0.0016622467155765481
+        ],
+        [
+          4.8780457567057445,
+          6.320044659812768e-16,
+          -0.001746394922438709
+        ],
+        [
+          4.871908888467619,
+          1.155205289013241e-15,
+          -0.001734077647098068
+        ],
+        [
+          4.932592718250891,
+          -4.018415596144369e-15,
+          -0.0018558758365266005
+        ],
+        [
+          4.535763432891816,
+          2.883813289398414e-14,
+          -0.001281946391998048
+        ]
+      ]
+    },
+    "empty_ABL_relative_L2_U": 0.0062455503595453135,
+    "empty_ABL_max_vertical_velocity_m_s": 0.007096867448
+  }
+}

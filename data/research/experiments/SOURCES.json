@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "dew": {
+      "doi": "10.3929/ethz-b-000469811",
+      "paper_doi": "10.1126/sciadv.abf3978",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/3e254e13-807f-4887-b864-aa1a603a03e2/content",
+      "attribution": "Haechler et al., 2021, Extended Data, ETH Zurich",
+      "license": "CC BY-NC 4.0; research use, no commercial license inferred"
+    },
+    "pv": {
+      "url": "https://pvpmc.sandia.gov/app/uploads/sites/243/2022/10/Sandia_PV_Module_P-Matrix-and-TempCo-Data_2019.xlsx",
+      "context": "https://pvpmc.sandia.gov/datasets/2021-blind-pv-modeling-comparison/",
+      "attribution": "Sandia National Laboratories, PVPMC, 2019 measured module performance matrices"
+    },
+    "rain": {
+      "url": "https://carmeliet.ethz.ch/research/downloads/wind-driven-rain/geometry-1.html",
+      "paper_doi": "10.1016/j.buildenv.2014.04.004",
+      "reconstruction_doi": "10.1016/j.buildenv.2014.07.008",
+      "attribution": "Kubilay, Derome, Blocken and Carmeliet; ETH Zurich / Empa field experiments, 2013",
+      "permission": "data page permits use with acknowledgement; emailing authors appreciated, not required; no message sent"
+    }
+  },
+  "checksums": {
+    "pv-matrix.xlsx": "9083c1b90616b35e10fcf127e80d386f1bf37722f946476a090ed6ef35526bca",
+    "rain-event1.xls": "da9bc0d57a5d9ed410911c3fb6b3219cdc24c0b535a3c897f019bcd2bb7b19ab",
+    "rain-event2.xls": "1e4c43efd0f33e36b5e401635a390edc22d4a4d4a037fa59c80252e6bc3c8a55",
+    "rain-event3.xls": "68f918389c7a6930b8ecdb7ff35033007c90c33cb5f885b8537017f21418d812",
+    "rain-error1.xls": "0b5249a36c6f1d68031fb5056960c0a4822636104235e3b65131856dd4e6bfe5",
+    "rain-error2.xls": "eca057eb568902c217b457d77e30182fc09eb7efb253d2230166d4aa0def3af3",
+    "rain-error3.xls": "2b2737d1cf10c0520fe3906073081c79d6072c47d8c2089b86ef84d9209334ff",
+    "dew-data.xlsx": "70f64283ee5925e050899a6403942522fcaa27d5bfbd7891e0633d83be5d4b55"
+  }
+}

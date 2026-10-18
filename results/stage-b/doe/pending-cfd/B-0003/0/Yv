@@ -1,0 +1,15 @@
+FoamFile
+{ version 2.0; format ascii; class volScalarField; object Yv; }
+dimensions [0 0 0 0 0 0 0];
+internalField uniform 0.0102;
+boundaryField
+{
+inlet { type fixedValue; value uniform 0.0102; }
+outlet { type inletOutlet; inletValue uniform 0.0102; value uniform 0.0102; }
+side1 { type symmetryPlane; }
+side2 { type symmetryPlane; }
+ground { type zeroGradient; }
+top { type symmetryPlane; }
+building { type zeroGradient; }
+cassette { type fixedValue; value uniform 0.0076; }
+}

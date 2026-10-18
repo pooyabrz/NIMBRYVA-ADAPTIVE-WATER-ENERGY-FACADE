@@ -1,0 +1,47 @@
+{
+  "case": "fine",
+  "time": "433",
+  "cells": 149638,
+  "geometry": {
+    "patch_faces": {
+      "inlet": 2280,
+      "outlet": 2280,
+      "side1": 2280,
+      "side2": 2280,
+      "ground": 3858,
+      "top": 3600,
+      "building": 4342
+    },
+    "passed": false,
+    "reason": "Required solid patch absent/empty: thin geometry was lost"
+  },
+  "standard_checkMesh_passed": true,
+  "last_initial_residuals": {
+    "T": 9.462654177e-10,
+    "Yv": 0.0005932602785
+  },
+  "continuity_sum_local_last": 9.825624867e-12,
+  "finite_fields": true,
+  "flow_residual_gate_passed": false,
+  "scalar_residual_and_bounds_gate_passed": false,
+  "T_range_K": [
+    293.15,
+    293.4740064
+  ],
+  "Yv_range": [
+    0.0102,
+    0.0102
+  ],
+  "U_max_m_s": 6.887435974561627,
+  "bulk_Ri": 0.07953171405764968,
+  "neutral_RANS_Ri_below_0_1": true,
+  "flow_available_for_exploratory_particle_tracking": false,
+  "qualified_scalar_transfer_available": false,
+  "qualified_for_yield_surrogate_training": false,
+  "why_not_qualified": [
+    "scalar wall treatment has no resolved/prismatic boundary layers",
+    "independent physical validation absent",
+    "grid convergence must be assessed on quantities of interest"
+  ],
+  "OpenFOAM_converged_message": true
+}

@@ -1,0 +1,28 @@
+{
+  "version": "presentation-F1",
+  "attached_archive_sha256": "bb031a4271c0b7ea7d8e1410203987256d9a5357bdf6014b2c39569b594639cb",
+  "weather_holdout": 2025,
+  "policy_sha256": "685e46fc9f95ad86ecc374c34aa75b619649e373dafbb7c9eb4804889bf6f6d6",
+  "retrained_on_holdout": false,
+  "teacher_control_runs": 80,
+  "sensitivity_runs": 56,
+  "unique_scenario_hours_per_controller": 768,
+  "common_scored_prefix_hours_per_controller": 719,
+  "complete_jointly_supported_windows": 14,
+  "PDF_pages": 7,
+  "total_physical_uncertainty_interval": null,
+  "physical_product_claim_supported": false,
+  "RL_improvement_claim_allowed": false,
+  "code_sha256": {
+    "src/presentation/__init__.py": "c9c8601bae49abd11d743011241f9f3fbd493e55f3defb86080e536198e8d580",
+    "src/presentation/evaluate.py": "f9cb7a29fd8342d0e19e3eaa0812261497044ed5986fea7858642e5c4055cb86",
+    "src/presentation/verify.py": "0bb499869b1672b592882907e77996d22af153d66ecb2406484b54e1af07f4d8",
+    "src/presentation/report.py": "dd5c561980c3ab04b38b90d75d4e31d0100ae7a359efec3d0e9ca97b780720b6",
+    "src/presentation/accounting.py": "07b6c5132997e55b6673a3bff71e8ec7043d8801f3ea75167b0882d28d93ae38",
+    "src/presentation/metrics.py": "0b79fb526fc77aca55c5a1c88e356697bcdd0155e0113a9bb1556ebe05e97351",
+    "src/physics.py": "a8438c69f7745c3af96626d7104f65e6e55f2b4d22ea7127e9bed6a38718449d",
+    "src/presentation_cli.py": "042ff1581b5e26a801db724831b3a12865196091cfe383557a3d82f0a2b73990"
+  },
+  "packaged_smoke_checks_passed": 157,
+  "packaged_native_python_view_check_passed": true
+}

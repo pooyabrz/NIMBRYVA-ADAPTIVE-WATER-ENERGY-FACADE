@@ -1,0 +1,15 @@
+FoamFile
+{ version 2.0; format ascii; class volVectorField; object U; }
+dimensions [0 1 -1 0 0 0 0];
+internalField uniform (6.395641865164542 0 0);
+boundaryField
+{
+inlet { type atmBoundaryLayerInletVelocity; flowDir (1 0 0); zDir (0 0 1); Uref 6.395641865164542; Zref 10; z0 uniform 0.03; d uniform 0; kappa 0.41; Cmu 0.09; C1 0; C2 1; value uniform (6.395641865164542 0 0); }
+outlet { type pressureInletOutletVelocity; value uniform (0 0 0); }
+side1 { type symmetryPlane; }
+side2 { type symmetryPlane; }
+ground { type noSlip; }
+top { type symmetryPlane; }
+building { type noSlip; }
+cassette { type noSlip; }
+}

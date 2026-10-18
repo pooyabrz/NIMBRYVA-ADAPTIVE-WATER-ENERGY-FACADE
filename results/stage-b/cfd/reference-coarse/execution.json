@@ -1,0 +1,117 @@
+{
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "blockMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.13163304328918457,
+      "log_sha256": "532ad11b93b11adc544eb54dcba7626d93a27b4fad14ae1834a4847cbed96c3f"
+    },
+    {
+      "command": [
+        "surfaceFeatureExtract"
+      ],
+      "returncode": 0,
+      "seconds": 0.043657779693603516,
+      "log_sha256": "a494345a84d822d824813241d31c8390540f39b5ba8b5e3b43db3e4b4d320e5f"
+    },
+    {
+      "command": [
+        "snappyHexMesh",
+        "-overwrite"
+      ],
+      "returncode": 0,
+      "seconds": 12.353063821792603,
+      "log_sha256": "91cbf4d5564c924b0dca5b4d579986de2fec80385ed4807e0234cfd7f7ae80bb"
+    },
+    {
+      "command": [
+        "checkMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.23510289192199707,
+      "log_sha256": "3d89930a8835f94890245f6a50b9940cc62d606223ac1673ee13c420e2bced6b"
+    },
+    {
+      "command": [
+        "simpleFoam"
+      ],
+      "returncode": 0,
+      "seconds": 32.41706371307373,
+      "log_sha256": "3f51a34ee6c1af90fa7c9c3ed8e729486673b9975fb9e99ecec36cf3c5f1b633"
+    },
+    {
+      "command": [
+        "postProcess",
+        "-func",
+        "writeCellCentres",
+        "-latestTime"
+      ],
+      "returncode": 0,
+      "seconds": 0.29043030738830566,
+      "log_sha256": "d22d9f23364984a4770c89e23bdb6cd30929ad7ca1c9660e3911a09fe352ba51"
+    }
+  ],
+  "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+  "quality": {
+    "case": "reference-coarse",
+    "time": "190",
+    "cells": 31168,
+    "geometry": {
+      "patch_faces": {
+        "inlet": 640,
+        "outlet": 640,
+        "side1": 640,
+        "side2": 640,
+        "ground": 1224,
+        "top": 1024,
+        "building": 1396,
+        "cassette": 1514
+      },
+      "passed": true,
+      "cassette_area_m2": 4.290043766893268,
+      "physical_closed_box_area_m2": 4.405143603567995,
+      "relative_area_error": 0.02612850954086976,
+      "face_centre_bounds_error_m": 0.02125139807458787,
+      "geometry_tolerance_for_screening": 0.15,
+      "geometry_qualified_to_two_percent": false
+    },
+    "standard_checkMesh_passed": true,
+    "last_initial_residuals": {
+      "Ux": 6.813428584e-08,
+      "Uy": 7.91937054e-07,
+      "Uz": 9.775187116e-07,
+      "p": 1.212344573e-07,
+      "epsilon": 1.466927087e-08,
+      "k": 5.160201398e-07,
+      "T": 4.863715836e-07,
+      "Yv": 4.664013263e-09
+    },
+    "continuity_sum_local_last": 1.106721689e-11,
+    "finite_fields": true,
+    "flow_residual_gate_passed": true,
+    "scalar_residual_and_bounds_gate_passed": true,
+    "T_range_K": [
+      292.3958434,
+      293.4793324
+    ],
+    "Yv_range": [
+      0.009765322674,
+      0.0102
+    ],
+    "U_max_m_s": 6.897204553934405,
+    "bulk_Ri": 0.07953171405764968,
+    "neutral_RANS_Ri_below_0_1": true,
+    "flow_available_for_exploratory_particle_tracking": true,
+    "qualified_scalar_transfer_available": false,
+    "qualified_for_yield_surrogate_training": false,
+    "why_not_qualified": [
+      "scalar wall treatment has no resolved/prismatic boundary layers",
+      "independent physical validation absent",
+      "grid convergence must be assessed on quantities of interest"
+    ],
+    "OpenFOAM_converged_message": true
+  }
+}

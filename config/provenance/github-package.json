@@ -1,0 +1,2299 @@
+{
+  "source_archive_sha256": "953451e9902f4e1ef622f12267fa30c15890f7a21e4ac846af47a1e3049af671",
+  "source_files": 1518,
+  "kept_original_files": 1060,
+  "excluded_original_files": [
+    {
+      "path": "MANIFEST.json",
+      "bytes": 278071,
+      "reason": "Original full-archive manifest superseded by curated release manifest"
+    },
+    {
+      "path": "data/raw/bandar-abbas-era5-2024.json",
+      "bytes": 717375,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/bandar-abbas-era5-2025.json",
+      "bytes": 714120,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/bandar-abbas-power-longwave-2024.json",
+      "bytes": 173966,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/bandar-abbas-power-longwave-2025.json",
+      "bytes": 173547,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/dubai-era5-2024.json",
+      "bytes": 718553,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/dubai-era5-2025.json",
+      "bytes": 715068,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/dubai-power-longwave-2024.json",
+      "bytes": 173960,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/dubai-power-longwave-2025.json",
+      "bytes": 173528,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/istanbul-era5-2024.json",
+      "bytes": 713567,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/istanbul-era5-2025.json",
+      "bytes": 711505,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/istanbul-power-longwave-2024.json",
+      "bytes": 174030,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/istanbul-power-longwave-2025.json",
+      "bytes": 173581,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/la-paz-era5-2024.json",
+      "bytes": 702521,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/la-paz-power-longwave-2024.json",
+      "bytes": 174022,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/london-era5-2024.json",
+      "bytes": 714288,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/london-power-longwave-2024.json",
+      "bytes": 173957,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/mumbai-era5-2024.json",
+      "bytes": 722522,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/mumbai-era5-2025.json",
+      "bytes": 720115,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/mumbai-power-longwave-2024.json",
+      "bytes": 174023,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/mumbai-power-longwave-2025.json",
+      "bytes": 173565,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/phoenix-era5-2024.json",
+      "bytes": 704908,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/phoenix-era5-2025.json",
+      "bytes": 703639,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/phoenix-power-longwave-2024.json",
+      "bytes": 173976,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/phoenix-power-longwave-2025.json",
+      "bytes": 173557,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/rasht-era5-2024.json",
+      "bytes": 717720,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/rasht-era5-2025.json",
+      "bytes": 715228,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/rasht-power-longwave-2024.json",
+      "bytes": 173969,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/rasht-power-longwave-2025.json",
+      "bytes": 173582,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/reykjavik-era5-2024.json",
+      "bytes": 707509,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/reykjavik-power-longwave-2024.json",
+      "bytes": 174053,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/seville-era5-2024.json",
+      "bytes": 716592,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/seville-era5-2025.json",
+      "bytes": 715180,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/seville-power-longwave-2024.json",
+      "bytes": 174002,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/seville-power-longwave-2025.json",
+      "bytes": 173437,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/singapore-era5-2024.json",
+      "bytes": 726179,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/singapore-era5-2025.json",
+      "bytes": 723668,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/singapore-power-longwave-2024.json",
+      "bytes": 173987,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/singapore-power-longwave-2025.json",
+      "bytes": 173567,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/yazd-era5-2024.json",
+      "bytes": 706033,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "data/raw/yazd-power-longwave-2024.json",
+      "bytes": 173948,
+      "reason": "Downloadable raw weather; normalized inputs and provenance retained"
+    },
+    {
+      "path": "results/presentation/release-smoke-base.log",
+      "bytes": 3794,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation/release-smoke-presentation.log",
+      "bytes": 5632,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation/release-smoke-research.log",
+      "bytes": 2908,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation/release-smoke-stage-b.log",
+      "bytes": 4265,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation/release-smoke-view.log",
+      "bytes": 96,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-check.log",
+      "bytes": 5632,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-episodes.log",
+      "bytes": 758,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-evaluation.log",
+      "bytes": 2677,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-fetch.log",
+      "bytes": 123,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-report.log",
+      "bytes": 258,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-sensitivity.log",
+      "bytes": 1000,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/presentation-view-check.log",
+      "bytes": 96,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/T",
+      "bytes": 393,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/U",
+      "bytes": 511,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/Yv",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/k",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/nut",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/omega",
+      "bytes": 618,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/0/p",
+      "bytes": 336,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/constant/turbulenceProperties",
+      "bytes": 164,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/log.checkMesh",
+      "bytes": 3695,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/log.simpleFoam",
+      "bytes": 2293,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/system/fvSchemes",
+      "bytes": 574,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/system/fvSolution",
+      "bytes": 552,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/failed-sst-empty-missing-wallDist/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/T",
+      "bytes": 393,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/U",
+      "bytes": 511,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/Yv",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/k",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/nut",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/omega",
+      "bytes": 638,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/0/p",
+      "bytes": 336,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/constant/turbulenceProperties",
+      "bytes": 164,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/log.checkMesh",
+      "bytes": 3695,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/log.simpleFoam",
+      "bytes": 1189655,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 114,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/system/fvSchemes",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/system/fvSolution",
+      "bytes": 552,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/interrupted-sst-empty-at647/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/T",
+      "bytes": 393,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/U",
+      "bytes": 511,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/Yv",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/k",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/nut",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/omega",
+      "bytes": 638,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/0/p",
+      "bytes": 336,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/constant/turbulenceProperties",
+      "bytes": 164,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/log.checkMesh",
+      "bytes": 3695,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/log.postProcess",
+      "bytes": 1766,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/log.simpleFoam",
+      "bytes": 2211575,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/reference-field.npz",
+      "bytes": 1807763,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/system/controlDict",
+      "bytes": 923,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/system/fvSchemes",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/system/fvSolution",
+      "bytes": 552,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-empty-medium/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/omega",
+      "bytes": 782,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/constant/extendedFeatureEdgeMesh/cassette.extendedFeatureEdgeMesh",
+      "bytes": 2334,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/constant/triSurface/cassette.eMesh",
+      "bytes": 1441,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/constant/turbulenceProperties",
+      "bytes": 164,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/log.checkMesh",
+      "bytes": 4234,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/log.postProcess",
+      "bytes": 1775,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/log.simpleFoam",
+      "bytes": 2203376,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 1524,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/reference-field.npz",
+      "bytes": 5654974,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/system/controlDict",
+      "bytes": 923,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/system/fvSchemes",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/system/fvSolution",
+      "bytes": 552,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/system/snappyHexMeshDict",
+      "bytes": 1680,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium/system/surfaceFeatureExtractDict",
+      "bytes": 205,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/T",
+      "bytes": 741356,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/U",
+      "bytes": 3255931,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/Yv",
+      "bytes": 802772,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/k",
+      "bytes": 1063857,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/nut",
+      "bytes": 1065621,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/omega",
+      "bytes": 1086414,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/0/p",
+      "bytes": 991970,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/constant/extendedFeatureEdgeMesh/cassette.extendedFeatureEdgeMesh",
+      "bytes": 2334,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/constant/triSurface/cassette.eMesh",
+      "bytes": 1441,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/constant/turbulenceProperties",
+      "bytes": 164,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/log.checkMesh",
+      "bytes": 4249,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/log.postProcess",
+      "bytes": 1784,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/log.simpleFoam",
+      "bytes": 1474332,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 1054,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/reference-field.npz",
+      "bytes": 5659914,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/system/controlDict",
+      "bytes": 922,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/system/fvSchemes",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/system/fvSolution",
+      "bytes": 553,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/system/snappyHexMeshDict",
+      "bytes": 1680,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/cfd/sst-reference-medium-relaxed/system/surfaceFeatureExtractDict",
+      "bytes": 205,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/research/C/numerics-pv-execution.log",
+      "bytes": 202,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/C/sensitivity-execution.log",
+      "bytes": 1849,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/C/tracking-cache-verification.log",
+      "bytes": 0,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/C/tracking-execution.log",
+      "bytes": 1604,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/C/turbulence-execution.log",
+      "bytes": 49,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/C/turbulence-relaxed-execution.log",
+      "bytes": 32,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/E/assessment-execution.log",
+      "bytes": 4264,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/E/control/test-execution.log",
+      "bytes": 162,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/E/warmup-audit-execution.log",
+      "bytes": 77,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/research/check-execution.log",
+      "bytes": 2908,
+      "reason": "Execution log"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/log.blockMesh",
+      "bytes": 2638,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/log.checkMesh",
+      "bytes": 5968,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/log.postProcess",
+      "bytes": 1735,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/log.simpleFoam",
+      "bytes": 301190,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/log.snappyHexMesh",
+      "bytes": 68760,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 349,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/system/controlDict",
+      "bytes": 922,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/system/fvSolution",
+      "bytes": 454,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse/system/snappyHexMeshDict",
+      "bytes": 1458,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/log.blockMesh",
+      "bytes": 2644,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/log.checkMesh",
+      "bytes": 4163,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/log.postProcess",
+      "bytes": 1741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/log.simpleFoam",
+      "bytes": 349764,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/log.snappyHexMesh",
+      "bytes": 108260,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 349,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v2/system/snappyHexMeshDict",
+      "bytes": 1458,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/log.blockMesh",
+      "bytes": 2644,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/log.checkMesh",
+      "bytes": 4163,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/log.postProcess",
+      "bytes": 1741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/log.simpleFoam",
+      "bytes": 349757,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/log.snappyHexMesh",
+      "bytes": 108324,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 349,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/coarse-v3/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/T",
+      "bytes": 393,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/U",
+      "bytes": 511,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/Yv",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/epsilon",
+      "bytes": 619,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/k",
+      "bytes": 603,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/nut",
+      "bytes": 394,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/0/p",
+      "bytes": 336,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/log.blockMesh",
+      "bytes": 2664,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/log.checkMesh",
+      "bytes": 3682,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/log.postProcess",
+      "bytes": 1753,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/log.simpleFoam",
+      "bytes": 2213879,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 191,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/reference-field.npz",
+      "bytes": 1814735,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/empty-medium/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/log.blockMesh",
+      "bytes": 2652,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/log.checkMesh",
+      "bytes": 4019,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/log.postProcess",
+      "bytes": 1731,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/log.simpleFoam",
+      "bytes": 697275,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/log.snappyHexMesh",
+      "bytes": 60487,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 270,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/system/controlDict",
+      "bytes": 922,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/system/fvSolution",
+      "bytes": 543,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine/system/snappyHexMeshDict",
+      "bytes": 1458,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/log.blockMesh",
+      "bytes": 2658,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/log.checkMesh",
+      "bytes": 4163,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/log.snappyHexMesh",
+      "bytes": 82801,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v3/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/log.blockMesh",
+      "bytes": 2658,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/log.checkMesh",
+      "bytes": 4163,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/log.snappyHexMesh",
+      "bytes": 82813,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/fine-v4/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/log.blockMesh",
+      "bytes": 2652,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/log.checkMesh",
+      "bytes": 4035,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/log.postProcess",
+      "bytes": 1735,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/log.simpleFoam",
+      "bytes": 442196,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/log.snappyHexMesh",
+      "bytes": 65542,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 270,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/system/controlDict",
+      "bytes": 922,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/system/fvSolution",
+      "bytes": 541,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium/system/snappyHexMeshDict",
+      "bytes": 1458,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/constant/triSurface/cassette.stl",
+      "bytes": 2793,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/log.blockMesh",
+      "bytes": 2658,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/log.checkMesh",
+      "bytes": 4158,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/log.snappyHexMesh",
+      "bytes": 80752,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v3/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/log.blockMesh",
+      "bytes": 2658,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/log.checkMesh",
+      "bytes": 4157,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/log.snappyHexMesh",
+      "bytes": 80746,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/medium-v4/system/snappyHexMeshDict",
+      "bytes": 1647,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/constant/extendedFeatureEdgeMesh/cassette.extendedFeatureEdgeMesh",
+      "bytes": 2334,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/constant/triSurface/cassette.eMesh",
+      "bytes": 1441,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/log.blockMesh",
+      "bytes": 2658,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/log.checkMesh",
+      "bytes": 4179,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/log.postProcess",
+      "bytes": 1755,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/log.simpleFoam",
+      "bytes": 351746,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/log.snappyHexMesh",
+      "bytes": 109778,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/log.surfaceFeatureExtract",
+      "bytes": 2758,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 349,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/reference-field.npz",
+      "bytes": 2384345,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/system/snappyHexMeshDict",
+      "bytes": 1680,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-coarse/system/surfaceFeatureExtractDict",
+      "bytes": 205,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/constant/extendedFeatureEdgeMesh/cassette.extendedFeatureEdgeMesh",
+      "bytes": 2334,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/constant/triSurface/cassette.eMesh",
+      "bytes": 1441,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/log.blockMesh",
+      "bytes": 2672,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/log.checkMesh",
+      "bytes": 4219,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/log.postProcess",
+      "bytes": 1751,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/log.simpleFoam",
+      "bytes": 783306,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/log.snappyHexMesh",
+      "bytes": 90000,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/log.surfaceFeatureExtract",
+      "bytes": 2750,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 349,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/reference-field.npz",
+      "bytes": 11863182,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/system/snappyHexMeshDict",
+      "bytes": 1680,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-fine/system/surfaceFeatureExtractDict",
+      "bytes": 205,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/T",
+      "bytes": 497,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/U",
+      "bytes": 563,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/Yv",
+      "bytes": 478,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/epsilon",
+      "bytes": 765,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/k",
+      "bytes": 741,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/nut",
+      "bytes": 500,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/0/p",
+      "bytes": 400,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/constant/extendedFeatureEdgeMesh/cassette.extendedFeatureEdgeMesh",
+      "bytes": 2334,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/constant/transportProperties",
+      "bytes": 140,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/constant/triSurface/building.stl",
+      "bytes": 1666,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/constant/triSurface/cassette.eMesh",
+      "bytes": 1441,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/constant/triSurface/cassette.stl",
+      "bytes": 2805,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/constant/turbulenceProperties",
+      "bytes": 246,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/log.blockMesh",
+      "bytes": 2672,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/log.checkMesh",
+      "bytes": 4220,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/log.postProcess",
+      "bytes": 1755,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/log.simpleFoam",
+      "bytes": 517551,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/log.snappyHexMesh",
+      "bytes": 114631,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/log.surfaceFeatureExtract",
+      "bytes": 2758,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/postProcessing/yplus/0/yPlus.dat",
+      "bytes": 349,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/reference-field.npz",
+      "bytes": 5643060,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/system/blockMeshDict",
+      "bytes": 723,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/system/controlDict",
+      "bytes": 924,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/system/fvSchemes",
+      "bytes": 576,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/system/fvSolution",
+      "bytes": 558,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/system/snappyHexMeshDict",
+      "bytes": 1680,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    },
+    {
+      "path": "results/stage-b/cfd/reference-medium/system/surfaceFeatureExtractDict",
+      "bytes": 205,
+      "reason": "Bulk CFD fields, meshes and solver output; JSON geometry and diagnostics retained"
+    }
+  ],
+  "excluded_bytes": 76450655,
+  "scope": "Curated publication copy. Source archive remains unchanged. Full-circle concept demo is separate from archived numerical plant."
+}

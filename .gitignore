@@ -1,0 +1,68 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+video/
+output/
+docs/
+
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_rsa
+id_ed25519
+local-secrets.json
+
+# Editor / operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+
+# Local builds, recordings and distribution archives
+/build/
+/dist/
+/tmp/
+/local-runs/
+/recordings/
+/*.zip
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.log
+
+# Raw weather is downloadable. Retain attribution and retrieval hashes.
+/data/raw/*
+!/data/raw/*.provenance.json
+
+# Bulk CFD is regenerated with OpenFOAM. Keep JSON geometry and diagnostics.
+/results/stage-b/cfd/**
+!/results/stage-b/cfd/**/
+!/results/stage-b/cfd/**/*.json
+/results/research/C/cfd/**
+!/results/research/C/cfd/**/
+!/results/research/C/cfd/**/*.json
+/results/**/log.*
+/results/**/reference-field.npz
+/results/**/processor*/
+/results/**/postProcessing/
+
+# Do not blanket-ignore *.obj: models/ contains 3-D geometry, not object code.
+# Do not blanket-ignore *.zip: frozen PPO policy archives are required inputs.
+# Deliberately keep normalized weather, experiment notices, model weights,
+# frozen protocols, source-backed results and selected audit reports.

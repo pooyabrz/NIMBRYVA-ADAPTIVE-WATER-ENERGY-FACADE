@@ -1,0 +1,18 @@
+[
+  {
+    "path": "models/cassette-v2-face0-beta50.obj",
+    "model_version": "cassette-v2.0",
+    "face": 0,
+    "beta_deg": 50,
+    "vertices": 1292,
+    "not_a_solver_mesh": true
+  },
+  {
+    "path": "models/cassette-v2-face1-beta50.obj",
+    "model_version": "cassette-v2.0",
+    "face": 1,
+    "beta_deg": 50,
+    "vertices": 1292,
+    "not_a_solver_mesh": true
+  }
+]

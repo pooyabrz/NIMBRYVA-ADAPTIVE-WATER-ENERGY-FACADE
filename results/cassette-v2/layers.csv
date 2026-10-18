@@ -1,0 +1,9 @@
+C_J_K,R_K_W,area_m2,cp_J_kg_K,d_m,evidence,k_W_m_K,name,rho_kg_m3
+7033.340159999999,0.0008545971361907298,1.9981079999999998,880.0,0.0016,datasheet thickness / generic glass proxy,0.937,PV front glass,2500.0
+1603.6015564799998,0.0005719696547219385,1.9981079999999998,2090.0,0.0004,EVA proxy; actual EVA/POE grade unknown,0.35,PV front encapsulant,960.0
+472.77533104199995,5.072366025828002e-07,1.9981079999999998,677.0,0.00015,unknown wafer thickness / literature proxy,148.0,PV Si cell,2330.0
+1603.6015564799998,0.0005719696547219385,1.9981079999999998,2090.0,0.0004,EVA proxy,0.35,PV back encapsulant,960.0
+7033.340159999999,0.0008545971361907298,1.9981079999999998,880.0,0.0016,datasheet thickness / generic glass proxy,0.937,PV back glass,2500.0
+1970.1344879999997,0.3451541019873766,1.9981079999999998,1450.0,0.02,material property proxy at proposed thickness,0.029,XPS,34.0
+1360.4800000000005,0.0004559457671957673,1.6,,,Haechler geometry; thermal-property proxies; nanolayer storage neglected,,Dew emitter/condenser,
+5294.025279000003,0,0,,,unallocated mass with aluminium heat-capacity proxy,,Frame/support,

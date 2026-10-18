@@ -1,0 +1,1445 @@
+{
+  "schema": "water-facade-stage-a/v1",
+  "status": "source_traced_reference_with_explicit_gaps",
+  "selected_PV": "Trina TSM-435 NEG9R.28, 2023 A specification; no availability/purchase claim.",
+  "selected_dew_surface": "Haechler 2021 emitter + underside PTFE-CNF, scaled into proposed tiles; performance not transferred.",
+  "facade_reference": "South-facing absolute azimuth 180 degrees for all cities; cardinal rotations tested separately.",
+  "tilts_deg": [
+    20,
+    35,
+    50,
+    65,
+    80
+  ],
+  "parameters": [
+    {
+      "id": "building_length_m",
+      "nominal": 49.911,
+      "unit": "m",
+      "source_ids": [
+        "DOE"
+      ],
+      "evidence": "source_model",
+      "screening_interval": [
+        49.911,
+        49.911
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "building_depth_m",
+      "nominal": 33.2738,
+      "unit": "m",
+      "source_ids": [
+        "DOE"
+      ],
+      "evidence": "source_model",
+      "screening_interval": [
+        33.2738,
+        33.2738
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "building_height_m",
+      "nominal": 11.8872,
+      "unit": "m",
+      "source_ids": [
+        "DOE"
+      ],
+      "evidence": "source_model",
+      "screening_interval": [
+        11.8872,
+        11.8872
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "mount_height_m",
+      "nominal": 8.0,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        2.0,
+        10.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Ground-referenced pivot height; independent of geographical elevation."
+    },
+    {
+      "id": "wall_standoff_m",
+      "nominal": 1.0,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.95,
+        1.25
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Must exceed full flip sweep radius plus clearance; previous 0.70 m fails."
+    },
+    {
+      "id": "facade_azimuth_deg",
+      "nominal": 180.0,
+      "unit": "deg_north_clockwise",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.0,
+        270.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Absolute south as the common reference in ALL cities. North/east/west are separate design scenarios, not random errors."
+    },
+    {
+      "id": "rotation_chord_m",
+      "nominal": 1.762,
+      "unit": "m",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        1.76,
+        1.764
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Portrait: long direction rotates around horizontal pivot; interval is an assumed assembly tolerance."
+    },
+    {
+      "id": "panel_width_m",
+      "nominal": 1.134,
+      "unit": "m",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        1.132,
+        1.136
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_frame_thickness_m",
+      "nominal": 0.03,
+      "unit": "m",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        0.029,
+        0.031
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Outer frame depth, not the sum of laminate thicknesses."
+    },
+    {
+      "id": "pv_module_mass_kg",
+      "nominal": 21.1,
+      "unit": "kg",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        20.5,
+        21.7
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Frame included; envelope is ours, not published mass tolerance."
+    },
+    {
+      "id": "pv_p_stc_W",
+      "nominal": 435.0,
+      "unit": "W",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        421.95,
+        453.2
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": {
+        "positive_power_tolerance_W": [
+          0,
+          5
+        ],
+        "measurement_tolerance_pct": 3,
+        "independence": "not established"
+      },
+      "note": "Screening combines (435..440) W production bin with +/-3% measurement as a conservative envelope; not a probability distribution."
+    },
+    {
+      "id": "pv_gamma_per_K",
+      "nominal": -0.003,
+      "unit": "1/K",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        -0.0033,
+        -0.0027
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Published -0.30 percent/K converted to fraction/K; interval assumed."
+    },
+    {
+      "id": "pv_glass_front_m",
+      "nominal": 0.0016,
+      "unit": "m",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        0.0015,
+        0.0017
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_glass_back_m",
+      "nominal": 0.0016,
+      "unit": "m",
+      "source_ids": [
+        "TRINA"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        0.0015,
+        0.0017
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_glass_rho",
+      "nominal": 2500.0,
+      "unit": "kg/m3",
+      "source_ids": [
+        "FLOAT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        2450,
+        2550
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_glass_cp",
+      "nominal": 880.0,
+      "unit": "J/kg/K",
+      "source_ids": [
+        "FLOAT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        700,
+        950
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "75 F value; not a Trina-specific measurement."
+    },
+    {
+      "id": "pv_glass_k",
+      "nominal": 0.937,
+      "unit": "W/m/K",
+      "source_ids": [
+        "FLOAT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        0.8,
+        1.2
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_emissivity_grey",
+      "nominal": 0.84,
+      "unit": "1",
+      "source_ids": [
+        "FLOAT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        0.78,
+        0.92
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Bare-glass hemispherical value is NOT a measured AR-coated module emissivity."
+    },
+    {
+      "id": "pv_effective_absorptance",
+      "nominal": 0.9,
+      "unit": "1",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.8,
+        0.96
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "No module-specific spectral measurement recovered. Remains a critical gap."
+    },
+    {
+      "id": "pv_eva_each_m",
+      "nominal": 0.0004,
+      "unit": "m",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "other_module_proxy",
+      "screening_interval": [
+        0.0003,
+        0.0006
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Trina lists EVA/POE; actual material choice and thickness are undisclosed."
+    },
+    {
+      "id": "pv_eva_rho",
+      "nominal": 960.0,
+      "unit": "kg/m3",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "other_module_proxy",
+      "screening_interval": [
+        900,
+        1000
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_eva_cp",
+      "nominal": 2090.0,
+      "unit": "J/kg/K",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "other_module_proxy",
+      "screening_interval": [
+        1800,
+        2400
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_eva_k",
+      "nominal": 0.35,
+      "unit": "W/m/K",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "other_module_proxy",
+      "screening_interval": [
+        0.2,
+        0.4
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_silicon_m",
+      "nominal": 0.00015,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.0001,
+        0.0003
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Chosen thermal proxy thickness; not published for the Trina module."
+    },
+    {
+      "id": "pv_silicon_rho",
+      "nominal": 2330.0,
+      "unit": "kg/m3",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        2300,
+        2360
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_silicon_cp",
+      "nominal": 677.0,
+      "unit": "J/kg/K",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        650,
+        750
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pv_silicon_k",
+      "nominal": 148.0,
+      "unit": "W/m/K",
+      "source_ids": [
+        "PVT"
+      ],
+      "evidence": "material_proxy",
+      "screening_interval": [
+        100,
+        160
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "tile_side_m",
+      "nominal": 0.1,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.099,
+        0.101
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "tile_gap_m",
+      "nominal": 0.01,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.008,
+        0.012
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "tiles_rows",
+      "nominal": 16,
+      "unit": "count",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        16,
+        16
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "tiles_columns",
+      "nominal": 10,
+      "unit": "count",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        10,
+        10
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pdms_m",
+      "nominal": 0.0001,
+      "unit": "m",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_geometry",
+      "screening_interval": [
+        9e-05,
+        0.00011
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "silica_m",
+      "nominal": 0.0005,
+      "unit": "m",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_geometry",
+      "screening_interval": [
+        0.00045,
+        0.00055
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "JGS2 substrate in the paper; scale-up is not validated."
+    },
+    {
+      "id": "silver_m",
+      "nominal": 1.4e-07,
+      "unit": "m",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_geometry",
+      "screening_interval": [
+        1.26e-07,
+        1.54e-07
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "chromium_adhesion_m",
+      "nominal": 5e-10,
+      "unit": "m",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_geometry",
+      "screening_interval": [
+        4e-10,
+        6e-10
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "chromium_protection_m",
+      "nominal": 1e-09,
+      "unit": "m",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_geometry",
+      "screening_interval": [
+        8e-10,
+        1.2e-09
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "cnf_ptfe_m",
+      "nominal": 2e-06,
+      "unit": "m",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_geometry",
+      "screening_interval": [
+        1e-06,
+        3e-06
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "dew_solar_absorptance",
+      "nominal": 0.04,
+      "unit": "1",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_band_average",
+      "screening_interval": [
+        0.02,
+        0.08
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Reported average in 0.25..2.5 micrometres; not all-angle wet-surface performance."
+    },
+    {
+      "id": "dew_epsilon_window",
+      "nominal": 0.93,
+      "unit": "1",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_band_average",
+      "screening_interval": [
+        0.88,
+        0.97
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "8..13 micrometres ONLY. Must not substitute for broadband hemispherical emissivity."
+    },
+    {
+      "id": "dew_epsilon_outside_window",
+      "nominal": 0.85,
+      "unit": "1",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.4,
+        0.98
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "No full digitized angular spectral dataset included. Critical radiative-model gap."
+    },
+    {
+      "id": "theta_adv_deg",
+      "nominal": 161.2,
+      "unit": "deg",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_measurement",
+      "screening_interval": [
+        160.4,
+        162.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": {
+        "plus_minus_deg": 0.8,
+        "coverage_or_std": "not established in our extraction"
+      },
+      "note": "8 microlitre DI-water laboratory measurement; meaning of reported +/- is not inferred."
+    },
+    {
+      "id": "theta_rec_deg",
+      "nominal": 159.4,
+      "unit": "deg",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "paper_measurement",
+      "screening_interval": [
+        158.5,
+        160.3
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": {
+        "plus_minus_deg": 0.9,
+        "coverage_or_std": "not established in our extraction"
+      },
+      "note": "Fresh coating; not an ageing/contamination guarantee."
+    },
+    {
+      "id": "pdms_rho",
+      "nominal": 1030.0,
+      "unit": "kg/m3",
+      "source_ids": [
+        "DOW"
+      ],
+      "evidence": "manufacturer_typical",
+      "screening_interval": [
+        980,
+        1080
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Specific gravity 1.03 converted to density; paper-model value 982 differs and is not silently substituted."
+    },
+    {
+      "id": "pdms_cp",
+      "nominal": 1100.0,
+      "unit": "J/kg/K",
+      "source_ids": [
+        "PDMS_CP"
+      ],
+      "evidence": "literature_model_proxy",
+      "screening_interval": [
+        1000,
+        1600
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Constant model parameter in another study; not a measured coating-specific cp."
+    },
+    {
+      "id": "pdms_k",
+      "nominal": 0.27,
+      "unit": "W/m/K",
+      "source_ids": [
+        "DOW"
+      ],
+      "evidence": "manufacturer_typical",
+      "screening_interval": [
+        0.19,
+        0.3
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "silica_rho",
+      "nominal": 2200.0,
+      "unit": "kg/m3",
+      "source_ids": [
+        "SILICA"
+      ],
+      "evidence": "material_grade_proxy",
+      "screening_interval": [
+        2150,
+        2250
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "silica_cp",
+      "nominal": 670.0,
+      "unit": "J/kg/K",
+      "source_ids": [
+        "SILICA"
+      ],
+      "evidence": "material_grade_proxy",
+      "screening_interval": [
+        600,
+        800
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "silica_k",
+      "nominal": 1.4,
+      "unit": "W/m/K",
+      "source_ids": [
+        "SILICA"
+      ],
+      "evidence": "material_grade_proxy",
+      "screening_interval": [
+        1.2,
+        1.6
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "cnf_ptfe_k",
+      "nominal": 1.0,
+      "unit": "W/m/K",
+      "source_ids": [
+        "HAECHLER"
+      ],
+      "evidence": "chosen_within_reported_range",
+      "screening_interval": [
+        0.3,
+        5.37
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Paper reports conductivity estimate range; nominal 1.0 is our selection, not its measured mean."
+    },
+    {
+      "id": "insulation_m",
+      "nominal": 0.02,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.015,
+        0.03
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "xps_k",
+      "nominal": 0.029,
+      "unit": "W/m/K",
+      "source_ids": [
+        "URSA"
+      ],
+      "evidence": "manufacturer_declared",
+      "screening_interval": [
+        0.029,
+        0.04
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Dry declared value; wet/aged/enclosure use needs separate characterization."
+    },
+    {
+      "id": "xps_rho",
+      "nominal": 34.0,
+      "unit": "kg/m3",
+      "source_ids": [
+        "URSA"
+      ],
+      "evidence": "manufacturer_approximate",
+      "screening_interval": [
+        30,
+        40
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "xps_cp",
+      "nominal": 1450.0,
+      "unit": "J/kg/K",
+      "source_ids": [
+        "URSA"
+      ],
+      "evidence": "manufacturer_approximate",
+      "screening_interval": [
+        1300,
+        1600
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "vent_gap_m",
+      "nominal": 0.02,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.015,
+        0.03
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Open vapour path between insulated PV backside and downward-facing CNF surface in dew mode."
+    },
+    {
+      "id": "extra_support_mass_kg",
+      "nominal": 3.0,
+      "unit": "kg",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        1.0,
+        6.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Tile supports, bearings, enclosure, gutters; mass not yet a CAD bill of materials."
+    },
+    {
+      "id": "thermal_bridge_W_K",
+      "nominal": 0.1,
+      "unit": "W/K",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.02,
+        1.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Assembly bridge conductance needs geometry/material contacts; cannot come from a generic k alone."
+    },
+    {
+      "id": "motor_torque_Nm",
+      "nominal": 40.0,
+      "unit": "Nm",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        40.0,
+        40.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Motor torque; not a structural wind rating."
+    },
+    {
+      "id": "motor_running_W",
+      "nominal": 4.5,
+      "unit": "W",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        3.15,
+        5.85
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Envelope +/-30% is assumed load/electrical uncertainty, not a manufacturer tolerance."
+    },
+    {
+      "id": "motor_holding_W",
+      "nominal": 2.0,
+      "unit": "W",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        1.5,
+        2.5
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Must count rest power; no unproven zero-power holding."
+    },
+    {
+      "id": "motor_s_per_90deg",
+      "nominal": 150.0,
+      "unit": "s/90deg",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        135.0,
+        165.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "motor_max_deg",
+      "nominal": 95.0,
+      "unit": "deg",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        95.0,
+        95.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "motor_supply_V",
+      "nominal": 24.0,
+      "unit": "V",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "datasheet",
+      "screening_interval": [
+        19.2,
+        28.8
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "motor_position_fraction",
+      "nominal": 0.05,
+      "unit": "fraction_of_full_span",
+      "source_ids": [
+        "BELIMO"
+      ],
+      "evidence": "conservative_interpretation",
+      "screening_interval": [
+        0.05,
+        0.05
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Datasheet says +/-5% position accuracy. A conservative full 95-deg-span interpretation is used, not encoder resolution."
+    },
+    {
+      "id": "angle_amplification",
+      "nominal": 3.0,
+      "unit": "output_deg/motor_deg",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        3.0,
+        3.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Designed external gear stage; reduces torque, increases output angle. Not a Belimo accessory qualification."
+    },
+    {
+      "id": "gear_efficiency",
+      "nominal": 0.85,
+      "unit": "1",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.65,
+        0.95
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "pivot_CG_offset_m",
+      "nominal": 0.002,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_tolerance",
+      "screening_interval": [
+        0.0,
+        0.005
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Balancing target, not established by the module datasheet."
+    },
+    {
+      "id": "bearing_friction_Nm",
+      "nominal": 0.3,
+      "unit": "Nm",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.1,
+        1.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "wind_force_coefficient",
+      "nominal": 1.5,
+      "unit": "1",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        1.0,
+        2.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Exploratory force coefficient; requires CFD/structural case, not an asserted building-code value."
+    },
+    {
+      "id": "wind_CP_offset_fraction",
+      "nominal": 0.25,
+      "unit": "fraction_of_chord",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.0,
+        0.5
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Central-axis pressure moment is unresolved. Required for final actuator acceptance."
+    },
+    {
+      "id": "torque_screening_factor",
+      "nominal": 2.0,
+      "unit": "1",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "engineering_screen",
+      "screening_interval": [
+        2.0,
+        2.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Conservative screen only; not structural certification."
+    },
+    {
+      "id": "controller_idle_W",
+      "nominal": 0.2,
+      "unit": "W",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "unmeasured_prior",
+      "screening_interval": [
+        0.1,
+        1.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "terrain_alpha",
+      "nominal": 0.22,
+      "unit": "1",
+      "source_ids": [
+        "ENERGYPLUS",
+        "DESIGN"
+      ],
+      "evidence": "terrain_scenario",
+      "screening_interval": [
+        0.14,
+        0.33
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Same-terrain U(z)=U10*(z/10)^alpha. ERA5 is not assumed to be an open-field station requiring a second terrain correction."
+    },
+    {
+      "id": "local_lapse_K_m",
+      "nominal": -0.0065,
+      "unit": "K/m",
+      "source_ids": [
+        "ENERGYPLUS"
+      ],
+      "evidence": "background_atmosphere_proxy",
+      "screening_interval": [
+        -0.01,
+        0.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Applies to mounting height above reference air sensor (2 m), not another correction by city elevation."
+    },
+    {
+      "id": "weather_air_height_m",
+      "nominal": 2.0,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "forcing_definition",
+      "screening_interval": [
+        2.0,
+        2.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Use temperature_2m and wind_speed_10m from the previous dataset."
+    },
+    {
+      "id": "weather_wind_height_m",
+      "nominal": 10.0,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "forcing_definition",
+      "screening_interval": [
+        10.0,
+        10.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "weather_pressure_height_m",
+      "nominal": 0.0,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "forcing_definition",
+      "screening_interval": [
+        0.0,
+        0.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "surface_pressure is a site-surface boundary, distinct from temperature_2m."
+    },
+    {
+      "id": "clearance_allowance_m",
+      "nominal": 0.05,
+      "unit": "m",
+      "source_ids": [
+        "DESIGN"
+      ],
+      "evidence": "design_choice",
+      "screening_interval": [
+        0.05,
+        0.05
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": ""
+    },
+    {
+      "id": "furmidge_shape_factor",
+      "nominal": 1.0,
+      "unit": "1",
+      "source_ids": [
+        "FURMIDGE",
+        "DESIGN"
+      ],
+      "evidence": "model_shape_assumption",
+      "screening_interval": [
+        0.5,
+        2.0
+      ],
+      "interval_meaning": "Engineering sensitivity envelope, NOT a statistical confidence interval or guaranteed product tolerance.",
+      "reported_uncertainty": null,
+      "note": "Spherical-cap gravity-sliding diagnostic only; not coalescence-jumping or a drain-time law."
+    }
+  ],
+  "sources": {
+    "DESIGN": {
+      "title": "Stage-A engineering selections",
+      "url": null,
+      "type": "our_design",
+      "locator": "docs/DECISIONS-fa.md",
+      "accessed": "2026-10-17"
+    },
+    "DOE": {
+      "title": "DOE/PNNL commercial prototype, Medium Office, ASHRAE 90.1-2019",
+      "url": "https://energycodes.gov/prototype-building-models",
+      "download": "https://energycodes.gov/sites/default/files/2023-10/ASHRAE901_OfficeMedium_STD2019.zip",
+      "type": "government_model",
+      "locator": "ASHRAE901_OfficeMedium_STD2019_HoChiMinh.idf; BuildingSurface:Detailed vertices",
+      "accessed": "2026-10-17"
+    },
+    "TRINA": {
+      "title": "Trina Vertex S+, TSM-435 NEG9R.28",
+      "url": "https://static.trinasolar.com/sites/default/files/NEG9R.28_DE.pdf",
+      "type": "manufacturer_datasheet",
+      "version": "TSM_DE_2023_A",
+      "locator": "page 2, 435 W column, mechanical/temperature tables",
+      "accessed": "2026-10-17"
+    },
+    "HAECHLER": {
+      "title": "Exploiting radiative cooling for uninterrupted 24-hour water harvesting from the atmosphere",
+      "doi": "10.1126/sciadv.abf3978",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8221617/",
+      "fulltext_route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8221617/fullTextXML",
+      "type": "primary_experiment",
+      "locator": "Fig. 1; selective-emitter fabrication; CNF coating; contact-angle characterization",
+      "year": 2021,
+      "accessed": "2026-10-17"
+    },
+    "DOW": {
+      "title": "SYLGARD 184 Silicone Elastomer Kit",
+      "url": "https://www.dow.com/en-us/pdp.sylgard-184-silicone-elastomer-kit.01064291z.html",
+      "type": "manufacturer_typical_properties",
+      "locator": "Typical properties; cured specific gravity and thermal conductivity",
+      "accessed": "2026-10-17"
+    },
+    "PDMS_CP": {
+      "title": "Numerical Evaluation on Residual Thermal Stress-Induced Delamination at PDMS–Metal Interface of Neural Prostheses",
+      "doi": "10.3390/mi12060669",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8226984/",
+      "type": "primary_model_and_experiment",
+      "locator": "Table 2; cp=1100 J/kg/K, treated constant in that model",
+      "year": 2021,
+      "accessed": "2026-10-17"
+    },
+    "SILICA": {
+      "title": "HEBO FSUV1/FQVIS2 fused silica/quartz datasheet",
+      "url": "https://hebo-glass.com/pdf/datasheets/HEBO_Spezialglas_FSUV1_FQVIS2.pdf",
+      "type": "manufacturer_datasheet",
+      "locator": "page 3: density, thermal conductivity, specific heat; proxy for JGS2, not an exact grade match",
+      "accessed": "2026-10-17"
+    },
+    "FLOAT": {
+      "title": "Pilkington ATS-129, Properties of Soda-Lime Silica Float Glass",
+      "url": "https://www.pilkington.com/-/media/pilkington/site-content/usa/window-manufacturers/technical-bulletins/ats-129---properties-of-soda-lime-silica-float-glass.pdf",
+      "type": "manufacturer_technical_bulletin",
+      "version": "04/2025",
+      "locator": "page 2, properties at 75 F; bare glass proxy, not measured AR-coated Trina glass",
+      "accessed": "2026-10-17"
+    },
+    "PVT": {
+      "title": "Experimental Validation of a Dynamic Photovoltaic/Thermal Collector Model in Combination with a Thermal Energy Storage Tank",
+      "doi": "10.3390/en14238162",
+      "url": "https://www.mdpi.com/1996-1073/14/23/8162",
+      "type": "primary_model_and_experiment",
+      "locator": "Table 2, EVA and silicon thermal properties only; different module",
+      "year": 2021,
+      "accessed": "2026-10-17"
+    },
+    "URSA": {
+      "title": "URSA XPS F HR L product data sheet",
+      "url": "https://d7rh5s3nxmpy4.cloudfront.net/CMP1520/files/2/URSA_XPS_F_HR_L_eng.pdf",
+      "type": "manufacturer_document",
+      "locator": "Nominal density, approximate specific heat, declared conductivity; thickness selection is ours",
+      "accessed": "2026-10-17"
+    },
+    "BELIMO": {
+      "title": "Belimo GM24A-SR technical data sheet",
+      "url": "https://www.belimo.com/mam/general-documents/datasheets/en-gb/belimo_GM24A-SR_datasheet_en-gb.pdf",
+      "type": "manufacturer_datasheet",
+      "version": "2025-06-02",
+      "locator": "pages 1-2, electrical/functional data, outdoor restrictions",
+      "accessed": "2026-10-17"
+    },
+    "PSYCHRO": {
+      "title": "PsychroLib, ASHRAE psychrometric equations",
+      "url": "https://psychrometrics.github.io/psychrolib/_modules/psychrolib.html",
+      "type": "primary_implementation",
+      "locator": "GetSatVapPres; GetHumRatioFromVapPres; moist-air gas relations",
+      "accessed": "2026-10-17"
+    },
+    "ENERGYPLUS": {
+      "title": "EnergyPlus Engineering Reference, Outside Surface Heat Balance",
+      "url": "https://energyplus.readthedocs.io/en/v26.2.0/guides/engineering-reference/3.5-outside-surface-heat-balance.html",
+      "type": "official_solver_documentation",
+      "locator": "Atmospheric Variation; wind terrain coefficients table; radiation heat balance",
+      "version": "26.2.0",
+      "accessed": "2026-10-17"
+    },
+    "FURMIDGE": {
+      "title": "Studies at phase interfaces. I. The sliding of liquid drops on solid surfaces and a theory for spray retention",
+      "doi": "10.1016/0095-8522(62)90011-9",
+      "url": "https://www.sciencedirect.com/science/article/pii/0095852262900119",
+      "type": "primary_experiment_and_theory",
+      "year": 1962,
+      "locator": "Gravity/sliding/contact-angle force balance; not coalescence jumping",
+      "accessed": "2026-10-17"
+    },
+    "IAPWS": {
+      "title": "IAPWS R1-76(2014), surface tension of ordinary water",
+      "url": "https://iapws.org/documents/release/Surf-H2O.download",
+      "type": "reference_formulation",
+      "locator": "sigma=B*tau**mu*(1+b*tau), page 3",
+      "accessed": "2026-10-17"
+    }
+  },
+  "critical_gaps": [
+    {
+      "id": "G01",
+      "topic": "Selected-module laminate and optical data",
+      "why": "EVA/POE choice, wafer thickness and coated wet/dry spectra are not disclosed in the selected datasheet. Proxy values remain.",
+      "needed": "Exact manufacturer BOM/spectral data or compatible published characterization."
+    },
+    {
+      "id": "G02",
+      "topic": "Spectral and directional longwave boundary",
+      "why": "0.93 is an 8-13 um average; broadband NASA LW does not specify window/outside-window flux or angular distribution.",
+      "needed": "Measured spectral curves plus atmospheric spectral radiative-transfer forcing for Stage B."
+    },
+    {
+      "id": "G03",
+      "topic": "Drainage and wetting durability",
+      "why": "Fresh laboratory angles do not determine coalescence jumping rate, water hold-up, ageing or large-area drainage.",
+      "needed": "Published compatible droplet/film validation and population/flow model. No invented 30 s calibration."
+    },
+    {
+      "id": "G04",
+      "topic": "Mechanical and actuator acceptance",
+      "why": "Gear, centre of gravity, pressure moment, bearings, holding load and enclosure are new assembly features.",
+      "needed": "CAD/load/CFD checks. Belimo reference is not yet an approved outdoor facade actuator."
+    },
+    {
+      "id": "G05",
+      "topic": "Open cavity / tiled condenser",
+      "why": "Published device has shielding/cover and a different small-area geometry. Our tiled, open-cavity design does not inherit its yield.",
+      "needed": "Coupled cavity and thermal-bridge modelling; geometry validation in Stage B."
+    },
+    {
+      "id": "G06",
+      "topic": "Base-project integration",
+      "why": "Previous scratch files were removed by automatic maintenance; original archive is not currently readable.",
+      "needed": "Attach water-facade-lab.zip to modify and regression-test the exact prior simulator."
+    }
+  ],
+  "prohibited_claims": [
+    "validated_device",
+    "all_parameters_measured",
+    "high_fidelity_annual_yield",
+    "potable_water",
+    "approved_outdoor_actuator"
+  ]
+}

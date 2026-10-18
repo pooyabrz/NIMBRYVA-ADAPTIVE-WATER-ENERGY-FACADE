@@ -1,0 +1,11 @@
+{
+ "version":"CDE-1","locked_before_fitting":"2026-10-17",
+ "numerical_targets":{"water_relative":0.02,"water_absolute_kg_m2_h":0.0001,"energy_relative":0.02,"energy_absolute_Wh_m2_h":0.02,"surface_temperature_absolute_K":0.2},
+ "interpretation":"initial study targets; allowance=max(relative*scale,absolute); not empirical accuracy claims",
+ "weather_split":{"train_years":[2020,2021],"selection_years":[2022],"test_years":[2023],"train_cities":["singapore","bandar-abbas","mumbai","phoenix"],"test_only_cities":["rasht","dubai","seville","istanbul"]},
+ "information":"action t sees weather and state through t; plant sees t+1; only causal persistence available, no future reanalysis forecast",
+ "experimental_split_unit":"rain event / entire experimental run / PV day; locked before fitting",
+ "cold_scope":"cold/snow excluded from cassette control; independent phase-change reference does not qualify full product",
+ "claims_gate":"experimental support, numerical verification, emulator accuracy and controller ranking are distinct gates",
+ "prior_uncertainty":"randomization ranges are sensitivity scenarios, not calibrated probability distributions"
+}

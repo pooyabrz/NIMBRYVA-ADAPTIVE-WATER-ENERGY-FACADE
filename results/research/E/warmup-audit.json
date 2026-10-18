@@ -1,0 +1,399 @@
+{
+  "records": [
+    {
+      "group": "selection-mumbai-2022-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-bandar-abbas-2022-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-mumbai-2022-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-bandar-abbas-2022-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-phoenix-2022-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-singapore-2022-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-singapore-2022-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "selection-phoenix-2022-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-dubai-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-bandar-abbas-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-bandar-abbas-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-dubai-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-istanbul-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-mumbai-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-istanbul-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-mumbai-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-phoenix-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-phoenix-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-rasht-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-singapore-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-seville-2023-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-seville-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "test-singapore-2023-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2020-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2020-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2020-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2020-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2020-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2020-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2020-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2020-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2021-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2021-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2021-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-mumbai-2021-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2020-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2020-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2020-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2020-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2021-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2021-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2021-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-phoenix-2021-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2020-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2020-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2020-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2020-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2021-e0",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2021-e1",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2021-e2",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    },
+    {
+      "group": "train-singapore-2021-e3",
+      "warmup_resets": [],
+      "first_input_temperature_difference_K": 0.0,
+      "first_input_film_difference_kg": 0.0,
+      "reconstruction_pass": true
+    }
+  ],
+  "all_reconstructed": true,
+  "resets": 0,
+  "training_data_overwritten": false
+}

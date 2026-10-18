@@ -1,0 +1,21 @@
+{
+  "city": "mumbai",
+  "year": 2020,
+  "role": "train",
+  "episode": 1,
+  "seed": 2006,
+  "hours": 72,
+  "start": "2020-05-17 06:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.223185819501888,
+    "coating_condition": 0.7795358105371919,
+    "collector_efficiency": 0.7907982359706913,
+    "bridge_multiplier": 1.0372967533823438,
+    "motor_running_upper_W": 67.08385615366538
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-mumbai-2020-e1"
+}

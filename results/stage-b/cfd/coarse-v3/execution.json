@@ -1,0 +1,103 @@
+{
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "blockMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.125321626663208,
+      "log_sha256": "cc1c0a83616e988ea8d93c37447f39dc9eb9910397a8518e75220d71d5714daa"
+    },
+    {
+      "command": [
+        "snappyHexMesh",
+        "-overwrite"
+      ],
+      "returncode": 0,
+      "seconds": 11.957206010818481,
+      "log_sha256": "bcb71962788f31ff20ca32733ba8ea2d42c0454d7955e418ac45a0aa434c3ef3"
+    },
+    {
+      "command": [
+        "checkMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.22997236251831055,
+      "log_sha256": "1d0cf799f3ade7e2b08f318fc2ab3c263709beb5875ea86a5ba45f890f483017"
+    },
+    {
+      "command": [
+        "simpleFoam"
+      ],
+      "returncode": 0,
+      "seconds": 28.53732967376709,
+      "log_sha256": "56a5963fe7f8ac7c7188de6e61f1c7fdb8a67562bea7c7ef770a2f5b8302b9f9"
+    },
+    {
+      "command": [
+        "postProcess",
+        "-func",
+        "writeCellCentres",
+        "-latestTime"
+      ],
+      "returncode": 0,
+      "seconds": 0.21171092987060547,
+      "log_sha256": "14684b2fc5586ada5794929e4cfefa2768ea69ce2dbd9a7b7453d999d62ebee5"
+    }
+  ],
+  "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+  "quality": {
+    "case": "coarse-v3",
+    "time": "189",
+    "cells": 31063,
+    "geometry": {
+      "patch_faces": {
+        "inlet": 640,
+        "outlet": 640,
+        "side1": 640,
+        "side2": 640,
+        "ground": 1224,
+        "top": 1024,
+        "building": 1409,
+        "cassette": 1512
+      },
+      "passed": true,
+      "cassette_area_m2": 4.296713956532893,
+      "physical_closed_box_area_m2": 4.405143603567995,
+      "relative_area_error": 0.02461432743016101,
+      "face_centre_bounds_error_m": 0.02124945887458818,
+      "geometry_tolerance_for_screening": 0.15,
+      "geometry_qualified_to_two_percent": false
+    },
+    "standard_checkMesh_passed": true,
+    "last_initial_residuals": {
+      "T": 5.072732296e-07,
+      "Yv": 4.906006581e-09
+    },
+    "continuity_sum_local_last": 9.525174705e-12,
+    "finite_fields": true,
+    "flow_residual_gate_passed": false,
+    "scalar_residual_and_bounds_gate_passed": true,
+    "T_range_K": [
+      292.3905181,
+      294.0659943
+    ],
+    "Yv_range": [
+      0.009762532267,
+      0.0102
+    ],
+    "U_max_m_s": 6.899197576232388,
+    "bulk_Ri": 0.07953171405764968,
+    "neutral_RANS_Ri_below_0_1": true,
+    "flow_available_for_exploratory_particle_tracking": false,
+    "qualified_scalar_transfer_available": false,
+    "qualified_for_yield_surrogate_training": false,
+    "why_not_qualified": [
+      "scalar wall treatment has no resolved/prismatic boundary layers",
+      "independent physical validation absent",
+      "grid convergence must be assessed on quantities of interest"
+    ],
+    "OpenFOAM_converged_message": true
+  }
+}

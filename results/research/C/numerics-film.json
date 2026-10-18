@@ -1,0 +1,1770 @@
+{
+  "targets": {
+    "water_relative": 0.02,
+    "water_absolute_kg_m2_h": 0.0001,
+    "energy_relative": 0.02,
+    "energy_absolute_Wh_m2_h": 0.02,
+    "surface_temperature_absolute_K": 0.2
+  },
+  "films": {
+    "dew": [
+      {
+        "case": "dew",
+        "grid": 16,
+        "dt": 20,
+        "surface_C": 14.051719992904397,
+        "water": 0.04895971609754455,
+        "energy": 53.7141818828653,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": 14.051719992904397,
+        "temperature_min_C": 14.051719992899576,
+        "liquid_kg": 0.03671937485711654,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 4.85722573273506e-17,
+        "energy_residual_J": 8.512870408594608e-10,
+        "maximum_layer_thickness_m": 2.3728286669825912e-05,
+        "substeps": 180,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13454617526934912,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09782680041223253,
+        "energy_environment_J": -343708.44076450786,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386376.2515209895,
+        "drain_energy_J": 38371.21865903614,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 16,
+        "dt": 10,
+        "surface_C": 14.05171999290373,
+        "water": 0.048969288386083276,
+        "energy": 53.721817597189066,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": 14.05171999290373,
+        "temperature_min_C": 14.051719992901477,
+        "liquid_kg": 0.03671937473922733,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 2.914335439641036e-16,
+        "energy_residual_J": -8.440110832452774e-10,
+        "maximum_layer_thickness_m": 2.3728286521143153e-05,
+        "substeps": 360,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.1345653016177677,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09784592687854007,
+        "energy_environment_J": -343755.8665124343,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386431.1766557433,
+        "drain_energy_J": 38378.718092106756,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 16,
+        "dt": 5,
+        "surface_C": 14.05171999290349,
+        "water": 0.04897356074772564,
+        "energy": 53.725225601348214,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": 14.05171999290349,
+        "temperature_min_C": 14.051719992902393,
+        "liquid_kg": 0.036719374651589594,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 9.367506770274758e-16,
+        "energy_residual_J": -1.520675141364336e-09,
+        "maximum_layer_thickness_m": 2.372828641060678e-05,
+        "substeps": 720,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.1345738381701071,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09785446351851657,
+        "energy_environment_J": -343777.0336465919,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386455.6910730912,
+        "drain_energy_J": 38382.0654096729,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 32,
+        "dt": 20,
+        "surface_C": 14.051719992903442,
+        "water": 0.049233951402949845,
+        "energy": 53.714181882865155,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": 14.051719992903442,
+        "temperature_min_C": 14.051719992900713,
+        "liquid_kg": 0.0361714230995034,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 2.7755575615628914e-17,
+        "energy_residual_J": -1.0186340659856796e-10,
+        "maximum_layer_thickness_m": 2.3728286832877488e-05,
+        "substeps": 213,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13454617526934873,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.0983747521698453,
+        "energy_environment_J": -343708.44076450967,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386376.2515209885,
+        "drain_energy_J": 38586.14516851051,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 32,
+        "dt": 10,
+        "surface_C": 14.051719992902822,
+        "water": 0.04924352363300488,
+        "energy": 53.721817597188874,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": 14.051719992902822,
+        "temperature_min_C": 14.051719992901077,
+        "liquid_kg": 0.03617142309847106,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 0.0,
+        "energy_residual_J": -6.766640581190586e-10,
+        "maximum_layer_thickness_m": 2.37282868312379e-05,
+        "substeps": 360,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13456530161776717,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09839387851929611,
+        "energy_environment_J": -343755.86651243444,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386431.1766557419,
+        "drain_energy_J": 38593.644555745785,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 32,
+        "dt": 5,
+        "surface_C": 14.051719992903399,
+        "water": 0.049247795951439646,
+        "energy": 53.725225601348406,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": 14.051719992903399,
+        "temperature_min_C": 14.051719992902342,
+        "liquid_kg": 0.03617142309716688,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 5.273559366969494e-16,
+        "energy_residual_J": 2.9103830456733704e-10,
+        "maximum_layer_thickness_m": 2.3728286829165332e-05,
+        "substeps": 720,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13457383817010657,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09840241507293916,
+        "energy_environment_J": -343777.0336465917,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386455.6910730926,
+        "drain_energy_J": 38596.99183944874,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 64,
+        "dt": 20,
+        "surface_C": 14.051719992903411,
+        "water": 0.0493807414971103,
+        "energy": 53.714181882858874,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": 14.051719992903411,
+        "temperature_min_C": 14.051719992902465,
+        "liquid_kg": 0.03587812063802483,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": -1.3877787807814457e-17,
+        "energy_residual_J": 3.346940502524376e-10,
+        "maximum_layer_thickness_m": 2.4088234832360043e-05,
+        "substeps": 376,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13454617526933288,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09866805463130807,
+        "energy_environment_J": -343708.4407645504,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386376.2515209433,
+        "drain_energy_J": 38701.18900830619,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 64,
+        "dt": 10,
+        "surface_C": 14.051719992903719,
+        "water": 0.04939031372665778,
+        "energy": 53.7218175971891,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": 14.051719992903719,
+        "temperature_min_C": 14.051719992901713,
+        "liquid_kg": 0.035878120638022926,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 0.0,
+        "energy_residual_J": 0.0,
+        "maximum_layer_thickness_m": 2.3728286834408375e-05,
+        "substeps": 426,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13456530161776764,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09868718097974472,
+        "energy_environment_J": -343755.86651243345,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386431.1766557435,
+        "drain_energy_J": 38708.68839522384,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "dew",
+        "grid": 64,
+        "dt": 5,
+        "surface_C": 14.051719992903518,
+        "water": 0.04939458604444201,
+        "energy": 53.72522560134852,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": 14.051719992903518,
+        "temperature_min_C": 14.051719992902372,
+        "liquid_kg": 0.03587812063801819,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 7.355227538141662e-16,
+        "energy_residual_J": -1.673470251262188e-10,
+        "maximum_layer_thickness_m": 2.372828683439698e-05,
+        "substeps": 720,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.13457383817010685,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 0.09869571753208792,
+        "energy_environment_J": -343777.0336465927,
+        "energy_material_in_J": 0.0,
+        "energy_vapour_J": 386455.6910730934,
+        "drain_energy_J": 38712.035678416905,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      }
+    ],
+    "rain": [
+      {
+        "case": "rain",
+        "grid": 16,
+        "dt": 20,
+        "surface_C": 14.488135962151537,
+        "water": 1.4489382063369514,
+        "energy": 48.77402191704362,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": 14.488135962151537,
+        "temperature_min_C": 14.300355139926367,
+        "liquid_kg": 0.10431229497359086,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 4.0620284913472915e-14,
+        "energy_residual_J": 1.760781742632389e-08,
+        "maximum_layer_thickness_m": 7.090924996940331e-05,
+        "substeps": 882,
+        "rain_kg": 2.8772755200000018,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.12217179656114246,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 2.895135021587513,
+        "energy_environment_J": -376271.66082102555,
+        "energy_material_in_J": 1200111.6193919901,
+        "energy_vapour_J": 350840.7481846326,
+        "drain_energy_J": 1142943.338741296,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 16,
+        "dt": 10,
+        "surface_C": 14.488135962151262,
+        "water": 1.4489340965943263,
+        "energy": 48.770759138494746,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": 14.488135962151262,
+        "temperature_min_C": 14.300355139926005,
+        "liquid_kg": 0.10431229497359075,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 4.028721800608537e-14,
+        "energy_residual_J": 1.8015271052718163e-08,
+        "maximum_layer_thickness_m": 7.010317721353053e-05,
+        "substeps": 885,
+        "rain_kg": 2.877275520000001,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.1222138196272703,
+        "vapour_out_kg": 5.023477574457844e-05,
+        "drain_kg": 2.8951268098778957,
+        "energy_environment_J": -376262.6095324042,
+        "energy_material_in_J": 1200111.6193919894,
+        "energy_vapour_J": 350817.278402518,
+        "drain_energy_J": 1142928.9202478023,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 16,
+        "dt": 5,
+        "surface_C": 14.488135962151581,
+        "water": 1.4489312564164973,
+        "energy": 48.768494286038056,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": 14.488135962151581,
+        "temperature_min_C": 14.300355139926234,
+        "liquid_kg": 0.10431229497359089,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 3.92602617083071e-14,
+        "energy_residual_J": 1.8655555322766304e-08,
+        "maximum_layer_thickness_m": 6.846583440278053e-05,
+        "substeps": 896,
+        "rain_kg": 2.8772755199999924,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.12223220216068054,
+        "vapour_out_kg": 7.429229118825652e-05,
+        "drain_kg": 2.8951211348958545,
+        "energy_environment_J": -376258.00381101714,
+        "energy_material_in_J": 1200111.6193919864,
+        "energy_vapour_J": 350800.9868911929,
+        "drain_energy_J": 1142917.2344578598,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 32,
+        "dt": 20,
+        "surface_C": 14.487301278683084,
+        "water": 1.4496836627136025,
+        "energy": 48.78220428675263,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": 14.487301278683084,
+        "temperature_min_C": 14.297087412819952,
+        "liquid_kg": 0.10284328826393337,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 2.2024049251001543e-14,
+        "energy_residual_J": 2.0372681319713593e-08,
+        "maximum_layer_thickness_m": 6.937171882447307e-05,
+        "substeps": 1764,
+        "rain_kg": 2.8772755199999005,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.12219229220140532,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 2.8966245239373505,
+        "energy_environment_J": -376213.66923674813,
+        "energy_material_in_J": 1200111.6193919994,
+        "energy_vapour_J": 350899.60551478097,
+        "drain_energy_J": 1143641.4640513263,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 32,
+        "dt": 10,
+        "surface_C": 14.487301278683097,
+        "water": 1.4496801020287746,
+        "energy": 48.77937948855901,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": 14.487301278683097,
+        "temperature_min_C": 14.29708741281981,
+        "liquid_kg": 0.10284328826393335,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 2.5590640717609858e-14,
+        "energy_residual_J": 1.9870640244334936e-08,
+        "maximum_layer_thickness_m": 6.95502780140934e-05,
+        "substeps": 1766,
+        "rain_kg": 2.8772755199999014,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.12223541234431248,
+        "vapour_out_kg": 5.023477574472374e-05,
+        "drain_kg": 2.8966174093045103,
+        "energy_environment_J": -376204.3071171184,
+        "energy_material_in_J": 1200111.6193919994,
+        "energy_vapour_J": 350879.28620805236,
+        "drain_energy_J": 1143630.506864228,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 32,
+        "dt": 5,
+        "surface_C": 14.48730127868308,
+        "water": 1.4496776971561949,
+        "energy": 48.77746187667811,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": 14.48730127868308,
+        "temperature_min_C": 14.297087412819355,
+        "liquid_kg": 0.10284328826393337,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": 2.5576762929802044e-14,
+        "energy_residual_J": 2.10711732506752e-08,
+        "maximum_layer_thickness_m": 6.789081287165898e-05,
+        "substeps": 1771,
+        "rain_kg": 2.877275519999902,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.12225466466419876,
+        "vapour_out_kg": 7.429229077164493e-05,
+        "drain_kg": 2.89661260410937,
+        "energy_environment_J": -376198.3377344256,
+        "energy_material_in_J": 1200111.619392,
+        "energy_vapour_J": 350865.4924637479,
+        "drain_energy_J": 1143622.6825026157,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 64,
+        "dt": 20,
+        "surface_C": 14.486879113046202,
+        "water": 1.4500858818553284,
+        "energy": 48.786089061822764,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": 14.486879113046202,
+        "temperature_min_C": 14.294588793578221,
+        "liquid_kg": 0.10204934177338201,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": -3.1655233989624776e-13,
+        "energy_residual_J": -4.279718268662691e-08,
+        "maximum_layer_thickness_m": 7.198938116456559e-05,
+        "substeps": 3528,
+        "rain_kg": 2.8772755200000546,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.12220202299519686,
+        "vapour_out_kg": 0.0,
+        "drain_kg": 2.897428201222186,
+        "energy_environment_J": -376184.0178427207,
+        "energy_material_in_J": 1200111.6193920532,
+        "energy_vapour_J": 350927.549435306,
+        "drain_energy_J": 1144013.1773431445,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 64,
+        "dt": 10,
+        "surface_C": 14.486879113046225,
+        "water": 1.4500826241487692,
+        "energy": 48.78350594770853,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": 14.486879113046225,
+        "temperature_min_C": 14.294588793578217,
+        "liquid_kg": 0.10204934177338203,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": -3.1789848531360576e-13,
+        "energy_residual_J": -4.215689841657877e-08,
+        "maximum_layer_thickness_m": 6.791087729590131e-05,
+        "substeps": 3529,
+        "rain_kg": 2.8772755200000564,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.1222457485214007,
+        "vapour_out_kg": 5.023477574472416e-05,
+        "drain_kg": 2.8974216919726485,
+        "energy_environment_J": -376174.8360394801,
+        "energy_material_in_J": 1200111.6193920537,
+        "energy_vapour_J": 350908.9686077903,
+        "drain_energy_J": 1144003.7783188692,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "rain",
+        "grid": 64,
+        "dt": 5,
+        "surface_C": 14.486879113046221,
+        "water": 1.4500805205671183,
+        "energy": 48.78182867392835,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": 14.486879113046221,
+        "temperature_min_C": 14.29458879357821,
+        "liquid_kg": 0.10204934177338201,
+        "ice_plus_snow_kg": 0.0,
+        "unmelted_snow_tracer_kg": 0.0,
+        "mass_residual_kg": -3.1655233989624776e-13,
+        "energy_residual_J": -4.190223990008235e-08,
+        "maximum_layer_thickness_m": 7.14098882118684e-05,
+        "substeps": 3533,
+        "rain_kg": 2.8772755200000564,
+        "snow_swe_kg": 0.0,
+        "vapour_in_kg": 0.1222656028529761,
+        "vapour_out_kg": 7.429229064368462e-05,
+        "drain_kg": 2.897417488789323,
+        "energy_environment_J": -376168.7470615852,
+        "energy_material_in_J": 1200111.6193920546,
+        "energy_vapour_J": 350896.9036608202,
+        "drain_energy_J": 1143997.8023497947,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      }
+    ],
+    "snow": [
+      {
+        "case": "snow",
+        "grid": 16,
+        "dt": 20,
+        "surface_C": -12.985958330554105,
+        "water": 0.0,
+        "energy": 9.008873544390793,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": -12.985958330554105,
+        "temperature_min_C": -12.985958330554105,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.2667518873559021,
+        "unmelted_snow_tracer_kg": 0.14386377599999955,
+        "mass_residual_kg": -8.326672684688674e-16,
+        "energy_residual_J": 5.820766091346741e-11,
+        "maximum_layer_thickness_m": 0.0004270689605168565,
+        "substeps": 180,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.14386377599999942,
+        "vapour_in_kg": 0.022991228554489738,
+        "vapour_out_kg": 8.517198587901238e-06,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76452.76628903212,
+        "energy_material_in_J": -2416.911436799991,
+        "energy_vapour_J": 64802.52828012815,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 16,
+        "dt": 10,
+        "surface_C": -12.985958330555563,
+        "water": 0.0,
+        "energy": 9.007768356063645,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": -12.985958330555563,
+        "temperature_min_C": -12.985958330555563,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.2667490663510215,
+        "unmelted_snow_tracer_kg": 0.143863776,
+        "mass_residual_kg": -3.219646771412954e-15,
+        "energy_residual_J": 7.275957614183426e-12,
+        "maximum_layer_thickness_m": 0.00042706742088977,
+        "substeps": 360,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.1438637759999998,
+        "vapour_in_kg": 0.022996531174615215,
+        "vapour_out_kg": 1.664082359671997e-05,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76444.7395304899,
+        "energy_material_in_J": -2416.911436799987,
+        "energy_vapour_J": 64794.57845183142,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 16,
+        "dt": 5,
+        "surface_C": -12.98595833055512,
+        "water": 0.0,
+        "energy": 9.007162638858782,
+        "elapsed_s": 3600.0,
+        "cells": 16,
+        "temperature_mean_C": -12.98595833055512,
+        "temperature_min_C": -12.98595833055512,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.26674752088990356,
+        "unmelted_snow_tracer_kg": 0.14386377600000205,
+        "mass_residual_kg": -1.1102230246251565e-16,
+        "energy_residual_J": -6.184563972055912e-11,
+        "maximum_layer_thickness_m": 0.00042706657741948585,
+        "substeps": 720,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.14386377600000183,
+        "vapour_in_kg": 0.02299952519193155,
+        "vapour_out_kg": 2.1180302029921947e-05,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76440.34034675821,
+        "energy_material_in_J": -2416.9114368000096,
+        "energy_vapour_J": 64790.22141361742,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 32,
+        "dt": 20,
+        "surface_C": -12.985958330554105,
+        "water": 0.0,
+        "energy": 9.008873544390793,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": -12.985958330554105,
+        "temperature_min_C": -12.985958330554105,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.2667518873559021,
+        "unmelted_snow_tracer_kg": 0.14386377599999955,
+        "mass_residual_kg": -8.326672684688674e-16,
+        "energy_residual_J": 5.820766091346741e-11,
+        "maximum_layer_thickness_m": 0.0004270689605168565,
+        "substeps": 180,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.14386377599999942,
+        "vapour_in_kg": 0.022991228554489738,
+        "vapour_out_kg": 8.517198587901238e-06,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76452.76628903212,
+        "energy_material_in_J": -2416.911436799991,
+        "energy_vapour_J": 64802.52828012815,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 32,
+        "dt": 10,
+        "surface_C": -12.985958330555563,
+        "water": 0.0,
+        "energy": 9.007768356063645,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": -12.985958330555563,
+        "temperature_min_C": -12.985958330555563,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.2667490663510215,
+        "unmelted_snow_tracer_kg": 0.143863776,
+        "mass_residual_kg": -3.219646771412954e-15,
+        "energy_residual_J": 7.275957614183426e-12,
+        "maximum_layer_thickness_m": 0.00042706742088977,
+        "substeps": 360,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.1438637759999998,
+        "vapour_in_kg": 0.022996531174615215,
+        "vapour_out_kg": 1.664082359671997e-05,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76444.7395304899,
+        "energy_material_in_J": -2416.911436799987,
+        "energy_vapour_J": 64794.57845183142,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 32,
+        "dt": 5,
+        "surface_C": -12.98595833055512,
+        "water": 0.0,
+        "energy": 9.007162638858782,
+        "elapsed_s": 3600.0,
+        "cells": 32,
+        "temperature_mean_C": -12.98595833055512,
+        "temperature_min_C": -12.98595833055512,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.26674752088990356,
+        "unmelted_snow_tracer_kg": 0.14386377600000205,
+        "mass_residual_kg": -1.1102230246251565e-16,
+        "energy_residual_J": -6.184563972055912e-11,
+        "maximum_layer_thickness_m": 0.00042706657741948585,
+        "substeps": 720,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.14386377600000183,
+        "vapour_in_kg": 0.02299952519193155,
+        "vapour_out_kg": 2.1180302029921947e-05,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76440.34034675821,
+        "energy_material_in_J": -2416.9114368000096,
+        "energy_vapour_J": 64790.22141361742,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 64,
+        "dt": 20,
+        "surface_C": -12.985958330554102,
+        "water": 0.0,
+        "energy": 9.008873544390793,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": -12.985958330554102,
+        "temperature_min_C": -12.985958330554105,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.2667518873559021,
+        "unmelted_snow_tracer_kg": 0.14386377599999955,
+        "mass_residual_kg": -8.881784197001252e-16,
+        "energy_residual_J": 6.548361852765083e-11,
+        "maximum_layer_thickness_m": 0.0004270689605168565,
+        "substeps": 180,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.14386377599999942,
+        "vapour_in_kg": 0.022991228554489738,
+        "vapour_out_kg": 8.517198587901237e-06,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76452.76628903212,
+        "energy_material_in_J": -2416.911436799991,
+        "energy_vapour_J": 64802.52828012815,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 64,
+        "dt": 10,
+        "surface_C": -12.985958330555563,
+        "water": 0.0,
+        "energy": 9.007768356063645,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": -12.985958330555563,
+        "temperature_min_C": -12.985958330555563,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.2667490663510215,
+        "unmelted_snow_tracer_kg": 0.143863776,
+        "mass_residual_kg": -3.219646771412954e-15,
+        "energy_residual_J": 1.4551915228366852e-11,
+        "maximum_layer_thickness_m": 0.00042706742088977,
+        "substeps": 360,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.1438637759999998,
+        "vapour_in_kg": 0.022996531174615215,
+        "vapour_out_kg": 1.6640823596719974e-05,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76444.7395304899,
+        "energy_material_in_J": -2416.911436799987,
+        "energy_vapour_J": 64794.57845183142,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      },
+      {
+        "case": "snow",
+        "grid": 64,
+        "dt": 5,
+        "surface_C": -12.98595833055512,
+        "water": 0.0,
+        "energy": 9.007162638858782,
+        "elapsed_s": 3600.0,
+        "cells": 64,
+        "temperature_mean_C": -12.98595833055512,
+        "temperature_min_C": -12.98595833055512,
+        "liquid_kg": 0.0,
+        "ice_plus_snow_kg": 0.26674752088990356,
+        "unmelted_snow_tracer_kg": 0.14386377600000208,
+        "mass_residual_kg": -1.1102230246251565e-16,
+        "energy_residual_J": -5.820766091346741e-11,
+        "maximum_layer_thickness_m": 0.00042706657741948585,
+        "substeps": 720,
+        "rain_kg": 0.0,
+        "snow_swe_kg": 0.14386377600000183,
+        "vapour_in_kg": 0.02299952519193155,
+        "vapour_out_kg": 2.1180302029921944e-05,
+        "drain_kg": 0.0,
+        "energy_environment_J": -76440.34034675821,
+        "energy_material_in_J": -2416.9114368000096,
+        "energy_vapour_J": 64790.22141361742,
+        "drain_energy_J": 0.0,
+        "thin_equilibrium_layer_approximation": true,
+        "thick_snow_thermal_gradient_unresolved": false,
+        "snow_aerodynamic_capture_and_adhesion_validated": false,
+        "CNF_droplet_physics_validated": false
+      }
+    ]
+  },
+  "film_comparisons": {
+    "dew": [
+      {
+        "fixed": {
+          "dt": 5
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0002742352037140086,
+          "max_ratio_to_allowance": 0.278423834423388
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 1.9184653865522705e-13,
+          "max_ratio_to_allowance": 1.7854419084134293e-13
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 9.059419880941277e-14,
+          "max_ratio_to_allowance": 4.5297099404706387e-13
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 5
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.00014679009300236356,
+          "max_ratio_to_allowance": 0.14858925315245222
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 1.1368683772161603e-13,
+          "max_ratio_to_allowance": 1.058039649430178e-13
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 1.1901590823981678e-13,
+          "max_ratio_to_allowance": 5.950795411990839e-13
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 10
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.00027423524692160584,
+          "max_ratio_to_allowance": 0.2784480340657456
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 1.9184653865522705e-13,
+          "max_ratio_to_allowance": 1.7855551732604183e-13
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 9.07718344933528e-13,
+          "max_ratio_to_allowance": 4.53859172466764e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 10
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.00014679009365289875,
+          "max_ratio_to_allowance": 0.1486021069488274
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 2.2737367544323206e-13,
+          "max_ratio_to_allowance": 2.1162135386790132e-13
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 8.970602038971265e-13,
+          "max_ratio_to_allowance": 4.4853010194856324e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 20
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.00027423530540529595,
+          "max_ratio_to_allowance": 0.27850223026062576
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 1.4210854715202004e-13,
+          "max_ratio_to_allowance": 1.322821480013571e-13
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 9.556799795973347e-13,
+          "max_ratio_to_allowance": 4.778399897986674e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 20
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.00014679009416045802,
+          "max_ratio_to_allowance": 0.1486309132974927
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 6.281197784119286e-12,
+          "max_ratio_to_allowance": 5.84687094166e-12
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 3.019806626980426e-14,
+          "max_ratio_to_allowance": 1.509903313490213e-13
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 16
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 9.572288538726992e-06,
+          "max_ratio_to_allowance": 0.009773767246990838
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.007635714323768639,
+          "max_ratio_to_allowance": 0.007106716288921848
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 6.679101716144942e-13,
+          "max_ratio_to_allowance": 3.339550858072471e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 16
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 4.2723616423615e-06,
+          "max_ratio_to_allowance": 0.0043619062787464465
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0034080041591479926,
+          "max_ratio_to_allowance": 0.003171698323275603
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 2.398081733190338e-13,
+          "max_ratio_to_allowance": 1.199040866595169e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 32
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 9.572230055036879e-06,
+          "max_ratio_to_allowance": 0.009719278139370601
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.007635714323718901,
+          "max_ratio_to_allowance": 0.007106716288875582
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 6.199485369506874e-13,
+          "max_ratio_to_allowance": 3.099742684753437e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 32
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 4.272318434764277e-06,
+          "max_ratio_to_allowance": 0.004337573237771858
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0034080041595316857,
+          "max_ratio_to_allowance": 0.0031716983236326803
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 5.773159728050814e-13,
+          "max_ratio_to_allowance": 2.886579864025407e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 64
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 9.572229547477606e-06,
+          "max_ratio_to_allowance": 0.009690391521355248
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.007635714330227472,
+          "max_ratio_to_allowance": 0.007106716294933212
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 3.0730973321624333e-13,
+          "max_ratio_to_allowance": 1.5365486660812167e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 64
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 4.272317784229096e-06,
+          "max_ratio_to_allowance": 0.004324682243905379
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.003408004159417999,
+          "max_ratio_to_allowance": 0.003171698323526869
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 2.007283228522283e-13,
+          "max_ratio_to_allowance": 1.0036416142611415e-12
+        },
+        "all_targets_pass": true
+      }
+    ],
+    "rain": [
+      {
+        "fixed": {
+          "dt": 5
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0007464407396975403,
+          "max_ratio_to_allowance": 0.02574505840718316
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.008967590640054368,
+          "max_ratio_to_allowance": 0.009192350621611604
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0008346834685006854,
+          "max_ratio_to_allowance": 0.004173417342503427
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 5
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0004028234109234585,
+          "max_ratio_to_allowance": 0.013889691131286852
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.004366797250241916,
+          "max_ratio_to_allowance": 0.004475844150319614
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0004221656368592619,
+          "max_ratio_to_allowance": 0.0021108281842963095
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 10
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0007460054344483602,
+          "max_ratio_to_allowance": 0.02573000186056057
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.008620350064262539,
+          "max_ratio_to_allowance": 0.008836059575424082
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.000834683468164954,
+          "max_ratio_to_allowance": 0.00417341734082477
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 10
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0004025221199945861,
+          "max_ratio_to_allowance": 0.013879282231620268
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.004126459149517814,
+          "max_ratio_to_allowance": 0.004229358949663234
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0004221656368716964,
+          "max_ratio_to_allowance": 0.002110828184358482
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 20
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0007454563766511324,
+          "max_ratio_to_allowance": 0.02571100150414
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.008182369709011539,
+          "max_ratio_to_allowance": 0.008386633843884701
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0008346834684527238,
+          "max_ratio_to_allowance": 0.004173417342263619
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 20
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.00040221914172589024,
+          "max_ratio_to_allowance": 0.013868804143216212
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.003884775070133628,
+          "max_ratio_to_allowance": 0.003981437275296611
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.00042216563688235453,
+          "max_ratio_to_allowance": 0.0021108281844117727
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 16
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 4.109742625102442e-06,
+          "max_ratio_to_allowance": 0.00014181911302802374
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0032627785488728023,
+          "max_ratio_to_allowance": 0.003344791367033703
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 2.753353101070388e-13,
+          "max_ratio_to_allowance": 1.3766765505351941e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 16
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 2.840177828922208e-06,
+          "max_ratio_to_allowance": 9.80092136556782e-05
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0022648524566903916,
+          "max_ratio_to_allowance": 0.002321936849761627
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 3.197442310920451e-13,
+          "max_ratio_to_allowance": 1.5987211554602254e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 32
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 3.5606848278746384e-06,
+          "max_ratio_to_allowance": 0.00012280902790921783
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0028247981936218025,
+          "max_ratio_to_allowance": 0.002895316268425481
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 1.2434497875801753e-14,
+          "max_ratio_to_allowance": 6.217248937900877e-14
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 32
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 2.40487257974209e-06,
+          "max_ratio_to_allowance": 8.294493993456067e-05
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.001917611880898562,
+          "max_ratio_to_allowance": 0.001965596837233579
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 1.5987211554602254e-14,
+          "max_ratio_to_allowance": 7.993605777301127e-14
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 64
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 3.2577065591787857e-06,
+          "max_ratio_to_allowance": 0.0001123280558738589
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.002583114114237617,
+          "max_ratio_to_allowance": 0.0026473879787373817
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 2.3092638912203256e-14,
+          "max_ratio_to_allowance": 1.1546319456101628e-13
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 64
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 2.103581650869657e-06,
+          "max_ratio_to_allowance": 7.253316520858617e-05
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0016772737801744597,
+          "max_ratio_to_allowance": 0.001719099260693096
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 3.552713678800501e-15,
+          "max_ratio_to_allowance": 1.7763568394002505e-14
+        },
+        "all_targets_pass": true
+      }
+    ],
+    "snow": [
+      {
+        "fixed": {
+          "dt": 5
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 5
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 10
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 10
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 20
+        },
+        "varied": "grid",
+        "from": 16,
+        "to": 32,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "dt": 20
+        },
+        "varied": "grid",
+        "from": 32,
+        "to": 64,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 3.552713678800501e-15,
+          "max_ratio_to_allowance": 1.7763568394002505e-14
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 16
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0011051883271484542,
+          "max_ratio_to_allowance": 0.006133887448317992
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 1.4583889651476056e-12,
+          "max_ratio_to_allowance": 7.291944825738028e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 16
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.000605717204862799,
+          "max_ratio_to_allowance": 0.0033621935029837665
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-13,
+          "max_ratio_to_allowance": 2.220446049250313e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 32
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0011051883271484542,
+          "max_ratio_to_allowance": 0.006133887448317992
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 1.4583889651476056e-12,
+          "max_ratio_to_allowance": 7.291944825738028e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 32
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.000605717204862799,
+          "max_ratio_to_allowance": 0.0033621935029837665
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-13,
+          "max_ratio_to_allowance": 2.220446049250313e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 64
+        },
+        "varied": "dt",
+        "from": 20,
+        "to": 10,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.0011051883271484542,
+          "max_ratio_to_allowance": 0.006133887448317992
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 1.4619416788264061e-12,
+          "max_ratio_to_allowance": 7.30970839413203e-12
+        },
+        "all_targets_pass": true
+      },
+      {
+        "fixed": {
+          "grid": 64
+        },
+        "varied": "dt",
+        "from": 10,
+        "to": 5,
+        "water": {
+          "pass": true,
+          "max_abs_error": 0.0,
+          "max_ratio_to_allowance": 0.0
+        },
+        "energy": {
+          "pass": true,
+          "max_abs_error": 0.000605717204862799,
+          "max_ratio_to_allowance": 0.0033621935029837665
+        },
+        "temperature": {
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-13,
+          "max_ratio_to_allowance": 2.220446049250313e-12
+        },
+        "all_targets_pass": true
+      }
+    ]
+  },
+  "CFD_grid_study": [
+    {
+      "from": "reference-coarse",
+      "to": "reference-medium",
+      "relative_L2_probe_change": 0.14519466966612304,
+      "pressure_only_axis_moment_change_Nm": -0.2639481507101043
+    },
+    {
+      "from": "reference-medium",
+      "to": "reference-fine",
+      "relative_L2_probe_change": 0.12884540054920526,
+      "pressure_only_axis_moment_change_Nm": 0.13065182924388696
+    }
+  ],
+  "steady_CFD_note": "SIMPLE iteration/deltaT is not physical transient time",
+  "whole_device_independence_established": false,
+  "why_not_whole_device": "CFD load grid dependence, eight-node spatial approximation and unresolved physical models remain distinct"
+}

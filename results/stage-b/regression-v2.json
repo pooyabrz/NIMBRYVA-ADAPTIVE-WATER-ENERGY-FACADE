@@ -1,0 +1,9 @@
+{
+  "command": "python run.py check",
+  "date_utc": "2026-10-17",
+  "passed": 31,
+  "total": 31,
+  "reported_runtime_s": 8.135,
+  "result": "OK",
+  "record_type": "summary of observed test-run output after physics.py wall/ground boundary edit; not a full stdout capture"
+}

@@ -1,0 +1,84 @@
+parameter,active_value,screening_low,screening_high,source_id,evidence,unit,interval_meaning
+area_m2,1.9981079999999998,1.9981079999999998,1.9981079999999998,TRINA,derived_from_frozen_dimensions,m2,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+dew_area_m2,1.6,1.6,1.6,DESIGN,fixed_design_or_numerical_choice,m2,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+panel_width_m,1.134,1.132,1.136,TRINA,datasheet,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+rotation_chord_m,1.762,1.76,1.764,TRINA,datasheet,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+wall_standoff_m,1.0,0.95,1.25,DESIGN,design_choice,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+mounting_height_m,8.0,2.0,10.0,DESIGN,design_choice,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+building_height_m,11.8872,11.8872,11.8872,DOE,source_model,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+building_width_m,49.911,49.911,49.911,DOE,source_model,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+facade_azimuth_north_cw_deg,180.0,0.0,270.0,DESIGN,design_choice,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+ground_shortwave_albedo,0.2,0.2,0.2,DESIGN,fixed_design_or_numerical_choice,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_efficiency_at25,0.2177059498285378,0.21,0.227,TRINA,derived_rating,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_gamma_per_K,-0.003,-0.003,-0.003,TRINA,datasheet,K^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_effective_absorptance,0.9,0.8,0.96,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_longwave_emissivity,0.84,0.78,0.92,FLOAT,generic_bare_glass_proxy,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_solar_heat_cell_fraction,0.95,0.8,1,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_capacity_multiplier,1.0,0.5,1.5,DESIGN,screening_multiplier,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+laminate_contact_R_m2_K_W,0.0,0,0.01,DESIGN,unmeasured_prior,m2 K W^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pv_xps_contact_R_m2_K_W,0.01,0.001,0.1,DESIGN,unmeasured_prior,m2 K W^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+frame_cp_J_kg_K,900.0,700,1000,DESIGN,aluminium_property_proxy,J kg^-1 K^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+frame_pv_contact_W_K,2.0,0.1,10,DESIGN,unmeasured_prior,W K^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+frame_ambient_W_K,0.5,0,5,DESIGN,unmeasured_prior,W K^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+bridge_multiplier,1.0,0.1,10,DESIGN,screening_multiplier,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+cavity_gap_m,0.02,0.01,0.04,DESIGN,design_choice,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+port_inlet_m2,0.01134,0.00567,0.02268,DESIGN,proposed_geometry,m2,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+port_outlet_m2,0.01134,0.00567,0.02268,DESIGN,proposed_geometry,m2,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+port_discharge_coefficient,0.6,0.4,0.8,ENERGYPLUS_AFN,uncalibrated_network_input,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+port_delta_Cp,0.2,-0.6,0.6,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+channel_h_multiplier,1.0,0.5,2,DESIGN,closure_sensitivity,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+cavity_radiation_effective_epsilon,0.8,0.2,0.95,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+lewis_number,0.86,0.7,1,DESIGN,humid_air_proxy,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+external_h_multiplier,1.0,0.5,2,ANSYS_FLAT_PLATE,closure_sensitivity,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+natural_convection_floor_W_m2_K,2.5,1,5,DESIGN,unmeasured_floor,W m^-2 K^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+rain_interception_efficiency,0.85,0.5,1,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+drop_fall_speed_m_s,6.0,3,9,DESIGN,monodisperse_rain_proxy,s,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+jump_fraction,0.8,0,1,DESIGN,unidentified_transport_fraction,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+collector_efficiency,0.85,0,1,DESIGN,unidentified_capture_fraction,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+coating_condition,1.0,0,1,DESIGN,stress_state_not_time_law,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+droplet_footprints_m2,1000000.0,1000.0,100000000.0,DESIGN,unidentified_population,m^-2,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+outer_adv_deg,100.0,60,120,DESIGN,unmeasured_prior,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+outer_rec_deg,60.0,20,90,DESIGN,unmeasured_prior,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+water_viscosity_Pa_s,0.001,0.0005,0.0018,DESIGN,near_20C_proxy,Pa s,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+battery_capacity_Wh,200.0,100,500,DESIGN,design_choice,Wh,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+charge_efficiency,0.95,0.85,0.99,DESIGN,design_choice,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+discharge_efficiency,0.95,0.85,0.99,DESIGN,design_choice,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+dc_efficiency,0.95,0.85,0.99,DESIGN,design_choice,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+idle_W,0.5,0.2,2,DESIGN,unmeasured_controller_load,W,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_running_W,30.0,30,30,HANGTUO_SE3,catalogue_motor_nominal_not_load_curve,W,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_running_upper_W,72.0,72,72,HANGTUO_SE3,derived_24V_times_3A_running_envelope,W,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_output_rpm,0.065,0.065,0.065,HANGTUO_SE3,catalogue_combined_output,rev min^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_ramp_s,5.0,1,20,DESIGN,controller_choice,s,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_rated_output_Nm,600.0,600,600,HANGTUO_SE3,catalogue_combined_output,N m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_holding_Nm,3000.0,3000,3000,HANGTUO_SE3,catalogue,N m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_tilting_Nm,1500.0,1500,1500,HANGTUO_SE3,catalogue,N m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_radial_N,16000.0,16000,16000,HANGTUO_SE3,catalogue,N,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_min_output_deg,0.0,0,0,DESIGN,unconfirmed_cable_limit,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_max_output_deg,360.0,360,360,DESIGN,unconfirmed_cable_limit,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_accuracy_deg,0.1,0.1,0.1,HANGTUO_SE3,catalogue_precision_not_loaded_error,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_temperature_min_C,-30.0,-30,-30,HANGTUO_SE3,catalogue,degC,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+motor_temperature_max_C,80.0,80,80,HANGTUO_SE3,catalogue,degC,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+pivot_CG_offset_m,0.002,0.0,0.005,DESIGN,design_tolerance,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+bearing_friction_Nm,0.3,0.1,1.0,DESIGN,unmeasured_prior,N m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+wind_force_coefficient,1.5,1.0,2.0,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+wind_CP_offset_fraction,0.25,0.0,0.5,DESIGN,unmeasured_prior,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+wind_gust_factor,1.5,1,2,DESIGN,not_a_code_gust_conversion,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+wind_mount_lever_m,0.1,0.05,0.3,DESIGN,unconfirmed_bracket_geometry,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+torque_screening_factor,2.0,2.0,2.0,DESIGN,engineering_screen,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+clearance_allowance_m,0.05,0.05,0.05,DESIGN,design_choice,m,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+terrain_alpha,0.22,0.14,0.33,ENERGYPLUS;DESIGN,terrain_scenario,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+local_lapse_K_m,-0.0065,-0.01,0.0,ENERGYPLUS,background_atmosphere_proxy,K m^-1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+spectral_points,512,512,2048,DESIGN,numerical_resolution,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+dew_unknown_tail_epsilon,0.9,0,1,DESIGN,missing_spectrum_scenario,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+dew_angular_multiplier,1.0,0.8,1,DESIGN,unmeasured_angle_sensitivity,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+sky_temperature_cap_offset_K,10.0,5,20,DESIGN,spectral_envelope_boundary,K,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+wall_temperature_offset_K,0.0,-10,15,DESIGN,unmeasured_boundary,K,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+integration_dt_s,60.0,15,60,DESIGN,numerical_resolution,s,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+nonlinear_tolerance_K,1e-07,1e-09,1e-07,DESIGN,numerical_tolerance,K,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+geometry_angle_step_deg,2.0,0.5,4,DESIGN,numerical_resolution,degree,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+geometry_rays,1024,1024,8192,DESIGN,numerical_resolution,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+geometry_area_samples,3,3,7,DESIGN,numerical_resolution,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+reward_water_per_L,1.0,1.0,1.0,DESIGN,fixed_design_or_numerical_choice,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+reward_unserved_per_Wh,1.0,1.0,1.0,DESIGN,fixed_design_or_numerical_choice,Wh,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+reward_switch_penalty,0.002,0.002,0.002,DESIGN,fixed_design_or_numerical_choice,1,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance
+reward_final_SOC_deficit_per_Wh,0.1,0.1,0.1,DESIGN,fixed_design_or_numerical_choice,Wh,Epistemic or design/numerical screening; NOT a confidence interval or manufacturer tolerance

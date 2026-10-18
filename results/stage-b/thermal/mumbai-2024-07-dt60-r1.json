@@ -1,0 +1,63 @@
+{
+  "city": "mumbai",
+  "year": 2024,
+  "month": 7,
+  "hours": 48,
+  "warmup_hours": 48,
+  "dt_s": 60,
+  "wall_cells_each_mass_layer": 4,
+  "ground_cells": 30,
+  "deep_ground_C": 15,
+  "max_balance_residual_J": 1.1919764801859856e-06,
+  "wall_air_max_difference_K": 6.099215194398052,
+  "ground_air_max_difference_K": 9.998760533936402,
+  "source_wall": {
+    "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+    "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+    "construction": "nonres_ext_wall_top",
+    "order": "outside to inside",
+    "layers": [
+      {
+        "name": "F07 25mm stucco",
+        "thickness_m": 0.0254,
+        "k_W_m_K": 0.72,
+        "rho_kg_m3": 1856.0,
+        "cp_J_kg_K": 840.0,
+        "epsilon_LW": 0.9,
+        "alpha_SW": 0.7
+      },
+      {
+        "name": "G01 16mm gypsum board",
+        "thickness_m": 0.0159,
+        "k_W_m_K": 0.16,
+        "rho_kg_m3": 800.0,
+        "cp_J_kg_K": 1090.0,
+        "epsilon_LW": 0.9,
+        "alpha_SW": 0.7
+      },
+      {
+        "name": "Nonres_Exterior_Wall_Insulation_top",
+        "R_m2_K_W": 0.394071549744213,
+        "epsilon_LW": 0.9,
+        "alpha_SW": 0.7
+      },
+      {
+        "name": "G01 16mm gypsum board",
+        "thickness_m": 0.0159,
+        "k_W_m_K": 0.16,
+        "rho_kg_m3": 800.0,
+        "cp_J_kg_K": 1090.0,
+        "epsilon_LW": 0.9,
+        "alpha_SW": 0.7
+      }
+    ],
+    "no_mass_layer": "resistance is retained without invented mass/thickness"
+  },
+  "CFD_convection_used": false,
+  "limitations": [
+    "dry ground property/deep-temperature scenario",
+    "no ground evapotranspiration or urban canopy",
+    "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+    "warm-up sufficiency not assumed"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "Unvalidated computational research checkpoint",
+  "reference_year": 2024,
+  "cities": 12,
+  "source_hours_per_city": 8784,
+  "total_city_hours": 105408,
+  "base_checks_passed": 26,
+  "checks_including_gymnasium_passed": 27,
+  "seasonal_runs": 96,
+  "unsupported_seasonal_runs": 15,
+  "local_viewer": "Geometry, callbacks and reference calculation checked with a headless backend; no in-chat visualization.",
+  "trained_RL_policy_included": false,
+  "high_fidelity_CFD_completed": false,
+  "empirical_device_validation": false
+}

@@ -1,0 +1,718 @@
+{
+  "version": "CDE-1",
+  "numerical_comparisons": [
+    {
+      "source": "numerics-coupled.json",
+      "comparisons": 12,
+      "passed_initial_targets": 12,
+      "max_mass_residual_kg": 6.661338147750939e-15
+    },
+    {
+      "source": "numerics-coupled-pv.json",
+      "comparisons": 12,
+      "passed_initial_targets": 12,
+      "max_mass_residual_kg": 2.4424906541753444e-15
+    },
+    {
+      "source": "numerics-film.json",
+      "comparisons": 36,
+      "passed_initial_targets": 36,
+      "max_mass_residual_kg": 4.0620284913472915e-14
+    }
+  ],
+  "Richardson_diagnostics": [
+    {
+      "source": "numerics-coupled.json",
+      "quantity": "water",
+      "refinement": "wall/ground, fixed physical dt30s",
+      "status": "monotone_three_level_estimate_asymptotic_not_proven",
+      "observed_order": 8.93115752826555,
+      "extrapolated": 0.003735573053074141,
+      "GCI_absolute": 9.443227033338617e-11,
+      "GCI_relative": 2.5279191995974267e-08,
+      "safety_factor": 1.25,
+      "limitation": "three levels alone do not prove asymptotic range; refinement scheme and iterative convergence must also hold"
+    },
+    {
+      "source": "numerics-coupled.json",
+      "quantity": "energy",
+      "refinement": "wall/ground, fixed physical dt30s",
+      "status": "monotone_three_level_estimate_asymptotic_not_proven",
+      "observed_order": 5.813215525394023,
+      "extrapolated": 1.706114856509877,
+      "GCI_absolute": 1.0517402865553857e-07,
+      "GCI_relative": 6.164534201260024e-08,
+      "safety_factor": 1.25,
+      "limitation": "three levels alone do not prove asymptotic range; refinement scheme and iterative convergence must also hold"
+    },
+    {
+      "source": "numerics-coupled-pv.json",
+      "quantity": "water",
+      "refinement": "wall/ground, fixed physical dt30s",
+      "status": "below_absolute_resolution",
+      "absolute_floor": 1e-10,
+      "GCI": null
+    },
+    {
+      "source": "numerics-coupled-pv.json",
+      "quantity": "energy",
+      "refinement": "wall/ground, fixed physical dt30s",
+      "status": "oscillatory_or_degenerate",
+      "GCI": null
+    }
+  ],
+  "numerical_error_is_model_error": false,
+  "whole_device_grid_time_independence": false,
+  "measured_validation": {
+    "PV_linear_closure": {
+      "MAPE_range_percent": [
+        1.829225187567723,
+        4.693961005105638
+      ]
+    },
+    "wall_flux_closure_holdout_MAPE_percent": 45.311566274113446,
+    "dew_rate_integrated_error_percent": [
+      8.789679680440445,
+      -9.660781423007926
+    ],
+    "full_coupled_radiative_dew_validation": false,
+    "3D_CFD_experimentally_validated": false,
+    "unknown_facade_PV_BOM_validated": false
+  },
+  "surrogate_test": {
+    "samples": 2304,
+    "temperature_MAE_K_by_node": [
+      0.8633813041626843,
+      0.8724337640714932,
+      0.8896659391107983,
+      0.8767184883387517,
+      0.8715906376055176,
+      0.5252799080814016,
+      0.5860046264112481,
+      0.577291101343881
+    ],
+    "temperature_RMSE_K_by_node": [
+      1.4539658033139968,
+      1.4694042041741717,
+      1.4919055525418297,
+      1.477152031180279,
+      1.4575123035986632,
+      0.8083686090693781,
+      0.9583873926101485,
+      0.8480062741410209
+    ],
+    "surface_max_abs_p95_K": 3.0363940518541477,
+    "water_MAE_L_by_rain_cond_evap_drain_loss_film": [
+      0.01246002358203525,
+      0.0006986207891376654,
+      0.015690960962510443,
+      9.478845508576988e-05,
+      2.6280051993024143e-05,
+      0.22438221729263608,
+      0.2702366314554613,
+      6.80839802889102e-05
+    ],
+    "drain_RMSE_L": 0.00027606762741938577,
+    "drain_mean_reference_L": 0.00024192254834786992,
+    "pv_MAE_Wh": 4.474014915686305,
+    "pv_RMSE_Wh": 8.349642886634168,
+    "unsupported_reference": 136,
+    "false_accept_at_0_9": 24,
+    "supported_reference": 2168,
+    "true_accept_at_0_9": 2135
+  },
+  "after_projection": {
+    "drain_MAE_L": 0.0003676791916438415,
+    "drain_RMSE_L": 0.001585293206275782,
+    "drain_abs_error_p95_L": 0.002038774350467536,
+    "reference_mean_drain_L": 0.00024192254834786992,
+    "nearzero_reference_count": 1974,
+    "nearzero_false_positive_above_0_0001L": 230,
+    "surface_abs_error_p95_K": [
+      2.835032089431735,
+      1.779620134546608
+    ],
+    "PV_abs_error_p95_Wh": 16.833853489192986
+  },
+  "scenario_envelopes": [
+    {
+      "city": "bandar-abbas",
+      "conditional_hours": 44,
+      "water_L_range": [
+        0.0,
+        0.00880243383958056
+      ],
+      "PV_Wh_range": [
+        4236.599669177863,
+        4608.924863380909
+      ],
+      "type": "one-at-a-time scenario envelope, not combined or probabilistic uncertainty"
+    },
+    {
+      "city": "singapore",
+      "conditional_hours": 44,
+      "water_L_range": [
+        0.009092876645892749,
+        3.191494074150635
+      ],
+      "PV_Wh_range": [
+        2832.3603350032995,
+        3094.3907321592833
+      ],
+      "type": "one-at-a-time scenario envelope, not combined or probabilistic uncertainty"
+    }
+  ],
+  "controller_replay_diagnostics": [
+    {
+      "controller": "fixed",
+      "teacher_conditional_drain_L": 0.0,
+      "emulator_conditional_drain_L": 0.08214129548640083,
+      "teacher_PV_Wh": 19944.786725105307,
+      "teacher_motor_Wh": 0.0,
+      "teacher_unsupported_hours": 11
+    },
+    {
+      "controller": "mpc",
+      "teacher_conditional_drain_L": 0.19717706653702877,
+      "emulator_conditional_drain_L": 0.16667548573580865,
+      "teacher_PV_Wh": 6410.826202882447,
+      "teacher_motor_Wh": 65.71538461538461,
+      "teacher_unsupported_hours": 3
+    },
+    {
+      "controller": "ppo",
+      "teacher_conditional_drain_L": 0.15721844793889933,
+      "emulator_conditional_drain_L": 0.17760594945370717,
+      "teacher_PV_Wh": 284.3958866706288,
+      "teacher_motor_Wh": 40.4,
+      "teacher_unsupported_hours": 3
+    },
+    {
+      "controller": "rule",
+      "teacher_conditional_drain_L": 0.19194937666688217,
+      "emulator_conditional_drain_L": 0.15914160040957073,
+      "teacher_PV_Wh": 18841.91186465329,
+      "teacher_motor_Wh": 152.8,
+      "teacher_unsupported_hours": 3
+    }
+  ],
+  "tracking_dt_comparisons": [
+    {
+      "grid": "coarse",
+      "dt_from": 0.1,
+      "dt_to": 0.05,
+      "absolute_eta_difference": 0.009319881435328137,
+      "relative_difference": 0.015324243650343003,
+      "two_percent_difference_pass": true,
+      "paired_sampling_uncertainty_quantified": false,
+      "sampling_uncertainty_note": "same random source draws reduce variance of differences; paired covariance is not estimated"
+    },
+    {
+      "grid": "coarse",
+      "dt_from": 0.05,
+      "dt_to": 0.025,
+      "absolute_eta_difference": 0.006892433591242697,
+      "relative_difference": 0.01133290508349616,
+      "two_percent_difference_pass": true,
+      "paired_sampling_uncertainty_quantified": false,
+      "sampling_uncertainty_note": "same random source draws reduce variance of differences; paired covariance is not estimated"
+    },
+    {
+      "grid": "medium",
+      "dt_from": 0.1,
+      "dt_to": 0.05,
+      "absolute_eta_difference": 0.013518285736432767,
+      "relative_difference": 0.020108404516222818,
+      "two_percent_difference_pass": false,
+      "paired_sampling_uncertainty_quantified": false,
+      "sampling_uncertainty_note": "same random source draws reduce variance of differences; paired covariance is not estimated"
+    },
+    {
+      "grid": "medium",
+      "dt_from": 0.05,
+      "dt_to": 0.025,
+      "absolute_eta_difference": 0.022735184421521004,
+      "relative_difference": 0.03451250161999014,
+      "two_percent_difference_pass": false,
+      "paired_sampling_uncertainty_quantified": false,
+      "sampling_uncertainty_note": "same random source draws reduce variance of differences; paired covariance is not estimated"
+    },
+    {
+      "grid": "fine",
+      "dt_from": 0.1,
+      "dt_to": 0.05,
+      "absolute_eta_difference": 0.015215730290479734,
+      "relative_difference": 0.02349960802813911,
+      "two_percent_difference_pass": false,
+      "paired_sampling_uncertainty_quantified": false,
+      "sampling_uncertainty_note": "same random source draws reduce variance of differences; paired covariance is not estimated"
+    },
+    {
+      "grid": "fine",
+      "dt_from": 0.05,
+      "dt_to": 0.025,
+      "absolute_eta_difference": 0.011117748476443978,
+      "relative_difference": 0.01758377991794934,
+      "two_percent_difference_pass": true,
+      "paired_sampling_uncertainty_quantified": false,
+      "sampling_uncertainty_note": "same random source draws reduce variance of differences; paired covariance is not estimated"
+    }
+  ],
+  "SST_comparison_cases": 2,
+  "SST_building_residual_gate": false,
+  "qualification": {
+    "C_whole_device": false,
+    "D_whole_product": false,
+    "E_high_fidelity_surrogate": false,
+    "RL_superiority": false
+  },
+  "no_physical_prototype_or_new_experiment_performed": true,
+  "all_product_yield_remains_conditional": true,
+  "measurement_uncertainty": "rain ETOT/adhesion loss supplied by experiment; no invented matrix/dew metrology uncertainty",
+  "climate_inference": "20 additional city-years available, policies evaluated on selected warm episodes, not continuous multi-year yield",
+  "code_sha256": {
+    "src/stagecde/__init__.py": "663b7766155112f990d84dcf5d8a910c4a9f9bfe0a10dadce48932d7f380778e",
+    "src/stagecde/assessment.py": "c4c4ccd9d50f7fdf0ebaafd18165c0da4f64ecd068e8147e1be39a5d05166f31",
+    "src/stagecde/control.py": "e5ffa30fbf59581385063ceb0ee7f91e6967df7e1099447cc3c4bc0d33a52b6c",
+    "src/stagecde/convergence.py": "05c18c804fc49a665ec133c63c8e2ee125892c3bdef9ed312699ccf8dee5c770",
+    "src/stagecde/datasets.py": "802bca6d078994a728ddbc87b77def0bc2af78d95a47bc8a492cd38a3c85071a",
+    "src/stagecde/experiments.py": "d6e2adba01b46a97b349bdd629385552e634be39ccc02c65c3747b0c092b2b4f",
+    "src/stagecde/numerics.py": "5983cca6fb259cb743a10c720c682fb42fe624cdc93001c863a78523780e274b",
+    "src/stagecde/plant.py": "daa8cb3de382d8229a9f57b60368f44aaeae82c573058d1347f3a8cd7c375209",
+    "src/stagecde/report.py": "62ca6750f638b0c86e900e58561fcb2d2e61364b563a215b06554dbab78a03a7",
+    "src/stagecde/sensitivity.py": "706f9216230c65677a9a11a17ca990f03e184e45ac0d17c7246a87456f9592d8",
+    "src/stagecde/surrogate.py": "4db565310e7680d57c7abbdf8116da307e7b4b0edee40e38f3806aee106a64c4",
+    "src/stagecde/tracking.py": "6ab00a70c01b5968cd0952ee2c8fbc2634e02801395f5b814f450421536242d8",
+    "src/stagecde/transitions.py": "c4dfc4cc5f3af0c4ece0b768eb3e63e8bd303b15dfb9ee1bf20055dd1cb08d63",
+    "src/stagecde/turbulence.py": "0a4690553ba2250302ec6e5aefac8796b810e4217d12afcd9cb33bc244d86cdd",
+    "src/stagecde/verify.py": "4dacb1e665c938b86d690a271c1aab194ea477c428eb6b01af15a1b89cee5ab1",
+    "src/stagecde/view_local.py": "76baa55b9cbbb48fa0a2ac1ea53aa685716724662b79032e5764edb9d8d896d4",
+    "src/stagecde/warmup_audit.py": "1f213a5380efa4459509e80babbd1523394259f879028b41844fbcf6a963c6aa"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "pvlib": "0.16.1",
+    "torch": "2.6.0+cpu",
+    "stable-baselines3": "2.7.1",
+    "gymnasium": "1.2.2",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2"
+  },
+  "software_checks": {
+    "cassette": {
+      "model_version": "cassette-v2.0",
+      "tests": 31,
+      "failures": 0,
+      "errors": 0,
+      "passed": true,
+      "seconds": 8.553805112838745,
+      "empirical_validation_performed": false
+    },
+    "stage_b": 35,
+    "research": 29
+  },
+  "warmup_reconstruction_audit": {
+    "records": [
+      {
+        "group": "selection-mumbai-2022-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-bandar-abbas-2022-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-mumbai-2022-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-bandar-abbas-2022-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-phoenix-2022-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-singapore-2022-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-singapore-2022-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "selection-phoenix-2022-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-dubai-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-bandar-abbas-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-bandar-abbas-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-dubai-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-istanbul-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-mumbai-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-istanbul-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-mumbai-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-phoenix-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-phoenix-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-rasht-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-rasht-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-singapore-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-seville-2023-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-seville-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "test-singapore-2023-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2020-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2020-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2020-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2020-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2021-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2021-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2021-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-bandar-abbas-2021-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2020-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2020-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2020-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2020-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2021-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2021-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2021-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-mumbai-2021-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2020-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2020-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2020-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2020-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2021-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2021-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2021-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-phoenix-2021-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2020-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2020-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2020-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2020-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2021-e0",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2021-e1",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2021-e2",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      },
+      {
+        "group": "train-singapore-2021-e3",
+        "warmup_resets": [],
+        "first_input_temperature_difference_K": 0.0,
+        "first_input_film_difference_kg": 0.0,
+        "reconstruction_pass": true
+      }
+    ],
+    "all_reconstructed": true,
+    "resets": 0,
+    "training_data_overwritten": false
+  }
+}

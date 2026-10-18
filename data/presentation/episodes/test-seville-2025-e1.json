@@ -1,0 +1,18 @@
+{
+  "city": "seville",
+  "year": 2025,
+  "episode": 1,
+  "group": "test-seville-2025-e1",
+  "start": "2025-08-26 06:00:00+00:00",
+  "end": "2025-08-28 06:00:00+00:00",
+  "hours": 48,
+  "intended_annual_fraction": 0.65,
+  "start_offset_from_target_hours": 0,
+  "annual_weather_hours": 8760,
+  "annual_weather_outside_preselection_hours": 986,
+  "annual_weather_outside_preselection_percent": 11.255707762557078,
+  "annual_thermodynamic_device_scope_evaluated": false,
+  "future_weather_used_for_window_domain_selection_only": true,
+  "site_elevation_m": 16.0,
+  "lat": 37.39
+}

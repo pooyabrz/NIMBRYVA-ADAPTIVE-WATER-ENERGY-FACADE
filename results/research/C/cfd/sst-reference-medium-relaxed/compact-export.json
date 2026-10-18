@@ -1,0 +1,14 @@
+{
+  "schema": "stage-b-compact-cfd/v1",
+  "source_time": "800",
+  "cells": 73493,
+  "U_sha256": "eb69ac9c709e80776abb9f762741fc4983ca990c1daf22a5c075e2aa64307672",
+  "case_definition_sha256": "12f3a969da71cd8524a3601431a555e6c44a7d4281d444aec23a0fc6dc01c99a",
+  "NPZ_sha256": "56a45ee4cb3522432fa727bfc6ebbf5bb1087bfc735b2eba501f8132753e93db",
+  "coordinates": "OpenFOAM X downwind, Y lateral, Z up, m",
+  "T": "K",
+  "Yv": "water-vapour mass fraction, kg/kg moist air",
+  "p": "kinematic pressure m2/s2, gauge",
+  "contains": "actual internal cell fields, lossless float64 values parsed from solver ASCII output",
+  "rebuild_mesh": "rerun stage-b cfd generate/run with archived case.json and system/constant inputs"
+}

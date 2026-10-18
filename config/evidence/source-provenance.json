@@ -1,0 +1,92 @@
+[
+  {
+    "source_id": "DOE",
+    "url": "https://energycodes.gov/sites/default/files/2023-10/ASHRAE901_OfficeMedium_STD2019.zip",
+    "bytes": 6052285,
+    "sha256": "8431a33c3c27c0c34b1efc31be5f558b2b17e29a8850accc1bbce5f4f0dc5f7c",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "doe-office.zip",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "TRINA",
+    "url": "https://static.trinasolar.com/sites/default/files/NEG9R.28_DE.pdf",
+    "bytes": 1937743,
+    "sha256": "ce3b8aaa72672ea200c5d7b556774fe36dc7dd22f2450a2f587d45b9f5e3931e",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "trina-2023.pdf",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "HAECHLER",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8221617/",
+    "bytes": 125350,
+    "sha256": "dd0fc8a2ccabdd62eca1f3d481355963b0c374f7dc83300f9e5087d3dbe9085f",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "haechler.xml",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "DOW",
+    "url": "https://www.dow.com/en-us/pdp.sylgard-184-silicone-elastomer-kit.01064291z.html",
+    "bytes": 301412,
+    "sha256": "1ec971183dd045e02c4cc7186f01ed740f9ebe592d5b990c53b56f2f442ddb51",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "dow.html",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "PDMS_CP",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8226984/",
+    "bytes": 104062,
+    "sha256": "e1b6420bf9cc3a69ed308085097ccf366431a2b3120f25f76d685b36248fb1a6",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "pdms-thermal.xml",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "SILICA",
+    "url": "https://hebo-glass.com/pdf/datasheets/HEBO_Spezialglas_FSUV1_FQVIS2.pdf",
+    "bytes": 145809,
+    "sha256": "19582316d0e7207a79781e89607da3af01242b646a48831660cc4e34633990f9",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "silica.pdf",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "FLOAT",
+    "url": "https://www.pilkington.com/-/media/pilkington/site-content/usa/window-manufacturers/technical-bulletins/ats-129---properties-of-soda-lime-silica-float-glass.pdf",
+    "bytes": 95263,
+    "sha256": "522bcd3755480e473b98541cc8de38062a6fccc21a57fae4f6d2e37a7a6035dd",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "float-glass.pdf",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "PVT",
+    "url": "https://www.mdpi.com/1996-1073/14/23/8162",
+    "bytes": 8601666,
+    "sha256": "ff2214c1d7276d40534ed38b3f404ebff79dc3375471f4bf90e7463c8d83c04d",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "pvthermal.pdf",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "URSA",
+    "url": "https://d7rh5s3nxmpy4.cloudfront.net/CMP1520/files/2/URSA_XPS_F_HR_L_eng.pdf",
+    "bytes": 147373,
+    "sha256": "c9522710ce6d4c33b59bc84ae41f0d2b323a23d0a85a0a035141a8253f7860cd",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "ursa.pdf",
+    "full_document_redistributed": false
+  },
+  {
+    "source_id": "BELIMO",
+    "url": "https://www.belimo.com/mam/general-documents/datasheets/en-gb/belimo_GM24A-SR_datasheet_en-gb.pdf",
+    "bytes": 1475926,
+    "sha256": "084ae573ef9f2386707d1b48dc8dc1c6e1fff73381587e350ab7482df88f4f01",
+    "retrieval_date_UTC": "2026-10-17",
+    "local_research_file": "gm.pdf",
+    "full_document_redistributed": false
+  }
+]

@@ -1,0 +1,3584 @@
+{
+  "release": "stage-b-reference-1",
+  "date_utc": "2026-10-17",
+  "base_model": "cassette-v2.0",
+  "verification": {
+    "checks": [
+      {
+        "name": "layered steady conduction including massless R",
+        "pass": true,
+        "flux_W_m2": 31.842097457587442,
+        "analytic_W_m2": 31.84209745758686
+      },
+      {
+        "name": "massless resistance has no invented heat capacity",
+        "pass": true
+      },
+      {
+        "name": "conduction matrix conserves heat",
+        "pass": true
+      },
+      {
+        "name": "slab Fourier mode spatial convergence",
+        "pass": true,
+        "rms_K": [
+          0.00205045941117481,
+          0.0005393613463642994,
+          0.00016142892290610858
+        ]
+      },
+      {
+        "name": "slab Fourier mode backward Euler temporal convergence",
+        "pass": true,
+        "rms_K": [
+          0.002834537527538297,
+          0.0014409442422021258,
+          0.0007382251428483213
+        ]
+      },
+      {
+        "name": "wall and ground temperatures solved independently",
+        "pass": true,
+        "wall_C": 23.11462735677177,
+        "ground_C": 31.884629514463644
+      },
+      {
+        "name": "scene energy includes deep-ground boundary",
+        "pass": true,
+        "residual_J": -7.82310962677002e-08
+      },
+      {
+        "name": "ice/water saturation matches independent project API",
+        "pass": true
+      },
+      {
+        "name": "enthalpy inverse preserves melting plateau",
+        "pass": true
+      },
+      {
+        "name": "latent heat ledger exact",
+        "pass": true
+      },
+      {
+        "name": "analytic constant-flux freezing plateau",
+        "pass": true
+      },
+      {
+        "name": "analytic constant-flux melting plateau",
+        "pass": true
+      },
+      {
+        "name": "Nusselt smooth-film initial drainage flux analytic",
+        "pass": true,
+        "computed_kg": 2.2717285128052885e-06,
+        "analytic_kg": 2.2717285128052885e-06
+      },
+      {
+        "name": "evaporation cannot consume missing water",
+        "pass": true
+      },
+      {
+        "name": "wet film drainage and re-evaporation coexist",
+        "pass": true
+      },
+      {
+        "name": "film transport conserves mass and enthalpy",
+        "pass": true,
+        "energy_residual_J": -7.275957614183426e-12
+      },
+      {
+        "name": "spatial rain handoff preserves integrated mass",
+        "pass": true
+      },
+      {
+        "name": "snow forcing is water-equivalent mass",
+        "pass": true
+      },
+      {
+        "name": "cold surface retains solid inventory and closes balances",
+        "pass": true
+      },
+      {
+        "name": "sublimation is present",
+        "pass": true
+      },
+      {
+        "name": "supercooled rain rejected explicitly",
+        "pass": true
+      },
+      {
+        "name": "terminal drag balance D=0.00025m",
+        "pass": true,
+        "terminal_m_s": 0.9433457139216455
+      },
+      {
+        "name": "terminal drag balance D=0.001m",
+        "pass": true,
+        "terminal_m_s": 3.866462791617576
+      },
+      {
+        "name": "terminal drag balance D=0.004m",
+        "pass": true,
+        "terminal_m_s": 9.946768431114814
+      },
+      {
+        "name": "DSD integrates to specified horizontal rain",
+        "pass": true
+      },
+      {
+        "name": "nonlinear particle trajectory converges to independent DOP853 ODE",
+        "pass": true,
+        "relative_position_errors": [
+          0.002083390621620614,
+          0.001022651880916002,
+          0.0005063476357767696
+        ]
+      },
+      {
+        "name": "thin surface first impact without tunnelling",
+        "pass": true
+      },
+      {
+        "name": "uniform flow reproduced by interpolation",
+        "pass": true
+      },
+      {
+        "name": "corner rain source retains upstream AND roof patches",
+        "pass": true
+      },
+      {
+        "name": "CFD cannot be invented when no execution record exists",
+        "pass": true
+      },
+      {
+        "name": "compact CFD export corruption rejected",
+        "pass": true
+      },
+      {
+        "name": "DOE seed is reproducible",
+        "pass": true
+      },
+      {
+        "name": "DOE atmospheric constraints physical",
+        "pass": true
+      },
+      {
+        "name": "DOE flags buoyancy outside neutral-flow model",
+        "pass": true
+      },
+      {
+        "name": "executed Stefan front converges to analytic Neumann solution",
+        "pass": true,
+        "relative_errors": [
+          0.0058430328995380965,
+          0.001579685790850278,
+          0.0006252284374830086
+        ]
+      }
+    ],
+    "passed": 35,
+    "total": 35,
+    "experimental_validation": false
+  },
+  "stage_a_regression_checks": {
+    "passed": 31,
+    "total": 31,
+    "note": "executed after wall/ground boundary change; record regression-v2.json"
+  },
+  "thermal_cases": [
+    {
+      "city": "bandar-abbas",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2300442904233932e-06,
+      "wall_air_max_difference_K": 33.67132287073176,
+      "ground_air_max_difference_K": 16.59036396330263,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "bandar-abbas",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2754462659358978e-06,
+      "wall_air_max_difference_K": 10.14254917119802,
+      "ground_air_max_difference_K": 23.09690269537876,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "dubai",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.3336539268493652e-06,
+      "wall_air_max_difference_K": 32.78863063312891,
+      "ground_air_max_difference_K": 16.680818586423726,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "dubai",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2702075764536858e-06,
+      "wall_air_max_difference_K": 12.021277708385547,
+      "ground_air_max_difference_K": 26.04929004038373,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "istanbul",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1208467185497284e-06,
+      "wall_air_max_difference_K": 22.21821677502416,
+      "ground_air_max_difference_K": 7.375106749088109,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "istanbul",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1918600648641586e-06,
+      "wall_air_max_difference_K": 12.624470476492,
+      "ground_air_max_difference_K": 19.116326616527274,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "la-paz",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1888332664966583e-06,
+      "wall_air_max_difference_K": 16.2061240471321,
+      "ground_air_max_difference_K": 27.51016522371492,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "la-paz",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.118809450417757e-06,
+      "wall_air_max_difference_K": 5.293392606654095,
+      "ground_air_max_difference_K": 19.441755026651467,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "london",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1171214282512665e-06,
+      "wall_air_max_difference_K": 22.781253965318378,
+      "ground_air_max_difference_K": 3.8161953609253114,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "london",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1426163837313652e-06,
+      "wall_air_max_difference_K": 14.681908103318356,
+      "ground_air_max_difference_K": 15.902700172707455,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "mumbai",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2423843145370483e-06,
+      "wall_air_max_difference_K": 25.96413333346254,
+      "ground_air_max_difference_K": 17.767246037764213,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "mumbai",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1919764801859856e-06,
+      "wall_air_max_difference_K": 6.099215194398052,
+      "ground_air_max_difference_K": 9.998760533936402,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "phoenix",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.316308043897152e-06,
+      "wall_air_max_difference_K": 41.32400857014129,
+      "ground_air_max_difference_K": 13.82988978739531,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "phoenix",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2433156371116638e-06,
+      "wall_air_max_difference_K": 10.61080527607708,
+      "ground_air_max_difference_K": 23.042737694389494,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "rasht",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2277159839868546e-06,
+      "wall_air_max_difference_K": 39.781509454482574,
+      "ground_air_max_difference_K": 14.879989858793998,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "rasht",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2542586773633957e-06,
+      "wall_air_max_difference_K": 14.650660802831972,
+      "ground_air_max_difference_K": 23.127299856400626,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "reykjavik",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.0952353477478027e-06,
+      "wall_air_max_difference_K": 12.113404403226621,
+      "ground_air_max_difference_K": 5.283282503997151,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "reykjavik",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.1454103514552116e-06,
+      "wall_air_max_difference_K": 20.42727761833276,
+      "ground_air_max_difference_K": 17.1606662013033,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "seville",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2214295566082e-06,
+      "wall_air_max_difference_K": 25.78912344352039,
+      "ground_air_max_difference_K": 7.805926158373666,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "seville",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2315904314164072e-06,
+      "wall_air_max_difference_K": 16.93156626715289,
+      "ground_air_max_difference_K": 26.33380509136046,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "singapore",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2265518307685852e-06,
+      "wall_air_max_difference_K": 12.446818498107593,
+      "ground_air_max_difference_K": 15.33414182908994,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "singapore",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2737000361084938e-06,
+      "wall_air_max_difference_K": 8.21225353160067,
+      "ground_air_max_difference_K": 19.446794812846868,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "yazd",
+      "year": 2024,
+      "month": 1,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.239590346813202e-06,
+      "wall_air_max_difference_K": 33.86309762544034,
+      "ground_air_max_difference_K": 12.65119739672214,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    },
+    {
+      "city": "yazd",
+      "year": 2024,
+      "month": 7,
+      "hours": 48,
+      "warmup_hours": 48,
+      "dt_s": 60,
+      "wall_cells_each_mass_layer": 4,
+      "ground_cells": 30,
+      "deep_ground_C": 15,
+      "max_balance_residual_J": 1.2775999493896961e-06,
+      "wall_air_max_difference_K": 12.023762315335809,
+      "ground_air_max_difference_K": 22.969035898658014,
+      "source_wall": {
+        "source": "DOE Medium Office 90.1-2019 HoChiMinh IDF as frozen in Stage A",
+        "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+        "construction": "nonres_ext_wall_top",
+        "order": "outside to inside",
+        "layers": [
+          {
+            "name": "F07 25mm stucco",
+            "thickness_m": 0.0254,
+            "k_W_m_K": 0.72,
+            "rho_kg_m3": 1856.0,
+            "cp_J_kg_K": 840.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "Nonres_Exterior_Wall_Insulation_top",
+            "R_m2_K_W": 0.394071549744213,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          },
+          {
+            "name": "G01 16mm gypsum board",
+            "thickness_m": 0.0159,
+            "k_W_m_K": 0.16,
+            "rho_kg_m3": 800.0,
+            "cp_J_kg_K": 1090.0,
+            "epsilon_LW": 0.9,
+            "alpha_SW": 0.7
+          }
+        ],
+        "no_mass_layer": "resistance is retained without invented mass/thickness"
+      },
+      "CFD_convection_used": false,
+      "limitations": [
+        "dry ground property/deep-temperature scenario",
+        "no ground evapotranspiration or urban canopy",
+        "zone RC/HVAC parameters are design scenarios, not a full EnergyPlus run",
+        "warm-up sufficiency not assumed"
+      ]
+    }
+  ],
+  "thermal_cities": 12,
+  "thermal_scored_hours": 1152,
+  "thermal_sensitivity_max_difference_K": {
+    "rasht-2024-07-dt30-r2": {
+      "wall_C": 0.14218008340165156,
+      "ground_C": 0.37782114153055346
+    },
+    "rasht-2024-07-dt60-r1-wu168": {
+      "wall_C": 0.33332201996216426,
+      "ground_C": 0.9683808723077192
+    }
+  },
+  "CFD_reference_cases": [
+    {
+      "case": "reference-coarse",
+      "time": "190",
+      "cells": 31168,
+      "geometry": {
+        "patch_faces": {
+          "inlet": 640,
+          "outlet": 640,
+          "side1": 640,
+          "side2": 640,
+          "ground": 1224,
+          "top": 1024,
+          "building": 1396,
+          "cassette": 1514
+        },
+        "passed": true,
+        "cassette_area_m2": 4.290043766893268,
+        "physical_closed_box_area_m2": 4.405143603567995,
+        "relative_area_error": 0.02612850954086976,
+        "face_centre_bounds_error_m": 0.02125139807458787,
+        "geometry_tolerance_for_screening": 0.15,
+        "geometry_qualified_to_two_percent": false
+      },
+      "standard_checkMesh_passed": true,
+      "last_initial_residuals": {
+        "Ux": 6.813428584e-08,
+        "Uy": 7.91937054e-07,
+        "Uz": 9.775187116e-07,
+        "p": 1.212344573e-07,
+        "epsilon": 1.466927087e-08,
+        "k": 5.160201398e-07,
+        "T": 4.863715836e-07,
+        "Yv": 4.664013263e-09
+      },
+      "continuity_sum_local_last": 1.106721689e-11,
+      "finite_fields": true,
+      "flow_residual_gate_passed": true,
+      "scalar_residual_and_bounds_gate_passed": true,
+      "T_range_K": [
+        292.3958434,
+        293.4793324
+      ],
+      "Yv_range": [
+        0.009765322674,
+        0.0102
+      ],
+      "U_max_m_s": 6.897204553934405,
+      "bulk_Ri": 0.07953171405764968,
+      "neutral_RANS_Ri_below_0_1": true,
+      "flow_available_for_exploratory_particle_tracking": true,
+      "qualified_scalar_transfer_available": false,
+      "qualified_for_yield_surrogate_training": false,
+      "why_not_qualified": [
+        "scalar wall treatment has no resolved/prismatic boundary layers",
+        "independent physical validation absent",
+        "grid convergence must be assessed on quantities of interest"
+      ],
+      "OpenFOAM_converged_message": true,
+      "quantities_of_interest": {
+        "probe_points_m": [
+          [
+            -6.000000000000001,
+            0.0,
+            8.0
+          ],
+          [
+            -3.000000000000001,
+            0.0,
+            8.0
+          ],
+          [
+            -1.5000000000000009,
+            0.0,
+            8.0
+          ],
+          [
+            -1.0000000000000009,
+            0.0,
+            10.0
+          ],
+          [
+            -1.0000000000000009,
+            0.0,
+            6.0
+          ]
+        ],
+        "probe_U_m_s": [
+          [
+            2.6046838854621566,
+            5.484083992395367e-07,
+            0.9522700106389616
+          ],
+          [
+            1.6783383063649142,
+            6.629350245496938e-08,
+            0.5218448184427379
+          ],
+          [
+            0.8269727380350631,
+            2.6133350611048988e-05,
+            0.6251358856083198
+          ],
+          [
+            0.8417883585837347,
+            9.300728448234432e-07,
+            1.2134950349057874
+          ],
+          [
+            0.5036105283103747,
+            -5.873886173063035e-06,
+            -0.8293225347193347
+          ]
+        ],
+        "pressure_only_force_N": [
+          1.9135399153361137,
+          -9.235563741690887e-07,
+          -1.5049777680452385
+        ],
+        "pressure_only_moment_Nm": [
+          -1.1589260766529247e-05,
+          -0.05439867384516283,
+          -1.1443039323410283e-05
+        ],
+        "pressure_only_rotation_axis_moment_Nm": -0.05439867384516283,
+        "diagnostic_h_W_m2_K": 19.14476623147942,
+        "diagnostic_hm_m_s": 0.01895750639294788,
+        "diagnostic_h_not_qualified": true,
+        "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+        "pressure_only_load_not_actuator_rating": true,
+        "load_omissions": [
+          "viscous traction",
+          "gust/transient load",
+          "anchor/support loads"
+        ],
+        "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+      }
+    },
+    {
+      "case": "reference-medium",
+      "time": "280",
+      "cells": 73493,
+      "geometry": {
+        "patch_faces": {
+          "inlet": 1232,
+          "outlet": 1232,
+          "side1": 1232,
+          "side2": 1232,
+          "ground": 2224,
+          "top": 1936,
+          "building": 2524,
+          "cassette": 2888
+        },
+        "passed": true,
+        "cassette_area_m2": 4.36515480346641,
+        "physical_closed_box_area_m2": 4.405143603567995,
+        "relative_area_error": 0.009077751760282138,
+        "face_centre_bounds_error_m": 0.012360296024587214,
+        "geometry_tolerance_for_screening": 0.15,
+        "geometry_qualified_to_two_percent": true
+      },
+      "standard_checkMesh_passed": true,
+      "last_initial_residuals": {
+        "Ux": 2.693404251e-08,
+        "Uy": 9.881352947e-07,
+        "Uz": 2.191166115e-07,
+        "p": 3.86594796e-08,
+        "epsilon": 3.23868815e-09,
+        "k": 4.238962508e-07,
+        "T": 4.819352294e-07,
+        "Yv": 5.149033294e-10
+      },
+      "continuity_sum_local_last": 8.703603207e-12,
+      "finite_fields": true,
+      "flow_residual_gate_passed": true,
+      "scalar_residual_and_bounds_gate_passed": true,
+      "T_range_K": [
+        292.2833878,
+        293.7272055
+      ],
+      "Yv_range": [
+        0.009712843671,
+        0.0102
+      ],
+      "U_max_m_s": 6.888038530346529,
+      "bulk_Ri": 0.07953171405764968,
+      "neutral_RANS_Ri_below_0_1": true,
+      "flow_available_for_exploratory_particle_tracking": true,
+      "qualified_scalar_transfer_available": false,
+      "qualified_for_yield_surrogate_training": false,
+      "why_not_qualified": [
+        "scalar wall treatment has no resolved/prismatic boundary layers",
+        "independent physical validation absent",
+        "grid convergence must be assessed on quantities of interest"
+      ],
+      "OpenFOAM_converged_message": true,
+      "quantities_of_interest": {
+        "probe_points_m": [
+          [
+            -6.000000000000001,
+            0.0,
+            8.0
+          ],
+          [
+            -3.000000000000001,
+            0.0,
+            8.0
+          ],
+          [
+            -1.5000000000000009,
+            0.0,
+            8.0
+          ],
+          [
+            -1.0000000000000009,
+            0.0,
+            10.0
+          ],
+          [
+            -1.0000000000000009,
+            0.0,
+            6.0
+          ]
+        ],
+        "probe_U_m_s": [
+          [
+            2.8689744562535036,
+            -9.100896630341445e-05,
+            1.0509120442333117
+          ],
+          [
+            1.7502845716484945,
+            -9.67755111011663e-05,
+            0.7470412521144383
+          ],
+          [
+            1.0578415475820235,
+            -0.00010373073279294443,
+            0.7829445197079633
+          ],
+          [
+            1.096330063179578,
+            -8.759235746207029e-05,
+            1.5498659664782521
+          ],
+          [
+            0.4728828020266453,
+            -5.542743566991722e-05,
+            -0.7336580526001851
+          ]
+        ],
+        "pressure_only_force_N": [
+          0.922160632129425,
+          8.646961661490282e-06,
+          -0.6570164445877069
+        ],
+        "pressure_only_moment_Nm": [
+          -4.751368882105391e-05,
+          -0.31834682455526714,
+          -6.881538418097941e-05
+        ],
+        "pressure_only_rotation_axis_moment_Nm": -0.31834682455526714,
+        "diagnostic_h_W_m2_K": 19.016376032356142,
+        "diagnostic_hm_m_s": 0.018757026746587503,
+        "diagnostic_h_not_qualified": true,
+        "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+        "pressure_only_load_not_actuator_rating": true,
+        "load_omissions": [
+          "viscous traction",
+          "gust/transient load",
+          "anchor/support loads"
+        ],
+        "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+      }
+    },
+    {
+      "case": "reference-fine",
+      "time": "424",
+      "cells": 168392,
+      "geometry": {
+        "patch_faces": {
+          "inlet": 2280,
+          "outlet": 2280,
+          "side1": 2280,
+          "side2": 2280,
+          "ground": 3858,
+          "top": 3600,
+          "building": 4554,
+          "cassette": 5332
+        },
+        "passed": true,
+        "cassette_area_m2": 4.377099374910072,
+        "physical_closed_box_area_m2": 4.405143603567995,
+        "relative_area_error": 0.0063662461843941864,
+        "face_centre_bounds_error_m": 0.007881570274587801,
+        "geometry_tolerance_for_screening": 0.15,
+        "geometry_qualified_to_two_percent": true
+      },
+      "standard_checkMesh_passed": true,
+      "last_initial_residuals": {
+        "Ux": 4.880578167e-08,
+        "Uy": 1.646982939e-07,
+        "Uz": 9.844056298e-07,
+        "p": 1.09122994e-08,
+        "epsilon": 1.608712896e-09,
+        "k": 5.018396834e-07,
+        "T": 5.640277899e-08,
+        "Yv": 2.298876325e-10
+      },
+      "continuity_sum_local_last": 7.720180211e-12,
+      "finite_fields": true,
+      "flow_residual_gate_passed": true,
+      "scalar_residual_and_bounds_gate_passed": true,
+      "empty_constant_scalar_preservation": false,
+      "scalar_residual_note": null,
+      "T_range_K": [
+        292.2241398,
+        293.6931311
+      ],
+      "Yv_range": [
+        0.009682755627,
+        0.0102
+      ],
+      "U_max_m_s": 6.888821162467713,
+      "bulk_Ri": 0.07953171405764968,
+      "neutral_RANS_Ri_below_0_1": true,
+      "flow_available_for_exploratory_particle_tracking": true,
+      "qualified_scalar_transfer_available": false,
+      "qualified_for_yield_surrogate_training": false,
+      "why_not_qualified": [
+        "scalar wall treatment has no resolved/prismatic boundary layers",
+        "independent physical validation absent",
+        "grid convergence must be assessed on quantities of interest"
+      ],
+      "OpenFOAM_converged_message": true,
+      "quantities_of_interest": {
+        "probe_points_m": [
+          [
+            -6.000000000000001,
+            0.0,
+            8.0
+          ],
+          [
+            -3.000000000000001,
+            0.0,
+            8.0
+          ],
+          [
+            -1.5000000000000009,
+            0.0,
+            8.0
+          ],
+          [
+            -1.0000000000000009,
+            0.0,
+            10.0
+          ],
+          [
+            -1.0000000000000009,
+            0.0,
+            6.0
+          ]
+        ],
+        "probe_U_m_s": [
+          [
+            2.5813455753581374,
+            5.459935255748452e-08,
+            0.9508544259327149
+          ],
+          [
+            1.568608885502808,
+            2.9222738180382955e-07,
+            0.6077840164966708
+          ],
+          [
+            0.8574719745108265,
+            -3.8257548833365344e-06,
+            0.6623759115981596
+          ],
+          [
+            1.050279066174811,
+            2.589835380874905e-07,
+            1.3824617990778933
+          ],
+          [
+            0.377389153769696,
+            6.284533754625165e-08,
+            -0.8674742401447496
+          ]
+        ],
+        "pressure_only_force_N": [
+          1.516611659351182,
+          2.174706038195917e-06,
+          -1.195865188056883
+        ],
+        "pressure_only_moment_Nm": [
+          -1.4105210636076873e-05,
+          -0.18769499531138018,
+          -2.3249828040358862e-05
+        ],
+        "pressure_only_rotation_axis_moment_Nm": -0.18769499531138018,
+        "diagnostic_h_W_m2_K": 18.80354956825892,
+        "diagnostic_hm_m_s": 0.018545553203679208,
+        "diagnostic_h_not_qualified": true,
+        "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+        "pressure_only_load_not_actuator_rating": true,
+        "load_omissions": [
+          "viscous traction",
+          "gust/transient load",
+          "anchor/support loads"
+        ],
+        "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+      }
+    }
+  ],
+  "CFD_attempts": [
+    {
+      "case": "coarse",
+      "status": "FAILED",
+      "standard_mesh_passed": false,
+      "raw_full_mesh_or_scalar_checks_failed": true,
+      "quality": null
+    },
+    {
+      "case": "coarse-v2",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "coarse-v2",
+        "time": "189",
+        "cells": 31063,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 640,
+            "outlet": 640,
+            "side1": 640,
+            "side2": 640,
+            "ground": 1224,
+            "top": 1024,
+            "building": 1409,
+            "cassette": 1512
+          },
+          "passed": true,
+          "cassette_area_m2": 4.296713956532893,
+          "physical_closed_box_area_m2": 4.405143603567995,
+          "relative_area_error": 0.02461432743016101,
+          "face_centre_bounds_error_m": 0.02124945887458818,
+          "geometry_tolerance_for_screening": 0.15,
+          "geometry_qualified_to_two_percent": false
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "Ux": 6.801821299e-08,
+          "Uy": 7.860858719e-07,
+          "Uz": 9.794391803e-07,
+          "p": 1.221929267e-07,
+          "epsilon": 1.417943631e-08,
+          "k": 5.28308474e-07,
+          "T": 5.072732296e-07,
+          "Yv": 4.906006581e-09
+        },
+        "continuity_sum_local_last": 9.525174705e-12,
+        "finite_fields": true,
+        "flow_residual_gate_passed": true,
+        "scalar_residual_and_bounds_gate_passed": true,
+        "T_range_K": [
+          292.3905181,
+          294.0659943
+        ],
+        "Yv_range": [
+          0.009762532267,
+          0.0102
+        ],
+        "U_max_m_s": 6.899197576232388,
+        "bulk_Ri": 0.07953171405764968,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": true,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": true
+      }
+    },
+    {
+      "case": "coarse-v3",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "coarse-v3",
+        "time": "189",
+        "cells": 31063,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 640,
+            "outlet": 640,
+            "side1": 640,
+            "side2": 640,
+            "ground": 1224,
+            "top": 1024,
+            "building": 1409,
+            "cassette": 1512
+          },
+          "passed": true,
+          "cassette_area_m2": 4.296713956532893,
+          "physical_closed_box_area_m2": 4.405143603567995,
+          "relative_area_error": 0.02461432743016101,
+          "face_centre_bounds_error_m": 0.02124945887458818,
+          "geometry_tolerance_for_screening": 0.15,
+          "geometry_qualified_to_two_percent": false
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "T": 5.072732296e-07,
+          "Yv": 4.906006581e-09
+        },
+        "continuity_sum_local_last": 9.525174705e-12,
+        "finite_fields": true,
+        "flow_residual_gate_passed": false,
+        "scalar_residual_and_bounds_gate_passed": true,
+        "T_range_K": [
+          292.3905181,
+          294.0659943
+        ],
+        "Yv_range": [
+          0.009762532267,
+          0.0102
+        ],
+        "U_max_m_s": 6.899197576232388,
+        "bulk_Ri": 0.07953171405764968,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": false,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": true
+      }
+    },
+    {
+      "case": "empty-medium",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "empty-medium",
+        "time": "1200",
+        "cells": 54208,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 1232,
+            "outlet": 1232,
+            "side1": 1232,
+            "side2": 1232,
+            "ground": 1936,
+            "top": 1936
+          },
+          "passed": true
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "Ux": 8.904408939e-13,
+          "Uy": 3.081744799e-06,
+          "Uz": 7.467716483e-11,
+          "p": 8.335125922e-09,
+          "epsilon": 9.354200513e-10,
+          "k": 9.849324455e-10,
+          "T": 4.106123768e-05,
+          "Yv": 0.0001144465858
+        },
+        "continuity_sum_local_last": 1.12847097e-12,
+        "finite_fields": true,
+        "flow_residual_gate_passed": true,
+        "scalar_residual_and_bounds_gate_passed": true,
+        "empty_constant_scalar_preservation": true,
+        "scalar_residual_note": "Zero-contrast normalized residual is not used if the constant solution is preserved to the stated tolerance",
+        "T_range_K": [
+          293.15,
+          293.15
+        ],
+        "Yv_range": [
+          0.0102,
+          0.0102
+        ],
+        "U_max_m_s": 6.79317685679937,
+        "bulk_Ri": 0.0,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": true,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": false,
+        "quantities_of_interest": {
+          "probe_points_m": [
+            [
+              -6.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -3.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -1.5000000000000009,
+              0.0,
+              8.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              10.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              6.0
+            ]
+          ],
+          "probe_U_m_s": [
+            [
+              4.866964119526645,
+              2.2571352897925464e-13,
+              -0.0008558317415723817
+            ],
+            [
+              4.872889534969066,
+              2.430779099090521e-13,
+              -0.000837060572660902
+            ],
+            [
+              4.8666352963002915,
+              2.382127039638873e-13,
+              -0.0008217871878525266
+            ],
+            [
+              4.9284797322688005,
+              2.863218237920779e-13,
+              -0.0009728165806897063
+            ],
+            [
+              4.526971606929791,
+              -1.2888842994311115e-13,
+              -0.0003842571784274486
+            ]
+          ]
+        },
+        "empty_ABL_relative_L2_U": 0.006332903165928945,
+        "empty_ABL_max_vertical_velocity_m_s": 0.006552950743
+      }
+    },
+    {
+      "case": "fine",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "fine",
+        "time": "433",
+        "cells": 149638,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 2280,
+            "outlet": 2280,
+            "side1": 2280,
+            "side2": 2280,
+            "ground": 3858,
+            "top": 3600,
+            "building": 4342
+          },
+          "passed": false,
+          "reason": "Required solid patch absent/empty: thin geometry was lost"
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "T": 9.462654177e-10,
+          "Yv": 0.0005932602785
+        },
+        "continuity_sum_local_last": 9.825624867e-12,
+        "finite_fields": true,
+        "flow_residual_gate_passed": false,
+        "scalar_residual_and_bounds_gate_passed": false,
+        "T_range_K": [
+          293.15,
+          293.4740064
+        ],
+        "Yv_range": [
+          0.0102,
+          0.0102
+        ],
+        "U_max_m_s": 6.887435974561627,
+        "bulk_Ri": 0.07953171405764968,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": false,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": true
+      }
+    },
+    {
+      "case": "fine-v3",
+      "status": "GEOMETRY_REJECTED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": null
+    },
+    {
+      "case": "fine-v4",
+      "status": "GEOMETRY_REJECTED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": null
+    },
+    {
+      "case": "medium",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": null
+    },
+    {
+      "case": "medium-v3",
+      "status": "GEOMETRY_REJECTED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": null
+    },
+    {
+      "case": "medium-v4",
+      "status": "GEOMETRY_REJECTED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": null
+    },
+    {
+      "case": "reference-coarse",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "reference-coarse",
+        "time": "190",
+        "cells": 31168,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 640,
+            "outlet": 640,
+            "side1": 640,
+            "side2": 640,
+            "ground": 1224,
+            "top": 1024,
+            "building": 1396,
+            "cassette": 1514
+          },
+          "passed": true,
+          "cassette_area_m2": 4.290043766893268,
+          "physical_closed_box_area_m2": 4.405143603567995,
+          "relative_area_error": 0.02612850954086976,
+          "face_centre_bounds_error_m": 0.02125139807458787,
+          "geometry_tolerance_for_screening": 0.15,
+          "geometry_qualified_to_two_percent": false
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "Ux": 6.813428584e-08,
+          "Uy": 7.91937054e-07,
+          "Uz": 9.775187116e-07,
+          "p": 1.212344573e-07,
+          "epsilon": 1.466927087e-08,
+          "k": 5.160201398e-07,
+          "T": 4.863715836e-07,
+          "Yv": 4.664013263e-09
+        },
+        "continuity_sum_local_last": 1.106721689e-11,
+        "finite_fields": true,
+        "flow_residual_gate_passed": true,
+        "scalar_residual_and_bounds_gate_passed": true,
+        "T_range_K": [
+          292.3958434,
+          293.4793324
+        ],
+        "Yv_range": [
+          0.009765322674,
+          0.0102
+        ],
+        "U_max_m_s": 6.897204553934405,
+        "bulk_Ri": 0.07953171405764968,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": true,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": true,
+        "quantities_of_interest": {
+          "probe_points_m": [
+            [
+              -6.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -3.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -1.5000000000000009,
+              0.0,
+              8.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              10.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              6.0
+            ]
+          ],
+          "probe_U_m_s": [
+            [
+              2.6046838854621566,
+              5.484083992395367e-07,
+              0.9522700106389616
+            ],
+            [
+              1.6783383063649142,
+              6.629350245496938e-08,
+              0.5218448184427379
+            ],
+            [
+              0.8269727380350631,
+              2.6133350611048988e-05,
+              0.6251358856083198
+            ],
+            [
+              0.8417883585837347,
+              9.300728448234432e-07,
+              1.2134950349057874
+            ],
+            [
+              0.5036105283103747,
+              -5.873886173063035e-06,
+              -0.8293225347193347
+            ]
+          ],
+          "pressure_only_force_N": [
+            1.9135399153361137,
+            -9.235563741690887e-07,
+            -1.5049777680452385
+          ],
+          "pressure_only_moment_Nm": [
+            -1.1589260766529247e-05,
+            -0.05439867384516283,
+            -1.1443039323410283e-05
+          ],
+          "pressure_only_rotation_axis_moment_Nm": -0.05439867384516283,
+          "diagnostic_h_W_m2_K": 19.14476623147942,
+          "diagnostic_hm_m_s": 0.01895750639294788,
+          "diagnostic_h_not_qualified": true,
+          "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+          "pressure_only_load_not_actuator_rating": true,
+          "load_omissions": [
+            "viscous traction",
+            "gust/transient load",
+            "anchor/support loads"
+          ],
+          "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+        }
+      }
+    },
+    {
+      "case": "reference-fine",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "reference-fine",
+        "time": "424",
+        "cells": 168392,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 2280,
+            "outlet": 2280,
+            "side1": 2280,
+            "side2": 2280,
+            "ground": 3858,
+            "top": 3600,
+            "building": 4554,
+            "cassette": 5332
+          },
+          "passed": true,
+          "cassette_area_m2": 4.377099374910072,
+          "physical_closed_box_area_m2": 4.405143603567995,
+          "relative_area_error": 0.0063662461843941864,
+          "face_centre_bounds_error_m": 0.007881570274587801,
+          "geometry_tolerance_for_screening": 0.15,
+          "geometry_qualified_to_two_percent": true
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "Ux": 4.880578167e-08,
+          "Uy": 1.646982939e-07,
+          "Uz": 9.844056298e-07,
+          "p": 1.09122994e-08,
+          "epsilon": 1.608712896e-09,
+          "k": 5.018396834e-07,
+          "T": 5.640277899e-08,
+          "Yv": 2.298876325e-10
+        },
+        "continuity_sum_local_last": 7.720180211e-12,
+        "finite_fields": true,
+        "flow_residual_gate_passed": true,
+        "scalar_residual_and_bounds_gate_passed": true,
+        "empty_constant_scalar_preservation": false,
+        "scalar_residual_note": null,
+        "T_range_K": [
+          292.2241398,
+          293.6931311
+        ],
+        "Yv_range": [
+          0.009682755627,
+          0.0102
+        ],
+        "U_max_m_s": 6.888821162467713,
+        "bulk_Ri": 0.07953171405764968,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": true,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": true,
+        "quantities_of_interest": {
+          "probe_points_m": [
+            [
+              -6.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -3.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -1.5000000000000009,
+              0.0,
+              8.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              10.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              6.0
+            ]
+          ],
+          "probe_U_m_s": [
+            [
+              2.5813455753581374,
+              5.459935255748452e-08,
+              0.9508544259327149
+            ],
+            [
+              1.568608885502808,
+              2.9222738180382955e-07,
+              0.6077840164966708
+            ],
+            [
+              0.8574719745108265,
+              -3.8257548833365344e-06,
+              0.6623759115981596
+            ],
+            [
+              1.050279066174811,
+              2.589835380874905e-07,
+              1.3824617990778933
+            ],
+            [
+              0.377389153769696,
+              6.284533754625165e-08,
+              -0.8674742401447496
+            ]
+          ],
+          "pressure_only_force_N": [
+            1.516611659351182,
+            2.174706038195917e-06,
+            -1.195865188056883
+          ],
+          "pressure_only_moment_Nm": [
+            -1.4105210636076873e-05,
+            -0.18769499531138018,
+            -2.3249828040358862e-05
+          ],
+          "pressure_only_rotation_axis_moment_Nm": -0.18769499531138018,
+          "diagnostic_h_W_m2_K": 18.80354956825892,
+          "diagnostic_hm_m_s": 0.018545553203679208,
+          "diagnostic_h_not_qualified": true,
+          "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+          "pressure_only_load_not_actuator_rating": true,
+          "load_omissions": [
+            "viscous traction",
+            "gust/transient load",
+            "anchor/support loads"
+          ],
+          "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+        }
+      }
+    },
+    {
+      "case": "reference-medium",
+      "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED",
+      "standard_mesh_passed": true,
+      "raw_full_mesh_or_scalar_checks_failed": false,
+      "quality": {
+        "case": "reference-medium",
+        "time": "280",
+        "cells": 73493,
+        "geometry": {
+          "patch_faces": {
+            "inlet": 1232,
+            "outlet": 1232,
+            "side1": 1232,
+            "side2": 1232,
+            "ground": 2224,
+            "top": 1936,
+            "building": 2524,
+            "cassette": 2888
+          },
+          "passed": true,
+          "cassette_area_m2": 4.36515480346641,
+          "physical_closed_box_area_m2": 4.405143603567995,
+          "relative_area_error": 0.009077751760282138,
+          "face_centre_bounds_error_m": 0.012360296024587214,
+          "geometry_tolerance_for_screening": 0.15,
+          "geometry_qualified_to_two_percent": true
+        },
+        "standard_checkMesh_passed": true,
+        "last_initial_residuals": {
+          "Ux": 2.693404251e-08,
+          "Uy": 9.881352947e-07,
+          "Uz": 2.191166115e-07,
+          "p": 3.86594796e-08,
+          "epsilon": 3.23868815e-09,
+          "k": 4.238962508e-07,
+          "T": 4.819352294e-07,
+          "Yv": 5.149033294e-10
+        },
+        "continuity_sum_local_last": 8.703603207e-12,
+        "finite_fields": true,
+        "flow_residual_gate_passed": true,
+        "scalar_residual_and_bounds_gate_passed": true,
+        "T_range_K": [
+          292.2833878,
+          293.7272055
+        ],
+        "Yv_range": [
+          0.009712843671,
+          0.0102
+        ],
+        "U_max_m_s": 6.888038530346529,
+        "bulk_Ri": 0.07953171405764968,
+        "neutral_RANS_Ri_below_0_1": true,
+        "flow_available_for_exploratory_particle_tracking": true,
+        "qualified_scalar_transfer_available": false,
+        "qualified_for_yield_surrogate_training": false,
+        "why_not_qualified": [
+          "scalar wall treatment has no resolved/prismatic boundary layers",
+          "independent physical validation absent",
+          "grid convergence must be assessed on quantities of interest"
+        ],
+        "OpenFOAM_converged_message": true,
+        "quantities_of_interest": {
+          "probe_points_m": [
+            [
+              -6.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -3.000000000000001,
+              0.0,
+              8.0
+            ],
+            [
+              -1.5000000000000009,
+              0.0,
+              8.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              10.0
+            ],
+            [
+              -1.0000000000000009,
+              0.0,
+              6.0
+            ]
+          ],
+          "probe_U_m_s": [
+            [
+              2.8689744562535036,
+              -9.100896630341445e-05,
+              1.0509120442333117
+            ],
+            [
+              1.7502845716484945,
+              -9.67755111011663e-05,
+              0.7470412521144383
+            ],
+            [
+              1.0578415475820235,
+              -0.00010373073279294443,
+              0.7829445197079633
+            ],
+            [
+              1.096330063179578,
+              -8.759235746207029e-05,
+              1.5498659664782521
+            ],
+            [
+              0.4728828020266453,
+              -5.542743566991722e-05,
+              -0.7336580526001851
+            ]
+          ],
+          "pressure_only_force_N": [
+            0.922160632129425,
+            8.646961661490282e-06,
+            -0.6570164445877069
+          ],
+          "pressure_only_moment_Nm": [
+            -4.751368882105391e-05,
+            -0.31834682455526714,
+            -6.881538418097941e-05
+          ],
+          "pressure_only_rotation_axis_moment_Nm": -0.31834682455526714,
+          "diagnostic_h_W_m2_K": 19.016376032356142,
+          "diagnostic_hm_m_s": 0.018757026746587503,
+          "diagnostic_h_not_qualified": true,
+          "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+          "pressure_only_load_not_actuator_rating": true,
+          "load_omissions": [
+            "viscous traction",
+            "gust/transient load",
+            "anchor/support loads"
+          ],
+          "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+        }
+      }
+    }
+  ],
+  "empty_ABL": {
+    "case": "empty-medium",
+    "time": "1200",
+    "cells": 54208,
+    "geometry": {
+      "patch_faces": {
+        "inlet": 1232,
+        "outlet": 1232,
+        "side1": 1232,
+        "side2": 1232,
+        "ground": 1936,
+        "top": 1936
+      },
+      "passed": true
+    },
+    "standard_checkMesh_passed": true,
+    "last_initial_residuals": {
+      "Ux": 8.904408939e-13,
+      "Uy": 3.081744799e-06,
+      "Uz": 7.467716483e-11,
+      "p": 8.335125922e-09,
+      "epsilon": 9.354200513e-10,
+      "k": 9.849324455e-10,
+      "T": 4.106123768e-05,
+      "Yv": 0.0001144465858
+    },
+    "continuity_sum_local_last": 1.12847097e-12,
+    "finite_fields": true,
+    "flow_residual_gate_passed": true,
+    "scalar_residual_and_bounds_gate_passed": true,
+    "empty_constant_scalar_preservation": true,
+    "scalar_residual_note": "Zero-contrast normalized residual is not used if the constant solution is preserved to the stated tolerance",
+    "T_range_K": [
+      293.15,
+      293.15
+    ],
+    "Yv_range": [
+      0.0102,
+      0.0102
+    ],
+    "U_max_m_s": 6.79317685679937,
+    "bulk_Ri": 0.0,
+    "neutral_RANS_Ri_below_0_1": true,
+    "flow_available_for_exploratory_particle_tracking": true,
+    "qualified_scalar_transfer_available": false,
+    "qualified_for_yield_surrogate_training": false,
+    "why_not_qualified": [
+      "scalar wall treatment has no resolved/prismatic boundary layers",
+      "independent physical validation absent",
+      "grid convergence must be assessed on quantities of interest"
+    ],
+    "OpenFOAM_converged_message": false,
+    "quantities_of_interest": {
+      "probe_points_m": [
+        [
+          -6.000000000000001,
+          0.0,
+          8.0
+        ],
+        [
+          -3.000000000000001,
+          0.0,
+          8.0
+        ],
+        [
+          -1.5000000000000009,
+          0.0,
+          8.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0,
+          10.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0,
+          6.0
+        ]
+      ],
+      "probe_U_m_s": [
+        [
+          4.866964119526645,
+          2.2571352897925464e-13,
+          -0.0008558317415723817
+        ],
+        [
+          4.872889534969066,
+          2.430779099090521e-13,
+          -0.000837060572660902
+        ],
+        [
+          4.8666352963002915,
+          2.382127039638873e-13,
+          -0.0008217871878525266
+        ],
+        [
+          4.9284797322688005,
+          2.863218237920779e-13,
+          -0.0009728165806897063
+        ],
+        [
+          4.526971606929791,
+          -1.2888842994311115e-13,
+          -0.0003842571784274486
+        ]
+      ]
+    },
+    "empty_ABL_relative_L2_U": 0.006332903165928945,
+    "empty_ABL_max_vertical_velocity_m_s": 0.006552950743
+  },
+  "grid_quantities_of_interest_changes": [
+    {
+      "from": "reference-coarse",
+      "to": "reference-medium",
+      "relative_L2_probe_change": 0.14519466966612304,
+      "pressure_only_axis_moment_change_Nm": -0.2639481507101043
+    },
+    {
+      "from": "reference-medium",
+      "to": "reference-fine",
+      "relative_L2_probe_change": 0.12884540054920526,
+      "pressure_only_axis_moment_change_Nm": 0.13065182924388696
+    }
+  ],
+  "GCI_or_grid_independence_established": false,
+  "rain_runs_current_source_scheme": [
+    {
+      "file": "reference-coarse-n8192-dt0.05-bundle6-union.json",
+      "case": "reference-coarse",
+      "samples_per_size": 8192,
+      "dt_s": 0.05,
+      "bundle_m": 6.0,
+      "specific_catch_ratio": 0.6081788862133845,
+      "sampling_relative95_halfwidth": 0.12094622028791846,
+      "sampling_5percent_gate": false,
+      "minimum_bin_panel_hits": 8,
+      "unresolved_particles": 0,
+      "particle_count_residual": 0,
+      "profile_mass_residual_kg_s": 0.0
+    },
+    {
+      "file": "reference-fine-n8192-dt0.05-bundle6-union.json",
+      "case": "reference-fine",
+      "samples_per_size": 8192,
+      "dt_s": 0.05,
+      "bundle_m": 6.0,
+      "specific_catch_ratio": 0.63227295429779,
+      "sampling_relative95_halfwidth": 0.1184897931433835,
+      "sampling_5percent_gate": false,
+      "minimum_bin_panel_hits": 6,
+      "unresolved_particles": 0,
+      "particle_count_residual": 0,
+      "profile_mass_residual_kg_s": 2.168404344971009e-19
+    },
+    {
+      "file": "reference-medium-n16384-dt0.025-bundle9-union.json",
+      "case": "reference-medium",
+      "samples_per_size": 16384,
+      "dt_s": 0.025,
+      "bundle_m": 9.0,
+      "specific_catch_ratio": 0.7508254201797642,
+      "sampling_relative95_halfwidth": 0.1360394664844697,
+      "sampling_5percent_gate": false,
+      "minimum_bin_panel_hits": 9,
+      "unresolved_particles": 0,
+      "particle_count_residual": 0,
+      "profile_mass_residual_kg_s": 0.0
+    },
+    {
+      "file": "reference-medium-n4096-dt0.05-bundle6-union-capturepaths.json",
+      "case": "reference-medium",
+      "samples_per_size": 4096,
+      "dt_s": 0.05,
+      "bundle_m": 6.0,
+      "specific_catch_ratio": 0.7061377154874819,
+      "sampling_relative95_halfwidth": 0.16192924636165495,
+      "sampling_5percent_gate": false,
+      "minimum_bin_panel_hits": 5,
+      "unresolved_particles": 0,
+      "particle_count_residual": 0,
+      "profile_mass_residual_kg_s": 0.0
+    },
+    {
+      "file": "reference-medium-n8192-dt0.05-bundle6-union.json",
+      "case": "reference-medium",
+      "samples_per_size": 8192,
+      "dt_s": 0.05,
+      "bundle_m": 6.0,
+      "specific_catch_ratio": 0.6587521435523079,
+      "sampling_relative95_halfwidth": 0.11784484862881904,
+      "sampling_5percent_gate": false,
+      "minimum_bin_panel_hits": 13,
+      "unresolved_particles": 0,
+      "particle_count_residual": 0,
+      "profile_mass_residual_kg_s": 2.168404344971009e-19
+    }
+  ],
+  "superseded_rain_runs": [
+    {
+      "file": "coarse-v2-n4096-dt0.05-bundle6.json",
+      "status": "SUPERSEDED_SINGLE_SOURCE_PLANE_NOT_QUALIFIED"
+    },
+    {
+      "file": "reference-coarse-n8192-dt0.05-bundle6.json",
+      "status": "SUPERSEDED_SINGLE_SOURCE_PLANE_NOT_QUALIFIED"
+    },
+    {
+      "file": "reference-fine-n8192-dt0.05-bundle6.json",
+      "status": "SUPERSEDED_SINGLE_SOURCE_PLANE_NOT_QUALIFIED"
+    },
+    {
+      "file": "reference-medium-n16384-dt0.025-bundle6.json",
+      "status": "SUPERSEDED_SINGLE_SOURCE_PLANE_NOT_QUALIFIED"
+    },
+    {
+      "file": "reference-medium-n16384-dt0.05-bundle9.json",
+      "status": "SUPERSEDED_SINGLE_SOURCE_PLANE_NOT_QUALIFIED"
+    },
+    {
+      "file": "reference-medium-n8192-dt0.05-bundle6.json",
+      "status": "SUPERSEDED_SINGLE_SOURCE_PLANE_NOT_QUALIFIED"
+    }
+  ],
+  "Stefan_reference": [
+    {
+      "n": 50,
+      "dt_s": 2,
+      "mushy_K": 0.1,
+      "front_m": 0.009142191374585327,
+      "analytic_front_m": 0.009195923457891421,
+      "relative_front_error": 0.0058430328995380965,
+      "energy_residual_J_m2": 3.259629011154175e-09,
+      "scope": "one-phase Neumann benchmark, equal phase properties, temperature-smoothed enthalpy"
+    },
+    {
+      "n": 100,
+      "dt_s": 1,
+      "mushy_K": 0.1,
+      "front_m": 0.009181396788271243,
+      "analytic_front_m": 0.009195923457891421,
+      "relative_front_error": 0.001579685790850278,
+      "energy_residual_J_m2": 2.7939677238464355e-09,
+      "scope": "one-phase Neumann benchmark, equal phase properties, temperature-smoothed enthalpy"
+    },
+    {
+      "n": 200,
+      "dt_s": 0.5,
+      "mushy_K": 0.1,
+      "front_m": 0.00919017390503663,
+      "analytic_front_m": 0.009195923457891421,
+      "relative_front_error": 0.0006252284374830086,
+      "energy_residual_J_m2": 7.450580596923828e-09,
+      "scope": "one-phase Neumann benchmark, equal phase properties, temperature-smoothed enthalpy"
+    }
+  ],
+  "surface_references": [
+    {
+      "case": "humid-night",
+      "elapsed_s": 3600.0,
+      "cells": 32,
+      "temperature_mean_C": 14.051719992902822,
+      "temperature_min_C": 14.051719992901077,
+      "liquid_kg": 0.03617142309847106,
+      "ice_plus_snow_kg": 0.0,
+      "unmelted_snow_tracer_kg": 0.0,
+      "mass_residual_kg": 0.0,
+      "energy_residual_J": -6.766640581190586e-10,
+      "maximum_layer_thickness_m": 2.37282868312379e-05,
+      "substeps": 360,
+      "rain_kg": 0.0,
+      "snow_swe_kg": 0.0,
+      "vapour_in_kg": 0.13456530161776717,
+      "vapour_out_kg": 0.0,
+      "drain_kg": 0.09839387851929611,
+      "energy_environment_J": -343755.86651243444,
+      "energy_material_in_J": 0.0,
+      "energy_vapour_J": 386431.1766557419,
+      "drain_energy_J": 38593.644555745785,
+      "thin_equilibrium_layer_approximation": true,
+      "thick_snow_thermal_gradient_unresolved": false,
+      "snow_aerodynamic_capture_and_adhesion_validated": false,
+      "CNF_droplet_physics_validated": false
+    },
+    {
+      "case": "cold-snow",
+      "elapsed_s": 3600.0,
+      "cells": 32,
+      "temperature_mean_C": -13.305267903015022,
+      "temperature_min_C": -13.305267903015022,
+      "liquid_kg": 0.0,
+      "ice_plus_snow_kg": 0.25925033076484255,
+      "unmelted_snow_tracer_kg": 0.143863776,
+      "mass_residual_kg": -3.7192471324942744e-15,
+      "energy_residual_J": -2.255546860396862e-10,
+      "maximum_layer_thickness_m": 0.0004229748166874056,
+      "substeps": 360,
+      "rain_kg": 0.0,
+      "snow_swe_kg": 0.1438637759999998,
+      "vapour_in_kg": 0.015578703422290178,
+      "vapour_out_kg": 9.754865745116517e-05,
+      "drain_kg": 0.0,
+      "energy_environment_J": -55813.18867666455,
+      "energy_material_in_J": -2416.911436799987,
+      "energy_vapour_J": 43651.17746068853,
+      "drain_energy_J": 0.0,
+      "thin_equilibrium_layer_approximation": true,
+      "thick_snow_thermal_gradient_unresolved": false,
+      "snow_aerodynamic_capture_and_adhesion_validated": false,
+      "CNF_droplet_physics_validated": false
+    },
+    {
+      "case": "melting",
+      "elapsed_s": 3600.0,
+      "cells": 32,
+      "temperature_mean_C": 9.04819621510053,
+      "temperature_min_C": 9.048196207413143,
+      "liquid_kg": 0.0,
+      "ice_plus_snow_kg": 0.0,
+      "unmelted_snow_tracer_kg": 0.0,
+      "mass_residual_kg": 8.326672684688674e-17,
+      "energy_residual_J": -1.0368239600211382e-10,
+      "maximum_layer_thickness_m": 5.428364566452546e-05,
+      "substeps": 385,
+      "rain_kg": 0.0,
+      "snow_swe_kg": 0.0,
+      "vapour_in_kg": 0.0004551430273296538,
+      "vapour_out_kg": 0.02917198825943377,
+      "drain_kg": 0.07118855476789579,
+      "energy_environment_J": 121795.78928124576,
+      "energy_material_in_J": 0.0,
+      "energy_vapour_J": -81718.78550876459,
+      "drain_energy_J": 24704.19773399061,
+      "thin_equilibrium_layer_approximation": true,
+      "thick_snow_thermal_gradient_unresolved": false,
+      "snow_aerodynamic_capture_and_adhesion_validated": false,
+      "CNF_droplet_physics_validated": false
+    }
+  ],
+  "DOE": {
+    "seed": 42,
+    "n": 64,
+    "ranges": {
+      "air_C": [
+        -12,
+        40
+      ],
+      "rh": [
+        0.3,
+        0.99
+      ],
+      "wind10_m_s": [
+        0.5,
+        12
+      ],
+      "wind_direction_deg": [
+        -180,
+        180
+      ],
+      "rain_mm_h": [
+        0,
+        12
+      ],
+      "rain_azimuth_offset_deg": [
+        -30,
+        30
+      ],
+      "G_plane_W_m2": [
+        0,
+        900
+      ],
+      "sky_effective_emissivity": [
+        0.45,
+        0.99
+      ],
+      "angle_deg": [
+        5,
+        175
+      ],
+      "initial_offset_K": [
+        -12,
+        12
+      ],
+      "pressure_Pa": [
+        60000,
+        103000
+      ]
+    },
+    "design_sha256": "6590b31992546401d8d1ba3a6ddc16b9dfa1e6c604b16c5ca740dd1028c46751",
+    "type": "controlled numerical experiments, not a climatological joint probability distribution",
+    "LW_constraint": "epsilon_sky * sigma * T_air^4; cloud fraction not inferred",
+    "altitude": "pressure varied under fixed other inputs; not a causal comparison of real cities",
+    "neutral_RANS_count": 42,
+    "CFD_cases_executed_by_this_command": 0,
+    "surface_cases_executed": 64,
+    "surface_seconds": 300.0,
+    "rain_azimuth": "independent inlet direction variable for pending B2 work; integrated B3 rain input has no azimuth and does not claim to execute it",
+    "RL_contract": {
+      "no_CFD_in_environment_step": true,
+      "train_split": "group by geometry/weather episode before fitting",
+      "required_gate": [
+        "conservation",
+        "CFD convergence",
+        "grid/particle/source convergence",
+        "held-out reference error",
+        "out-of-domain rejection"
+      ],
+      "surrogate_trained": false,
+      "cold_PPO_training_authorized_by_these_references": false
+    },
+    "limitations": [
+      "supplied snow is SWE at surface; no aerodynamic snow capture prediction",
+      "weather correlations are intentionally absent in controlled DOE",
+      "surface film prior h/hm cannot be passed off as qualified CFD or validation"
+    ]
+  },
+  "coupled_cassette_references": [
+    {
+      "city": "la-paz",
+      "month": 1,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": -0.0041845401073814514,
+      "max_emitter_shift_K": 0.14157142469703743,
+      "v2_supported_scored_hours": 12,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "la-paz",
+      "month": 7,
+      "hours_scored": 0,
+      "cassette_warmup_hours": 6,
+      "status": "COLD_OR_SNOW_V2_EXCLUDED",
+      "rejected_step": {
+        "time": "2024-07-13 06:00:00+00:00",
+        "status": "COLD_OR_SNOW_V2_EXCLUDED",
+        "reason": "Use independent enthalpy reference; v2 cassette cold scope remains excluded"
+      },
+      "mean_emitter_shift_K": null,
+      "max_emitter_shift_K": null,
+      "v2_supported_scored_hours": 0,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "london",
+      "month": 1,
+      "hours_scored": 0,
+      "cassette_warmup_hours": 7,
+      "status": "COLD_OR_SNOW_V2_EXCLUDED",
+      "rejected_step": {
+        "time": "2024-01-13 07:00:00+00:00",
+        "status": "COLD_OR_SNOW_V2_EXCLUDED",
+        "reason": "Use independent enthalpy reference; v2 cassette cold scope remains excluded"
+      },
+      "mean_emitter_shift_K": null,
+      "max_emitter_shift_K": null,
+      "v2_supported_scored_hours": 0,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "london",
+      "month": 7,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": 0.1855073857536742,
+      "max_emitter_shift_K": 0.767391578559355,
+      "v2_supported_scored_hours": 10,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "rasht",
+      "month": 1,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": 1.277803450741377,
+      "max_emitter_shift_K": 2.958782376350575,
+      "v2_supported_scored_hours": 12,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "rasht",
+      "month": 7,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": 1.5036311447402104,
+      "max_emitter_shift_K": 3.1722032915772793,
+      "v2_supported_scored_hours": 12,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "reykjavik",
+      "month": 1,
+      "hours_scored": 0,
+      "cassette_warmup_hours": 6,
+      "status": "COLD_OR_SNOW_V2_EXCLUDED",
+      "rejected_step": {
+        "time": "2024-01-13 06:00:00+00:00",
+        "status": "COLD_OR_SNOW_V2_EXCLUDED",
+        "reason": "Use independent enthalpy reference; v2 cassette cold scope remains excluded"
+      },
+      "mean_emitter_shift_K": null,
+      "max_emitter_shift_K": null,
+      "v2_supported_scored_hours": 0,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "reykjavik",
+      "month": 7,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": 0.09256987286782185,
+      "max_emitter_shift_K": 0.6081129908251608,
+      "v2_supported_scored_hours": 12,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "singapore",
+      "month": 1,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": 0.44256664777232463,
+      "max_emitter_shift_K": 0.6585951037803746,
+      "v2_supported_scored_hours": 12,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    },
+    {
+      "city": "singapore",
+      "month": 7,
+      "hours_scored": 12,
+      "cassette_warmup_hours": 48,
+      "status": "COMPLETE_REFERENCE",
+      "rejected_step": null,
+      "mean_emitter_shift_K": 0.45097954200025087,
+      "max_emitter_shift_K": 0.7034990203644931,
+      "v2_supported_scored_hours": 12,
+      "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+      "CFD_h_hm_or_rain_closure_used": false,
+      "two_way_CFD_CHT": false,
+      "physical_yield_claim_supported": false,
+      "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+    }
+  ],
+  "joined_reference": {
+    "case": "integration/water-facade/results/stage-b/cfd/reference-medium",
+    "rain_reference": "integration/water-facade/results/stage-b/rain/reference-medium-n16384-dt0.025-bundle9-union.json",
+    "CFD_cells": 73493,
+    "CFD_flow_gate": true,
+    "retained_rain_surface_flux_kg_m2_s_scenario": [
+      0.0004108701771999098,
+      0.0003653423498071377,
+      0.00045619446285101,
+      0.0005468338673885161,
+      0.00026934964043118763,
+      0.0003721185675511012,
+      0.00028735771059029734,
+      0.00030493568510099774,
+      0.0011418133647481483,
+      0.00016857648334586922,
+      0.0011938849479514494,
+      0.00037872568747801164,
+      0.0003739130922258385,
+      0.0005280772343800127,
+      0.0006936267334597315,
+      0.0007868765710082672,
+      0.0003100040164701884,
+      0.00042484815984154383,
+      0.0002312336823232663,
+      0.0005517431168394521,
+      0.0006203292756194837,
+      0.0010646344238605262,
+      0.00026708919436684334,
+      0.0008776998468745826,
+      0.0008439187869675572,
+      0.0008902007711702787,
+      0.0005156985268603875,
+      0.0008819847725676912,
+      0.0003662191538370002,
+      0.0010867663244104994,
+      0.0004838867458482878,
+      0.0006102581709499401
+    ],
+    "spatial_rain_profile_used": true,
+    "selected_face": "positive thickness face, emitter assumed exposed by 180 degree face switch; identical external box geometry",
+    "edge_deposit_not_routed_to_selected_face_kg_s": 2.6460343244702945e-05,
+    "opposite_face_deposit_not_routed_kg_s": 0.0,
+    "view_factors_sky_ground_wall": [
+      0.7740885416666666,
+      0.177734375,
+      0.048177083333333336
+    ],
+    "last_surface_state": {
+      "time_s": 3600,
+      "wall_C": 18.098049443046683,
+      "ground_C": 17.245204095086095,
+      "elapsed_s": 3600.000000000002,
+      "cells": 32,
+      "temperature_mean_C": 15.518176868659612,
+      "temperature_min_C": 15.432026050631531,
+      "liquid_kg": 0.10656901876702778,
+      "ice_plus_snow_kg": 0.0,
+      "unmelted_snow_tracer_kg": 0.0,
+      "mass_residual_kg": -1.4141465776162931e-14,
+      "energy_residual_J": 3.3178366720676422e-09,
+      "maximum_layer_thickness_m": 7.325734173919665e-05,
+      "substeps": 2181,
+      "rain_kg": 4.114731375765907,
+      "snow_swe_kg": 0.0,
+      "vapour_in_kg": 0.0,
+      "vapour_out_kg": 0.09610985995724533,
+      "drain_kg": 3.9120524970416484,
+      "energy_environment_J": 161166.89825867378,
+      "energy_material_in_J": 1716254.4568319642,
+      "energy_vapour_J": -275199.0590884951,
+      "drain_energy_J": 1558884.548194146,
+      "thin_equilibrium_layer_approximation": true,
+      "thick_snow_thermal_gradient_unresolved": false,
+      "snow_aerodynamic_capture_and_adhesion_validated": false,
+      "CNF_droplet_physics_validated": false
+    },
+    "coupling": "B1 longwave -> B3, B2 rain scenario -> B3",
+    "CFD_h_hm_used": false,
+    "two_way_CFD_CHT": false,
+    "radiation_for_this_join": "grey thin-surface reference; v2 cassette retains measured spectral-emitter curve",
+    "qualification": "demonstration of conservative interfaces, not validated integrated water yield"
+  },
+  "three_D_viewer": "native Python Matplotlib, actual solved U/T/Yv and selected trajectories; tested headlessly",
+  "unresolved": [
+    "CFD scalar wall treatment and full latent/buoyancy CHT coupling",
+    "grid-independent load and rain result",
+    "particle/source accuracy gates",
+    "empirical CNF splash, secondary droplets, nucleation/contact-line dynamics",
+    "thick-snow thermal structure and supercooled precipitation",
+    "site-specific soil, urban roughness/neighbours, hourly atmospheric spectrum",
+    "independent experimental benchmark for this cassette",
+    "qualified Stage-B surrogate/PPO and final actuator rating"
+  ],
+  "physical_yield_claim_supported": false,
+  "experimental_validation": false
+}

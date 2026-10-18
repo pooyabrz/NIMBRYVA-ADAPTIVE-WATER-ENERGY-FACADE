@@ -1,0 +1,6 @@
+# Python 3.11 or 3.12 recommended; desktop GUI support for Matplotlib is required.
+numpy>=2,<3
+scipy>=1.14,<2
+pandas>=2.2,<3
+matplotlib>=3.8,<4
+pvlib>=0.13,<0.17

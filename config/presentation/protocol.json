@@ -1,0 +1,17 @@
+{
+ "version":"presentation-F1", "declared_before_new_2025_runs":true,
+ "test_year":2025,"cities":["singapore","bandar-abbas","mumbai","phoenix","rasht","dubai","seville","istanbul"],
+ "episode_hours":48,"episodes_per_city":2,"seasonal_targets_fraction_of_year":[0.15,0.65],"surface_warmup_hours":12,
+ "weather_preselection":{"air_min_C":10,"wind_max_m_s":10,"no_snow":true,"RH_max_percent":100},
+ "controllers":["fixed","emitter","rule","mpc","ppo"],
+ "frozen_policy":"results/research/E/control/ppo-7.zip","training_or_tuning_on_2025":false,
+ "initial_state":{"battery_Wh":100,"capacity_Wh":200,"surface_temperature":"current air","film":"dry","pose":"PV50deg"},
+ "active_cooling":false,"extra_hardware_compute_energy":"unmeasured; 0.5 W idle is an existing engineering proxy",
+ "water_tracer":"rain, surface-condensation, initial inventory; mixed evaporation/sliding per reservoir, CNF jumping condensation-first",
+ "energy_tracer":"initial battery vs newly generated PV; mixed stored-energy attribution",
+ "coverage":"complete jointly supported episodes plus common valid prefixes; never resume scoring an episode after first unsupported state",
+ "energy_to_water":"whole-system modeled control burden divided by collected rain/condensation separately; overlapping ratios, not process-specific causal SEC",
+ "ratio_floor":"1e-4 kg/m2/hour * panel area * scored hours; ratios below this water amount are unresolved",
+ "RL_claim":"no improvement claim without independent data and qualified model; new numerical weather holdout is not a physical experiment",
+ "uncertainty":"separate numerical errors, scenario envelopes and city-cluster resampling; total physical uncertainty not calibrated"
+}

@@ -1,0 +1,42 @@
+{
+  "city": "yazd",
+  "year": 2024,
+  "status": "passed",
+  "hours": 8784,
+  "missing_by_column": {
+    "air_C": 0,
+    "rh_pct": 0,
+    "dew_C": 0,
+    "wind_m_s": 0,
+    "wind_from_deg": 0,
+    "precip_mm_h": 0,
+    "rain_mm_h": 0,
+    "snowfall_cm_h": 0,
+    "cloud_pct": 0,
+    "ghi_W_m2": 0,
+    "dni_W_m2": 0,
+    "dhi_W_m2": 0,
+    "is_day": 0,
+    "pressure_Pa": 0,
+    "lw_down_W_m2": 0
+  },
+  "errors": [],
+  "source": "ERA5 via Open-Meteo, hourly; NASA POWER hourly longwave",
+  "era5_grid_lat_lon": [
+    32.0,
+    54.25
+  ],
+  "era5_elevation_m": 1216.0,
+  "power_geometry": {
+    "type": "Point",
+    "coordinates": [
+      54.37,
+      31.9,
+      1594.74
+    ]
+  },
+  "longwave_unit_original": "Wh/m^2",
+  "alignment_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required.",
+  "resolution_warning": "Neither source resolves a facade microclimate. NASA longwave footprint differs from ERA5.",
+  "climate_warning": "2024 is one realized leap year, not a 30-year climate normal or a future forecast."
+}

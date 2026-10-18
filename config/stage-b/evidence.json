@@ -1,0 +1,42 @@
+{
+  "schema": "stage-b-evidence/v1",
+  "accessed_utc": "2026-10-17",
+  "rule": "A cited governing equation does not validate this facade. Design ranges are sensitivity ranges, never confidence intervals.",
+  "sources": [
+    {"id":"B01","title":"OpenCFD OpenFOAM 2312 atmospheric inlet and rough-ground source","url":"https://doc.openfoam.com/2312/tools/processing/boundary-conditions/rtm/derived/atmospheric/atmBoundaryLayerInletVelocity/","local_primary_source":"OpenFOAM 2312 patch260127 source: src/atmosphericModels/derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.H","use":"neutral logarithmic U, k, epsilon, friction velocity and sigmaEps consistency"},
+    {"id":"B02","title":"OpenCFD atmNutkWallFunction","url":"https://doc.openfoam.com/2312/tools/processing/boundary-conditions/rtm/derived/atmospheric/atmNutkWallFunction/","use":"matched aerodynamic roughness at ground; z0 is an explicit isolated-building terrain scenario"},
+    {"id":"B03","title":"OpenCFD scalarTransport 2312 source","url":"https://api.openfoam.com/2312/classFoam_1_1functionObjects_1_1scalarTransport.html","local_primary_source":"src/functionObjects/solvers/scalarTransport/scalarTransport.C","use":"steady passive scalar transport, molecular plus turbulent diffusivity; not a humid-air phase-change solver"},
+    {"id":"B04","title":"EnergyPlus conduction finite difference engineering reference","url":"https://energyplus.readthedocs.io/en/stable/guides/engineering-reference/3.2-conduction-finite-difference-solution-algorithm.html","use":"implicit conduction and enthalpy framework; this package does not execute EnergyPlus"},
+    {"id":"B05","title":"DOE reference model IDF, medium office","local_file":"research/doe-reference.idf","sha256":"2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34","use":"actual nonres_ext_wall_top layer properties; frozen primary IDF from Stage A, extraction in doe-wall.json"},
+    {"id":"B06","title":"Blocken and Carmeliet 2007, validation of wind-driven rain on low-rise building","doi":"10.1016/j.buildenv.2006.07.032","url":"https://research.tue.nl/en/publications/validation-of-cfd-simulations-of-wind-driven-rain-on-a-low-rise-b/","use":"separate airflow/rain validation methodology; experimental data were not imported or used to claim validation here"},
+    {"id":"B07","title":"Rees and Garrett 2021, disdrometer sampling precision","doi":"10.5194/amt-14-7681-2021","url":"https://amt.copernicus.org/articles/14/7681/2021/","use":"Marshall-Palmer shape N0=8000 m^-3 mm^-1, Lambda=4.1 R^-0.21 mm^-1 and sampling limitations; not local measured DSD"},
+    {"id":"B08","title":"OpenCFD SchillerNaumann drag source","url":"https://api.openfoam.com/2312/classFoam_1_1multiphaseEuler_1_1dragModels_1_1SchillerNaumann.html","use":"sphere drag CdRe=24(1+0.15Re^0.687) below1000, 0.44Re above; deformed large raindrops remain uncertain"},
+    {"id":"B09","title":"Mundo, Sommerfeld and Tropea 1995, droplet-wall collision","doi":"10.1016/0301-9322(94)00069-V","url":"https://www.sciencedirect.com/science/article/pii/030193229400069V","use":"K=We^0.5 Re^0.25 splash indicator, 57.7 threshold; neither CNF retention nor a secondary-drop model"},
+    {"id":"B10","title":"Primary droplet impact experiments, Soft Matter 2016","doi":"10.1039/C6SM00933F","url":"https://pubs.rsc.org/en/content/articlehtml/2016/sm/c6sm00933f","use":"cross-check of impact criterion and calibration limitations"},
+    {"id":"B11","title":"IAPWS ice Ih release","url":"https://iapws.org/technical-guidance/release/Ice-2009","use":"thermodynamic reference for ice; full EOS is not implemented, near-zero constants are identified approximations"},
+    {"id":"B12","title":"IAPWS melting and sublimation curves","url":"https://iapws.org/technical-guidance/release/MeltSub","use":"phase-equilibrium context; constant zero-Celsius melting point approximation is declared"},
+    {"id":"B13","title":"IAPWS liquid water at 0.1 MPa","url":"https://www.iapws.org/relguide/LiquidWater.html","use":"reference for thermophysical property refinement; cp=4180 and mu=0.001 in current film are constant-property approximations, not this full formulation"},
+    {"id":"B14","title":"Basilisk primary Stefan reference implementation","url":"https://m2.basilisk.dalembert.upmc.fr/sandbox/ecipriano/run/stefanproblem.c","use":"analytic Neumann relation used for numerical phase-front verification; not experimental validation"},
+    {"id":"B15","title":"OpenCFD 2112 release: velocityFilmShell and surface film interaction","url":"https://www.openfoam.com/news/main-news/openfoam-v2112/solver-and-physics","use":"identifies distinction between a full surface-film collision model and the present independent Python smooth-film reference; that OpenFOAM film solver was not run"},
+    {"id":"B16","title":"Abu-Hamdeh 2003, soil thermal properties vs water content and density","url":"https://www.sciencedirect.com/science/article/pii/S1537511003001120","use":"shows dependence on soil state; does not identify the actual soil of any selected city"},
+    {"id":"B17","title":"EnergyPlus ground-domain surface heat balance","url":"https://energyplus.readthedocs.io/en/latest/guides/engineering-reference/3.13-ground-heat-transfer-calculations-using-sitegrounddomainslab.html","use":"boundary-condition scope and omitted soil moisture/evapotranspiration in dry-ground scenario"}
+  ],
+  "sensitivity_parameters": [
+    {"name":"film_plate_capacity_J_m2_K","nominal":850.3,"status":"derived from Stage-A emitter node capacity divided by active emitter area; constituent-property uncertainty remains in Stage A","source":"assembly.compile_assembly(model_config()) capacity_J_K[6] / dew_area_m2"},
+    {"name":"z0_m","nominal":0.03,"range":[0.01,0.3],"status":"terrain scenario, not a measured urban roughness; grid wall-distance compatibility required","source":"B01,B02"},
+    {"name":"Prt","nominal":0.85,"range":[0.7,1.0],"status":"turbulent diffusivity closure sensitivity, no calibrated confidence interval","source":"B03 algorithm; coefficient is a scenario"},
+    {"name":"Sct","nominal":0.7,"range":[0.5,1.0],"status":"turbulent diffusivity closure sensitivity","source":"B03 algorithm; coefficient is a scenario"},
+    {"name":"ground_k_W_m_K","nominal":1.5,"range":[0.3,2.5],"status":"unmeasured homogeneous soil scenario","source":"B16 motivates uncertainty, not nominal identification"},
+    {"name":"ground_rho_kg_m3","nominal":1600,"range":[1200,2000],"status":"unmeasured soil scenario","source":"B16"},
+    {"name":"ground_cp_J_kg_K","nominal":800,"range":[700,1500],"status":"dry-ground scenario, no soil moisture transport","source":"B16"},
+    {"name":"deep_ground_C","nominal":15,"range":[5,25],"status":"design boundary, common controlled reference; not city-specific climatology","source":"B17 requires site inputs"},
+    {"name":"external_h_prior_W_m2_K","nominal":"4+3*wind_m_s","relative_multiplier_range":[0.5,1.5],"status":"explicit engineering prior where CFD scalar flux is unqualified; not a paper-derived universal law"},
+    {"name":"film_mu_Pa_s","nominal":0.001,"range":[0.00065,0.0018],"status":"constant water-viscosity approximation; cold liquid drainage can differ strongly","source":"B13"},
+    {"name":"water_cp_J_kg_K","nominal":4180,"range":[4170,4230],"status":"near-ambient constant approximation","source":"B13"},
+    {"name":"ice_cp_J_kg_K","nominal":2100,"range":[1700,2120],"status":"near-freezing constant approximation","source":"B11"},
+    {"name":"fusion_latent_J_kg","nominal":333500,"range":[332000,335000],"status":"constant phase reference near zero Celsius","source":"B11,B12"},
+    {"name":"snow_density_kg_m3","nominal":200,"range":[100,400],"status":"scenario for thickness flag only; snow input is already water-equivalent mass, not inferred from depth"},
+    {"name":"retained_fraction_after_splash","nominal":0.5,"range":[0,1],"status":"unidentified CNF/glass retention scenario; K threshold cannot determine it","source":"B09,B10"},
+    {"name":"thin_layer_limit_m","nominal":0.001,"range":[0.0005,0.002],"status":"declared model-scope threshold; thick snow/ice requires normal-direction thermal resolution"}
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "model_sha256": "628371b071eb0aa06728bc3facc1e7b77d99893784cd789d0ca3cfb43e7dd43d",
+  "test_used_to_retune": false,
+  "after_mass_projection": {
+    "drain_MAE_L": 0.0003676791916438415,
+    "drain_RMSE_L": 0.001585293206275782,
+    "drain_abs_error_p95_L": 0.002038774350467536,
+    "reference_mean_drain_L": 0.00024192254834786992,
+    "nearzero_reference_count": 1974,
+    "nearzero_false_positive_above_0_0001L": 230,
+    "surface_abs_error_p95_K": [
+      2.835032089431735,
+      1.779620134546608
+    ],
+    "PV_abs_error_p95_Wh": 16.833853489192986
+  },
+  "interval_interpretation": "empirical held-out error quantiles; not physical confidence intervals, not conformal coverage guarantee",
+  "conditional_controller_difference_intervals": {
+    "ppo_minus_fixed": {
+      "mean_city_episode_drain_difference_L": 0.010774580343462237,
+      "city_cluster_bootstrap_95_interval_L": [
+        -0.0009594558466089187,
+        0.023965716593435785
+      ],
+      "cities": 8
+    },
+    "ppo_minus_rule": {
+      "mean_city_episode_drain_difference_L": 0.003138492144254052,
+      "city_cluster_bootstrap_95_interval_L": [
+        -0.005395872549116146,
+        0.012930377326078256
+      ],
+      "cities": 8
+    },
+    "ppo_minus_mpc": {
+      "mean_city_episode_drain_difference_L": -0.006243240319693343,
+      "city_cluster_bootstrap_95_interval_L": [
+        -0.019644311161027404,
+        0.003151846236901102
+      ],
+      "cities": 8
+    }
+  },
+  "bootstrap_scope": "eight cities, single test year, common supported hours; not annual climate confidence or proof of product/RL superiority",
+  "identical_command_multistep_replay": [
+    {
+      "group": "test-rasht-2023-e0",
+      "controller": "fixed",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 3.131331430451474,
+      "drain_cumulative_error_L": 0.059362063736437105,
+      "PV_cumulative_error_Wh": -405.33232685652183,
+      "teacher_unsupported_hours": 6
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "controller": "mpc",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 1.3826396462358466,
+      "drain_cumulative_error_L": 0.01970402679988558,
+      "PV_cumulative_error_Wh": 8.906663748574829,
+      "teacher_unsupported_hours": 0
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "controller": "ppo",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 1.2828618719841747,
+      "drain_cumulative_error_L": 0.0613872873214953,
+      "PV_cumulative_error_Wh": 180.6471458000124,
+      "teacher_unsupported_hours": 0
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "controller": "rule",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 3.098657176267777,
+      "drain_cumulative_error_L": 0.014736064968967857,
+      "PV_cumulative_error_Wh": -892.2405649024086,
+      "teacher_unsupported_hours": 0
+    },
+    {
+      "group": "test-singapore-2023-e0",
+      "controller": "fixed",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 1.7531748495115929,
+      "drain_cumulative_error_L": 0.00026270187893522154,
+      "PV_cumulative_error_Wh": -125.21040761589757,
+      "teacher_unsupported_hours": 1
+    },
+    {
+      "group": "test-singapore-2023-e0",
+      "controller": "mpc",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 0.7576110613958471,
+      "drain_cumulative_error_L": -0.008781681026219582,
+      "PV_cumulative_error_Wh": 4.307727588280159,
+      "teacher_unsupported_hours": 0
+    },
+    {
+      "group": "test-singapore-2023-e0",
+      "controller": "ppo",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 1.6851068525824997,
+      "drain_cumulative_error_L": -0.025091334031413757,
+      "PV_cumulative_error_Wh": 40.660459898751114,
+      "teacher_unsupported_hours": 0
+    },
+    {
+      "group": "test-singapore-2023-e0",
+      "controller": "rule",
+      "hours": 48,
+      "emitter_temperature_RMSE_K": 1.8055064338151636,
+      "drain_cumulative_error_L": -0.0284292154443207,
+      "PV_cumulative_error_Wh": -407.1486911177981,
+      "teacher_unsupported_hours": 0
+    }
+  ],
+  "rollout_note": "identical exogenous requested actions and initial states; physical interlocks can resolve commands differently as states diverge",
+  "qualified_for_product_or_controller_superiority_claim": false
+}

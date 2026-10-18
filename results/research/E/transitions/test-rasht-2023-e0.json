@@ -1,0 +1,1467 @@
+{
+  "episode": {
+    "city": "rasht",
+    "year": 2023,
+    "role": "test",
+    "episode": 0,
+    "seed": 2209,
+    "hours": 48,
+    "start": "2023-03-03 15:00:00+00:00",
+    "config": {
+      "external_h_multiplier": 1.0,
+      "coating_condition": 1.0,
+      "collector_efficiency": 0.85,
+      "bridge_multiplier": 1.0,
+      "motor_running_upper_W": 72.0
+    },
+    "conditional_warm_window": true,
+    "selection_uses_future_for_domain_only": true,
+    "forecast_contains_future_reanalysis": false,
+    "initial_eval_battery_Wh": 100.0,
+    "case_group": "test-rasht-2023-e0"
+  },
+  "rows": [
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 16:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 16:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 16:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 17:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 17:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 17:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 18:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 18:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 18:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 19:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 19:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 19:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 20:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 20:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 20:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 21:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 21:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 21:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 22:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 22:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 22:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 23:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 23:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-03 23:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 00:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 00:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 00:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 01:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 01:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 01:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 02:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 02:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 02:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 03:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 03:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 03:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 04:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 04:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 04:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 05:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 05:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 05:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 06:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 06:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 06:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 07:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 07:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 07:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 08:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 08:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 08:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 09:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 09:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 09:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 10:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 10:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 11:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 11:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 11:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 12:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 12:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 12:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 13:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 13:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 13:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 14:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 14:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 14:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 15:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 15:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 15:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 16:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 16:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 16:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 17:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 17:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 17:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 18:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 18:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 18:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 19:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 19:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 19:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 20:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 20:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 20:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 21:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 21:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 21:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 22:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 22:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 22:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 23:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 23:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-04 23:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 00:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 00:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 00:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 01:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 01:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 01:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 02:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 02:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 02:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 03:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 03:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 03:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 04:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 04:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 04:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 05:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 05:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 05:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": false
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 06:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 06:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 06:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 07:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 07:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 07:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 08:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 08:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 08:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 09:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 09:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 09:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 10:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 10:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 11:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 11:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 11:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 12:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 12:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 12:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 13:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 13:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 13:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 14:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 14:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 14:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 15:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 15:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "test-rasht-2023-e0",
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "time": "2023-03-05 15:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    }
+  ],
+  "failures": [],
+  "teacher": "cassette-v2.0 + B1 hourly wall/ground boundary; no CFD closure qualification"
+}

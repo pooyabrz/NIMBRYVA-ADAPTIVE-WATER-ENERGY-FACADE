@@ -1,0 +1,23 @@
+[
+  {
+    "file": "models\\facade-solar.obj",
+    "vertices": 104,
+    "tilt_deg": 45,
+    "active_face_area_m2": 1.0,
+    "wall_standoff_m": 0.7
+  },
+  {
+    "file": "models\\facade-dew.obj",
+    "vertices": 104,
+    "tilt_deg": 25,
+    "active_face_area_m2": 1.0,
+    "wall_standoff_m": 0.7
+  },
+  {
+    "file": "models\\facade-rain.obj",
+    "vertices": 104,
+    "tilt_deg": 65,
+    "active_face_area_m2": 1.0,
+    "wall_standoff_m": 0.7
+  }
+]

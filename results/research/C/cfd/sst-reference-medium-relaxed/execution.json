@@ -1,0 +1,172 @@
+{
+  "status": "EXECUTED_NOT_EXPERIMENTALLY_VALIDATED",
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "checkMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.4382357597351074,
+      "log_sha256": "7c014c91f6bfac30d6c0f2f2669c2b2c3fb113dde34d0d95fa8e67ad4fcbe848"
+    },
+    {
+      "command": [
+        "simpleFoam"
+      ],
+      "returncode": 0,
+      "seconds": 270.41758275032043,
+      "log_sha256": "66fb288a82943d38fc2b74f4b7f5488971e84c511009cc977cc9b5ddff38bbb1"
+    },
+    {
+      "command": [
+        "postProcess",
+        "-func",
+        "writeCellCentres",
+        "-latestTime"
+      ],
+      "returncode": 0,
+      "seconds": 0.38813304901123047,
+      "log_sha256": "a96889c81b913151ee881fa964e801dcbe6fccccbbd1acfa64476e0d2ce96a6e"
+    }
+  ],
+  "quality": {
+    "case": "sst-reference-medium-relaxed",
+    "time": "800",
+    "cells": 73493,
+    "geometry": {
+      "patch_faces": {
+        "inlet": 1232,
+        "outlet": 1232,
+        "side1": 1232,
+        "side2": 1232,
+        "ground": 2224,
+        "top": 1936,
+        "building": 2524,
+        "cassette": 2888
+      },
+      "passed": true,
+      "cassette_area_m2": 4.36515480346641,
+      "physical_closed_box_area_m2": 4.405143603567995,
+      "relative_area_error": 0.009077751760282138,
+      "face_centre_bounds_error_m": 0.012360296024587214,
+      "geometry_tolerance_for_screening": 0.15,
+      "geometry_qualified_to_two_percent": true
+    },
+    "standard_checkMesh_passed": true,
+    "last_initial_residuals": {
+      "Ux": 1.092781164e-05,
+      "Uy": 0.0003521268756,
+      "Uz": 9.003714829e-05,
+      "p": 0.0002516353613,
+      "omega": 6.876618735e-07,
+      "k": 0.0001576802366,
+      "T": 8.891941095e-06,
+      "Yv": 1.736458523e-09
+    },
+    "continuity_sum_local_last": 4.62768527e-09,
+    "finite_fields": true,
+    "flow_residual_gate_passed": false,
+    "scalar_residual_and_bounds_gate_passed": false,
+    "empty_constant_scalar_preservation": false,
+    "scalar_residual_note": null,
+    "T_range_K": [
+      292.1689042,
+      293.7819429
+    ],
+    "Yv_range": [
+      0.009649798579,
+      0.0102
+    ],
+    "U_max_m_s": 6.897873794977711,
+    "bulk_Ri": 0.07953171405764968,
+    "neutral_RANS_Ri_below_0_1": true,
+    "flow_available_for_exploratory_particle_tracking": false,
+    "qualified_scalar_transfer_available": false,
+    "qualified_for_yield_surrogate_training": false,
+    "why_not_qualified": [
+      "scalar wall treatment has no resolved/prismatic boundary layers",
+      "independent physical validation absent",
+      "grid convergence must be assessed on quantities of interest"
+    ],
+    "OpenFOAM_converged_message": false,
+    "quantities_of_interest": {
+      "probe_points_m": [
+        [
+          -6.000000000000001,
+          0.0,
+          8.0
+        ],
+        [
+          -3.000000000000001,
+          0.0,
+          8.0
+        ],
+        [
+          -1.5000000000000009,
+          0.0,
+          8.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0,
+          10.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0,
+          6.0
+        ]
+      ],
+      "probe_U_m_s": [
+        [
+          3.375411443563262,
+          -0.00047495166835834305,
+          0.8770207174075799
+        ],
+        [
+          2.075894997589105,
+          -0.0004655147668761896,
+          -0.1865775311454823
+        ],
+        [
+          0.678367996347546,
+          0.0016654200207458694,
+          -0.39139431837132466
+        ],
+        [
+          1.157075519797495,
+          0.00586118730067091,
+          0.31661535990715617
+        ],
+        [
+          -0.41502764225204836,
+          0.0024428141786363277,
+          -1.8595244938555118
+        ]
+      ],
+      "pressure_only_force_N": [
+        7.699049914198351,
+        -0.0007627906379366529,
+        -6.342106324801074
+      ],
+      "pressure_only_moment_Nm": [
+        0.004172018816338259,
+        1.0169574989698267,
+        0.005576215512544719
+      ],
+      "pressure_only_rotation_axis_moment_Nm": 1.0169574989698267,
+      "diagnostic_h_W_m2_K": 17.689179955965354,
+      "diagnostic_hm_m_s": 0.01750205467080535,
+      "diagnostic_h_not_qualified": true,
+      "flux_gradient": "owner-to-face normal distance; omits nonorthogonal correction",
+      "pressure_only_load_not_actuator_rating": true,
+      "load_omissions": [
+        "viscous traction",
+        "gust/transient load",
+        "anchor/support loads"
+      ],
+      "scalar_wall_limitation": "no thermal/mass wall functions and no resolved prism boundary layers"
+    }
+  }
+}

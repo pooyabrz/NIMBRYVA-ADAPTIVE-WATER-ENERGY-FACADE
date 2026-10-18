@@ -1,0 +1,6 @@
+{
+  "status": "ARCHIVED_ONLY",
+  "superseded_by": "cassette-v2.0",
+  "policy_compatible_with_v2": false,
+  "note": "Source and old runs retained for provenance. Internal paths assumed original root and need a separate copy of data to rerun; these are not the active commands."
+}

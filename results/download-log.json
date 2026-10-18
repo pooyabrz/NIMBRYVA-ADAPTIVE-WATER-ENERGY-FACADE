@@ -1,0 +1,130 @@
+[
+  {
+    "city": "bandar-abbas",
+    "year": 2020,
+    "hours_era5": 8784,
+    "hours_longwave": 8784,
+    "era5_elevation_m": 10.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "bandar-abbas",
+    "year": 2021,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 10.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "bandar-abbas",
+    "year": 2022,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 10.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "bandar-abbas",
+    "year": 2023,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 10.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "mumbai",
+    "year": 2020,
+    "hours_era5": 8784,
+    "hours_longwave": 8784,
+    "era5_elevation_m": 9.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "mumbai",
+    "year": 2021,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 9.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "mumbai",
+    "year": 2022,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 9.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "mumbai",
+    "year": 2023,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 9.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "phoenix",
+    "year": 2020,
+    "hours_era5": 8784,
+    "hours_longwave": 8784,
+    "era5_elevation_m": 335.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "phoenix",
+    "year": 2021,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 335.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "phoenix",
+    "year": 2022,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 335.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "phoenix",
+    "year": 2023,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 335.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "singapore",
+    "year": 2020,
+    "hours_era5": 8784,
+    "hours_longwave": 8784,
+    "era5_elevation_m": 39.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "singapore",
+    "year": 2021,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 39.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "singapore",
+    "year": 2022,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 39.0,
+    "status": "downloaded"
+  },
+  {
+    "city": "singapore",
+    "year": 2023,
+    "hours_era5": 8760,
+    "hours_longwave": 8760,
+    "era5_elevation_m": 39.0,
+    "status": "downloaded"
+  }
+]

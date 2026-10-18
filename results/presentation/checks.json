@@ -1,0 +1,259 @@
+{
+  "checks": [
+    {
+      "name": "mixed water plus condensation-first jumping closes each origin",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 0",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 1",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 2",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 3",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 4",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 5",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 6",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 7",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 8",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 9",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 10",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 11",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 12",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 13",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 14",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 15",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 16",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 17",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 18",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 19",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 20",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 21",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 22",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 23",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 24",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 25",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 26",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 27",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 28",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 29",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 30",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 31",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 32",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 33",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 34",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 35",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 36",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 37",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 38",
+      "pass": true
+    },
+    {
+      "name": "mixed withdrawal conservative 39",
+      "pass": true
+    },
+    {
+      "name": "initial battery energy never claimed as PV",
+      "pass": true
+    },
+    {
+      "name": "PV usefulness excludes conversion battery losses and curtailment",
+      "pass": true
+    },
+    {
+      "name": "tracers close within physical substeps 8",
+      "pass": true
+    },
+    {
+      "name": "PV stock accounting across one hour 8",
+      "pass": true
+    },
+    {
+      "name": "tracers close within physical substeps 9",
+      "pass": true
+    },
+    {
+      "name": "PV stock accounting across one hour 9",
+      "pass": true
+    },
+    {
+      "name": "tracers close within physical substeps 10",
+      "pass": true
+    },
+    {
+      "name": "PV stock accounting across one hour 10",
+      "pass": true
+    },
+    {
+      "name": "tracers close within physical substeps 16",
+      "pass": true
+    },
+    {
+      "name": "PV stock accounting across one hour 16",
+      "pass": true
+    },
+    {
+      "name": "tracers close within physical substeps 17",
+      "pass": true
+    },
+    {
+      "name": "PV stock accounting across one hour 17",
+      "pass": true
+    },
+    {
+      "name": "auditing leaves all physical results unchanged",
+      "pass": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "physical calculations match archived delivered CDE1 source",
+      "pass": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "new 2025 weather is outside all previous fitting and testing years",
+      "pass": true
+    },
+    {
+      "name": "attached base has no removed files",
+      "pass": true
+    },
+    {
+      "name": "policy unchanged since CDE test",
+      "pass": true
+    },
+    {
+      "name": "all 3840 realized rows conserve collected source identities",
+      "pass": true,
+      "max_error_L": 1.7763568394002505e-15
+    },
+    {
+      "name": "all realized PV ledgers close without initial energy credit",
+      "pass": true,
+      "max_error_Wh": 4.831690603168681e-12
+    },
+    {
+      "name": "censored trajectories never resume after unsupported state",
+      "pass": true
+    },
+    {
+      "name": "active cooling is explicitly absent in all realized rows",
+      "pass": true
+    }
+  ],
+  "passed": 62,
+  "total": 62,
+  "experimental_validation": false
+}

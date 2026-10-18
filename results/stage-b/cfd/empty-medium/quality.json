@@ -1,0 +1,111 @@
+{
+  "case": "empty-medium",
+  "time": "1200",
+  "cells": 54208,
+  "geometry": {
+    "patch_faces": {
+      "inlet": 1232,
+      "outlet": 1232,
+      "side1": 1232,
+      "side2": 1232,
+      "ground": 1936,
+      "top": 1936
+    },
+    "passed": true
+  },
+  "standard_checkMesh_passed": true,
+  "last_initial_residuals": {
+    "Ux": 8.904408939e-13,
+    "Uy": 3.081744799e-06,
+    "Uz": 7.467716483e-11,
+    "p": 8.335125922e-09,
+    "epsilon": 9.354200513e-10,
+    "k": 9.849324455e-10,
+    "T": 4.106123768e-05,
+    "Yv": 0.0001144465858
+  },
+  "continuity_sum_local_last": 1.12847097e-12,
+  "finite_fields": true,
+  "flow_residual_gate_passed": true,
+  "scalar_residual_and_bounds_gate_passed": true,
+  "empty_constant_scalar_preservation": true,
+  "scalar_residual_note": "Zero-contrast normalized residual is not used if the constant solution is preserved to the stated tolerance",
+  "T_range_K": [
+    293.15,
+    293.15
+  ],
+  "Yv_range": [
+    0.0102,
+    0.0102
+  ],
+  "U_max_m_s": 6.79317685679937,
+  "bulk_Ri": 0.0,
+  "neutral_RANS_Ri_below_0_1": true,
+  "flow_available_for_exploratory_particle_tracking": true,
+  "qualified_scalar_transfer_available": false,
+  "qualified_for_yield_surrogate_training": false,
+  "why_not_qualified": [
+    "scalar wall treatment has no resolved/prismatic boundary layers",
+    "independent physical validation absent",
+    "grid convergence must be assessed on quantities of interest"
+  ],
+  "OpenFOAM_converged_message": false,
+  "quantities_of_interest": {
+    "probe_points_m": [
+      [
+        -6.000000000000001,
+        0.0,
+        8.0
+      ],
+      [
+        -3.000000000000001,
+        0.0,
+        8.0
+      ],
+      [
+        -1.5000000000000009,
+        0.0,
+        8.0
+      ],
+      [
+        -1.0000000000000009,
+        0.0,
+        10.0
+      ],
+      [
+        -1.0000000000000009,
+        0.0,
+        6.0
+      ]
+    ],
+    "probe_U_m_s": [
+      [
+        4.866964119526645,
+        2.2571352897925464e-13,
+        -0.0008558317415723817
+      ],
+      [
+        4.872889534969066,
+        2.430779099090521e-13,
+        -0.000837060572660902
+      ],
+      [
+        4.8666352963002915,
+        2.382127039638873e-13,
+        -0.0008217871878525266
+      ],
+      [
+        4.9284797322688005,
+        2.863218237920779e-13,
+        -0.0009728165806897063
+      ],
+      [
+        4.526971606929791,
+        -1.2888842994311115e-13,
+        -0.0003842571784274486
+      ]
+    ]
+  },
+  "empty_ABL_relative_L2_U": 0.006332903165928945,
+  "empty_ABL_max_vertical_velocity_m_s": 0.006552950743
+}

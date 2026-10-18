@@ -1,0 +1,132 @@
+{
+  "version": "conditional-emulator-1",
+  "weights": [
+    "member-7.npz",
+    "member-17.npz",
+    "member-27.npz"
+  ],
+  "training": [
+    {
+      "seed": 7,
+      "epochs_completed": 344,
+      "selected_epoch": 274,
+      "selection_loss": 0.0955694243311882
+    },
+    {
+      "seed": 17,
+      "epochs_completed": 499,
+      "selected_epoch": 429,
+      "selection_loss": 0.10821138322353363
+    },
+    {
+      "seed": 27,
+      "epochs_completed": 289,
+      "selected_epoch": 219,
+      "selection_loss": 0.09279844909906387
+    }
+  ],
+  "runtime_s": 43.347005128860474,
+  "train_groups": [
+    "train-bandar-abbas-2020-e0",
+    "train-bandar-abbas-2020-e1",
+    "train-bandar-abbas-2020-e2",
+    "train-bandar-abbas-2020-e3",
+    "train-bandar-abbas-2021-e0",
+    "train-bandar-abbas-2021-e1",
+    "train-bandar-abbas-2021-e2",
+    "train-bandar-abbas-2021-e3",
+    "train-mumbai-2020-e0",
+    "train-mumbai-2020-e1",
+    "train-mumbai-2020-e2",
+    "train-mumbai-2020-e3",
+    "train-mumbai-2021-e0",
+    "train-mumbai-2021-e1",
+    "train-mumbai-2021-e2",
+    "train-mumbai-2021-e3",
+    "train-phoenix-2020-e0",
+    "train-phoenix-2020-e1",
+    "train-phoenix-2020-e2",
+    "train-phoenix-2020-e3",
+    "train-phoenix-2021-e0",
+    "train-phoenix-2021-e1",
+    "train-phoenix-2021-e2",
+    "train-phoenix-2021-e3",
+    "train-singapore-2020-e0",
+    "train-singapore-2020-e1",
+    "train-singapore-2020-e2",
+    "train-singapore-2020-e3",
+    "train-singapore-2021-e0",
+    "train-singapore-2021-e1",
+    "train-singapore-2021-e2",
+    "train-singapore-2021-e3"
+  ],
+  "selection_groups": [
+    "selection-bandar-abbas-2022-e0",
+    "selection-bandar-abbas-2022-e1",
+    "selection-mumbai-2022-e0",
+    "selection-mumbai-2022-e1",
+    "selection-phoenix-2022-e0",
+    "selection-phoenix-2022-e1",
+    "selection-singapore-2022-e0",
+    "selection-singapore-2022-e1"
+  ],
+  "test_used_for_model_selection": false,
+  "teacher": "cassette-v2.0 + B1 wall/ground",
+  "CFD_surrogate": false,
+  "independent_experimental_validation": false,
+  "physical_product_qualification": false,
+  "training_seed_policy": [
+    7,
+    17,
+    27
+  ],
+  "uncertainty": "ensemble spread is model disagreement, not full physical uncertainty",
+  "selection_metrics": {
+    "samples": 1152,
+    "temperature_MAE_K_by_node": [
+      0.8427565842618033,
+      0.8478217383653472,
+      0.865844365784327,
+      0.8559741296252825,
+      0.8466060804214645,
+      0.46431787245320144,
+      0.48771294424493106,
+      0.5333451087737846
+    ],
+    "temperature_RMSE_K_by_node": [
+      1.6243599301412623,
+      1.63689078419783,
+      1.6531366486190784,
+      1.6485464010860422,
+      1.635878191641618,
+      0.7529392872605268,
+      0.725743244349927,
+      0.9265428372497583
+    ],
+    "surface_max_abs_p95_K": 3.303722727836029,
+    "water_MAE_L_by_rain_cond_evap_drain_loss_film": [
+      0.01363467336312784,
+      0.000850651002097502,
+      0.01556246026631987,
+      0.00011024894281942742,
+      2.3943962549919508e-05,
+      0.15229463717732894,
+      0.35594148378172985,
+      5.0360130696120436e-05
+    ],
+    "drain_RMSE_L": 0.00038402289779414873,
+    "drain_mean_reference_L": 0.00025971259715933787,
+    "pv_MAE_Wh": 4.101236936660525,
+    "pv_RMSE_Wh": 9.094111527132116,
+    "unsupported_reference": 60,
+    "false_accept_at_0_9": 6,
+    "supported_reference": 1092,
+    "true_accept_at_0_9": 1070
+  },
+  "selection_drain_abs_residual_p95_L": 0.0005757727709688738,
+  "weights_sha256": {
+    "member-7.npz": "37917624cbaeaa7cc7c05fbca0b0a14a2f6259bf88aede3010e8fc8e468c01b4",
+    "member-17.npz": "caea679a74569ace1dd4bb29a8e3864de85835da1bf8ff66d15ebfc678210e8e",
+    "member-27.npz": "a01bd8cf014d18ecd3e6d7856a4ca6f7f07ca7c6f7dd85459b4a61550342ccb0"
+  }
+}

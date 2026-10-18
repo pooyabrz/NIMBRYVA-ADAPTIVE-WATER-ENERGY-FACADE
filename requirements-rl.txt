@@ -1,0 +1,4 @@
+-r requirements.txt
+# pip resolves a compatible Gymnasium version for Stable-Baselines3.
+gymnasium>=1.0,<2
+stable-baselines3>=2.5,<3

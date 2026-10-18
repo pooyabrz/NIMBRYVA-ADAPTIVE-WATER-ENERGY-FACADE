@@ -1,0 +1,50 @@
+{
+  "version_output": "\nUsage: simpleFoam [OPTIONS]\nOptions:\n  -case <dir>       Case directory (instead of current directory)\n  -decomposeParDict <file>\n                    Alternative decomposePar dictionary file\n  -dry-run          Check case set-up only using a single time step\n  -dry-run-write    Check case set-up and write only using a single time step\n  -parallel         Run in parallel\n  -postProcess      Execute functionObjects only\n  -doc              Display documentation in browser\n  -help             Display short help and exit\n  -help-full        Display full help and exit\n\nSteady-state solver for incompressible, turbulent flows.\n\nUsing: OpenFOAM-2312 (2312) - visit www.openfoam.com\nBuild: _9a9aeb73-20260127 (patch=260127)\nArch:  LSB;label=32;scalar=64\n\n",
+  "commands": [
+    {
+      "command": [
+        "blockMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.8968241214752197,
+      "log_sha256": "e814add6f36eea8ee91d6f8168d95827484c9be7cb63da77a493469428559c2b"
+    },
+    {
+      "command": [
+        "snappyHexMesh",
+        "-overwrite"
+      ],
+      "returncode": 0,
+      "seconds": 21.560263872146606,
+      "log_sha256": "ee0f47d3642a26ced8f3c63204526cdfc7fda84c13434711727c219e08f82690"
+    },
+    {
+      "command": [
+        "checkMesh"
+      ],
+      "returncode": 0,
+      "seconds": 0.7480611801147461,
+      "log_sha256": "2b1dd6ebf4e5b614c06c741af9309424bd0173a3baba7f0193121587be1b9960"
+    },
+    {
+      "command": [
+        "simpleFoam"
+      ],
+      "returncode": 0,
+      "seconds": 275.6342177391052,
+      "log_sha256": "ff827735e8c48a9eee4b1fe5d1fcaecfb2fbfcafc8d52b35a45246eeb22fd070"
+    },
+    {
+      "command": [
+        "postProcess",
+        "-func",
+        "writeCellCentres",
+        "-latestTime"
+      ],
+      "returncode": 0,
+      "seconds": 0.9856066703796387,
+      "log_sha256": "6af106bb90312c7110827c86d3134fbce5a863ae0350814925355bd11960dad4"
+    }
+  ],
+  "status": "EXECUTED_NOT_YET_GRID_OR_EXPERIMENTALLY_VALIDATED"
+}

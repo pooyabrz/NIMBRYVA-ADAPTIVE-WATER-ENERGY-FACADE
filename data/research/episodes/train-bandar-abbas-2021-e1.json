@@ -1,0 +1,21 @@
+{
+  "city": "bandar-abbas",
+  "year": 2021,
+  "role": "train",
+  "episode": 1,
+  "seed": 1989,
+  "hours": 72,
+  "start": "2021-05-17 21:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 0.7762807628699648,
+    "coating_condition": 0.9142493262288456,
+    "collector_efficiency": 0.7327222587280956,
+    "bridge_multiplier": 1.5097217532368334,
+    "motor_running_upper_W": 60.65892279415409
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-bandar-abbas-2021-e1"
+}

@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "cities": [
+      "rasht",
+      "bandar-abbas",
+      "singapore",
+      "mumbai",
+      "dubai",
+      "phoenix",
+      "seville",
+      "yazd"
+    ],
+    "year": 2024,
+    "steps": 100000,
+    "seed": 7,
+    "episode_hours": 168
+  },
+  "status": "Research training in an UNVALIDATED reduced-order simulator.",
+  "generalization": "Training reward is not held-out or real-world performance.",
+  "observation": "Current and past realized interval only. No future reanalysis.",
+  "versions": {
+    "stable-baselines3": "2.9.0",
+    "gymnasium": "1.4.0",
+    "numpy": "2.4.2",
+    "pvlib": "0.16.1"
+  }
+}

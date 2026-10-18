@@ -1,0 +1,128 @@
+{
+  "schema": "stage-b-cfd/v1",
+  "openfoam_family": "OpenCFD",
+  "release": "2312",
+  "tested_patch": "260127",
+  "mesh_level": "fine",
+  "wind10_m_s": 5,
+  "z0_m": 0.03,
+  "wind_direction_deg": 0,
+  "panel_angle_deg": 50,
+  "empty_domain": false,
+  "bounds_m": [
+    [
+      -59.436,
+      -143.8275,
+      0.0
+    ],
+    [
+      211.5818,
+      143.8275,
+      83.21039999999999
+    ]
+  ],
+  "panel_vertices_m": [
+    [
+      -1.5392536950496556,
+      -0.567,
+      7.302423754725412
+    ],
+    [
+      -1.5392536950496556,
+      0.567,
+      7.302423754725412
+    ],
+    [
+      -0.40666192678197177,
+      0.567,
+      8.652194063501051
+    ],
+    [
+      -0.40666192678197177,
+      -0.567,
+      8.652194063501051
+    ],
+    [
+      -1.5933380732180282,
+      -0.567,
+      7.347805936498949
+    ],
+    [
+      -1.5933380732180282,
+      0.567,
+      7.347805936498949
+    ],
+    [
+      -0.46074630495034796,
+      0.567,
+      8.697576245274588
+    ],
+    [
+      -0.46074630495034796,
+      -0.567,
+      8.697576245274588
+    ]
+  ],
+  "building_vertices_m": [
+    [
+      0.0,
+      -24.9555,
+      0.0
+    ],
+    [
+      33.2738,
+      -24.9555,
+      0.0
+    ],
+    [
+      33.2738,
+      24.9555,
+      0.0
+    ],
+    [
+      0.0,
+      24.9555,
+      0.0
+    ],
+    [
+      0.0,
+      -24.9555,
+      11.8872
+    ],
+    [
+      33.2738,
+      -24.9555,
+      11.8872
+    ],
+    [
+      33.2738,
+      24.9555,
+      11.8872
+    ],
+    [
+      0.0,
+      24.9555,
+      11.8872
+    ]
+  ],
+  "area_m2": 1.9981079999999998,
+  "blockage_fraction": 0.024787133396404922,
+  "T_ambient_K": 293.15,
+  "T_wall_K": 295.15,
+  "T_panel_K": 288.15,
+  "Yv_inlet": 0.0102,
+  "Yv_panel": 0.0076,
+  "Pr": 0.71,
+  "Prt": 0.85,
+  "Sc_molecular": 0.6,
+  "Sct": 0.7,
+  "limitations": [
+    "steady neutral RANS",
+    "passive T/Yv: no buoyancy or condensation latent feedback into CFD",
+    "no prismatic scalar boundary layers",
+    "no particle turbulence dispersion",
+    "no measured facade validation yet"
+  ],
+  "not_a_converged_solution": true,
+  "case_generated_only": true
+}

@@ -1,0 +1,21 @@
+{
+  "city": "phoenix",
+  "year": 2020,
+  "role": "train",
+  "episode": 1,
+  "seed": 2040,
+  "hours": 72,
+  "start": "2020-05-17 06:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.1127891183303416,
+    "coating_condition": 0.8323307342288975,
+    "collector_efficiency": 0.7132765542242003,
+    "bridge_multiplier": 0.8466402448616284,
+    "motor_running_upper_W": 83.64285482300866
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-phoenix-2020-e1"
+}

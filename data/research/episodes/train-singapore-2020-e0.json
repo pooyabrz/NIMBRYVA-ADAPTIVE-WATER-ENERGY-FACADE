@@ -1,0 +1,21 @@
+{
+  "city": "singapore",
+  "year": 2020,
+  "role": "train",
+  "episode": 0,
+  "seed": 1937,
+  "hours": 72,
+  "start": "2020-02-15 18:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 0.855841873341317,
+    "coating_condition": 0.8456653151794429,
+    "collector_efficiency": 0.8636505409667584,
+    "bridge_multiplier": 0.5468584530359619,
+    "motor_running_upper_W": 61.649799974577334
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-singapore-2020-e0"
+}

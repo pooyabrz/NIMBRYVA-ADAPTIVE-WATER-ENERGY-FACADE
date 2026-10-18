@@ -1,0 +1,19 @@
+FoamFile
+{ version 2.0; format ascii; class dictionary; object snappyHexMeshDict; }
+castellatedMesh true; snap true; addLayers false;
+geometry { building.stl {type triSurfaceMesh; name building;} cassette.stl {type triSurfaceMesh; name cassette;} cassetteRegion {type searchableBox; min (1.7555500092952525 -12.722969198053708 7.208888969219506); max (4.538868970162065 -10.000454095728005 8.791111030780492);} }
+castellatedMeshControls
+{
+ maxLocalCells 1800000; maxGlobalCells 2500000; minRefinementCells 0;
+ maxLoadUnbalance 0.1; nCellsBetweenLevels 3; features ({file "cassette.eMesh"; level 7;});
+ refinementSurfaces { building {level (2 2); patchInfo {type wall;}} cassette {level (7 7); patchInfo {type wall;}} }
+ resolveFeatureAngle 30;
+ refinementRegions {cassetteRegion {mode inside; levels ((1e15 4));}}
+ locationInMesh (-58.436 0 23.7744);
+ allowFreeStandingZoneFaces true;
+}
+snapControls {nSmoothPatch 5; tolerance 1; nSolveIter 100; nRelaxIter 8; nFeatureSnapIter 10; implicitFeatureSnap true; explicitFeatureSnap false; multiRegionFeatureSnap false;}
+addLayersControls {relativeSizes true; layers {} expansionRatio 1.2; finalLayerThickness 0.3; minThickness 0.1; nGrow 0; featureAngle 60; nRelaxIter 5; nSmoothSurfaceNormals 1; nSmoothNormals 3; nSmoothThickness 10; maxFaceThicknessRatio 0.5; maxThicknessToMedialRatio 0.3; minMedialAxisAngle 90; nBufferCellsNoExtrude 0; nLayerIter 50;}
+meshQualityControls
+{maxNonOrtho 60; maxBoundarySkewness 4; maxInternalSkewness 2; maxConcave 30; minVol 1e-15; minTetQuality 1e-12; minArea -1; minTwist 0.05; minDeterminant 0.001; minFaceWeight 0.05; minVolRatio 0.03; minTriangleTwist -1; nSmoothScale 5; errorReduction 0.75;}
+mergeTolerance 1e-6;

@@ -1,0 +1,6 @@
+{
+  "url": "https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=ALLSKY_SFC_LW_DWN&community=RE&latitude=1.35&longitude=103.82&start=20220101&end=20221231&format=JSON&time-standard=UTC",
+  "retrieved_at_UTC": "2026-10-17T18:10:04.982522+00:00",
+  "sha256": "081863d38fffb8316bef6a5808a723fde5b192ca6dcda1591d7f30fc2b9501ac",
+  "bytes": 173562
+}

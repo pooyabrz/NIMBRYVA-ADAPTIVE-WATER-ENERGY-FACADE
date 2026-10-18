@@ -1,0 +1,21 @@
+{
+  "city": "singapore",
+  "year": 2021,
+  "role": "train",
+  "episode": 3,
+  "seed": 1957,
+  "hours": 72,
+  "start": "2021-11-16 09:00:00+00:00",
+  "config": {
+    "external_h_multiplier": 1.198341301457786,
+    "coating_condition": 0.9733268480870978,
+    "collector_efficiency": 0.7239781211623108,
+    "bridge_multiplier": 0.5232713852955533,
+    "motor_running_upper_W": 76.25656014664054
+  },
+  "conditional_warm_window": true,
+  "selection_uses_future_for_domain_only": true,
+  "forecast_contains_future_reanalysis": false,
+  "initial_eval_battery_Wh": 100.0,
+  "case_group": "train-singapore-2021-e3"
+}

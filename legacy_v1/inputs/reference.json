@@ -1,0 +1,18 @@
+{
+  "status": "phase_1_concept_not_validated",
+  "units": "SI",
+  "geometry": {
+    "width_m": 1.0,
+    "length_m": 1.0,
+    "concept_thickness_m": 0.06,
+    "wall_standoff_m": 0.70,
+    "tilt_definition": "degrees from horizontal",
+    "illustrative_tilts_deg": {"solar": 45, "dew": 25, "rain": 65},
+    "mounting_height_sweep_m": [3, 15, 30]
+  },
+  "location": {"latitude_deg": null, "longitude_deg": null, "site_elevation_m": null, "facade_azimuth_deg": null},
+  "materials": {"pv_datasheet": null, "dew_spectral_emissivity": null, "dew_solar_absorptance": null, "thermal_assembly": null},
+  "forcing": {"source": null, "period": null, "original_time_resolution_s": null, "downwelling_longwave_source": null},
+  "cooling": {"reference": "passive", "active_cooling_enabled": false},
+  "validation": {"published_dataset": null, "surface_temperature_mae_K": null, "water_yield_bias_fraction": null}
+}

@@ -1,0 +1,13 @@
+{
+  "angles_deg": [
+    20,
+    50,
+    80,
+    200,
+    230,
+    260
+  ],
+  "coarse_to_fine_max_absolute_change": 0.003319149925595233,
+  "medium_to_fine_max_absolute_change": 0.000987025669642927,
+  "scope": "area and ray quadrature of ideal isolated flat panels only"
+}

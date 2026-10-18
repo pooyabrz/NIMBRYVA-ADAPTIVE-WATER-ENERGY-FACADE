@@ -1,0 +1,22 @@
+{
+  "forcing": "verify.forcing rain_mm_h=50, ghi_W_m2=300, dhi_W_m2=300, action=7; 1 hour from dry25C",
+  "cases": [
+    {
+      "dt_s": 60,
+      "dew_C": 23.11336435795654,
+      "drain_L": 17.84410926803654
+    },
+    {
+      "dt_s": 30,
+      "dew_C": 23.113352513164653,
+      "drain_L": 17.86925339021999
+    },
+    {
+      "dt_s": 15,
+      "dew_C": 23.11334727922257,
+      "drain_L": 17.939424730134792
+    }
+  ],
+  "drain_relative_difference_60_to_15": 0.005313183869165017,
+  "not_global_error_estimate": true
+}

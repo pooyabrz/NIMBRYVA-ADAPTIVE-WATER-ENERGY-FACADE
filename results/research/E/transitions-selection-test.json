@@ -1,0 +1,251 @@
+{
+  "records": [
+    {
+      "status": "COMPLETED",
+      "group": "selection-singapore-2022-e0",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 8,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-singapore-2022-e1",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 7,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-bandar-abbas-2022-e0",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 21,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-bandar-abbas-2022-e1",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-mumbai-2022-e0",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 24,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-mumbai-2022-e1",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-singapore-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 8,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-phoenix-2022-e0",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "selection-phoenix-2022-e1",
+      "role": "selection",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-singapore-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 10,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-bandar-abbas-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 5,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-bandar-abbas-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-mumbai-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-mumbai-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-phoenix-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-phoenix-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-rasht-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 30,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-rasht-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 37,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-dubai-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 9,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-dubai-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-seville-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-seville-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 7,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-istanbul-2023-e0",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 0,
+      "failed_steps": 0
+    },
+    {
+      "status": "COMPLETED",
+      "group": "test-istanbul-2023-e1",
+      "role": "test",
+      "samples": 144,
+      "unsupported_samples": 30,
+      "failed_steps": 0
+    }
+  ],
+  "runtime_s": 336.187531709671,
+  "parameters": [
+    "external_h_multiplier",
+    "coating_condition",
+    "collector_efficiency",
+    "bridge_multiplier",
+    "motor_running_upper_W"
+  ],
+  "ranges": {
+    "external_h_multiplier": [
+      0.7,
+      1.3
+    ],
+    "coating_condition": [
+      0.5,
+      1.0
+    ],
+    "collector_efficiency": [
+      0.7,
+      1.0
+    ],
+    "bridge_multiplier": [
+      0.5,
+      2.0
+    ],
+    "motor_running_upper_W": [
+      60.0,
+      84.0
+    ]
+  },
+  "targets": [
+    "T0_offset",
+    "T1_offset",
+    "T2_offset",
+    "T3_offset",
+    "T4_offset",
+    "T5_offset",
+    "T6_offset",
+    "T7_offset",
+    "rain_log",
+    "cond_log",
+    "evap_log",
+    "drain_log",
+    "loss_log",
+    "film0_log",
+    "film1_log",
+    "film2_log",
+    "pv_Wh",
+    "cavity_C_offset",
+    "cavity_w",
+    "supported"
+  ],
+  "teacher_is_independent_experiment": false,
+  "CFD_surrogate": false,
+  "source": "conditional v2 solver emulator for research only"
+}

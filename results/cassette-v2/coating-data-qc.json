@@ -1,0 +1,26 @@
+{
+  "source": "ETH DOI 10.3929/ethz-b-000469811",
+  "comparisons": [
+    {
+      "file": "haechler-fig4b.csv",
+      "samples": 450,
+      "runs": 9,
+      "unweighted_all_samples_mean_g_m2_h": 28.643128461003077,
+      "time_weighted_mean_g_m2_h": 28.638301199214848,
+      "published_caption_mean_g_m2_h": 28.6,
+      "relative_difference_from_caption": 0.0015079881469606678,
+      "no_parameter_fit_or_forced_rescaling": true
+    },
+    {
+      "file": "haechler-fig4c.csv",
+      "samples": 43200,
+      "runs": 2,
+      "unweighted_all_samples_mean_g_m2_h": 27.633434158603013,
+      "time_weighted_mean_g_m2_h": 27.633151649630747,
+      "published_caption_mean_g_m2_h": 28.1,
+      "relative_difference_from_caption": -0.016603766597757603,
+      "no_parameter_fit_or_forced_rescaling": true
+    }
+  ],
+  "note": "Simple all-sample average for Fig4C differs from the rounded article caption. Processing/window explanation is not established; do not force a fit."
+}

@@ -1,0 +1,15 @@
+FoamFile
+{ version 2.0; format ascii; class volScalarField; object k; }
+dimensions [0 2 -2 0 0 0 0];
+internalField uniform 2.3275419946403386;
+boundaryField
+{
+inlet { type atmBoundaryLayerInletK; flowDir (1 0 0); zDir (0 0 1); Uref 11.845720686265924; Zref 10; z0 uniform 0.03; d uniform 0; kappa 0.41; Cmu 0.09; C1 0; C2 1; value uniform 2.3275419946403386; }
+outlet { type inletOutlet; inletValue uniform 2.3275419946403386; value uniform 2.3275419946403386; }
+side1 { type symmetryPlane; }
+side2 { type symmetryPlane; }
+ground { type kqRWallFunction; value uniform 2.3275419946403386; }
+top { type symmetryPlane; }
+building { type kqRWallFunction; value uniform 2.3275419946403386; }
+cassette { type kqRWallFunction; value uniform 2.3275419946403386; }
+}

@@ -1,0 +1,2187 @@
+{
+  "episode": {
+    "city": "bandar-abbas",
+    "year": 2021,
+    "role": "train",
+    "episode": 1,
+    "seed": 1989,
+    "hours": 72,
+    "start": "2021-05-17 21:00:00+00:00",
+    "config": {
+      "external_h_multiplier": 0.7762807628699648,
+      "coating_condition": 0.9142493262288456,
+      "collector_efficiency": 0.7327222587280956,
+      "bridge_multiplier": 1.5097217532368334,
+      "motor_running_upper_W": 60.65892279415409
+    },
+    "conditional_warm_window": true,
+    "selection_uses_future_for_domain_only": true,
+    "forecast_contains_future_reanalysis": false,
+    "initial_eval_battery_Wh": 100.0,
+    "case_group": "train-bandar-abbas-2021-e1"
+  },
+  "rows": [
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-17 22:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-17 22:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-17 22:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-17 23:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-17 23:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-17 23:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 00:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 00:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 00:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 01:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 01:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 01:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 02:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 02:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 02:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 03:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 03:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 03:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 04:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 04:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 04:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 05:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 05:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 05:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 06:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 06:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 06:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 07:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 07:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 07:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 08:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 08:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 08:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 09:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 09:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 09:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 10:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 10:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 11:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 11:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 11:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 12:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 12:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 12:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 13:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 13:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 13:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 14:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 14:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 14:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 15:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 15:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 15:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 16:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 16:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 16:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 17:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 17:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 17:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 18:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 18:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 18:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 19:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 19:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 19:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 20:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 20:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 20:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 21:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 21:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 21:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 22:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 22:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 22:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 23:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 23:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-18 23:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 00:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 00:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 00:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 01:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 01:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 01:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 02:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 02:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 02:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 03:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 03:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 03:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 04:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 04:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 04:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 05:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 05:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 05:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 06:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 06:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 06:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 07:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 07:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 07:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 08:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 08:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 08:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 09:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 09:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 09:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 10:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 10:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 11:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 11:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 11:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 12:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 12:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 12:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 13:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 13:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 13:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 14:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 14:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 14:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 15:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 15:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 15:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 16:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 16:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 16:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 17:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 17:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 17:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 18:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 18:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 18:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 19:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 19:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 19:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 20:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 20:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 20:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 21:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 21:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 21:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 22:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 22:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 22:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 23:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 23:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-19 23:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 00:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 00:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 00:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 01:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 01:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 01:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 02:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 02:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 02:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 03:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 03:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 03:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 04:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 04:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 04:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 05:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 05:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 05:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 06:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 06:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 06:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 07:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 07:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 07:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 08:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 08:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 08:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 09:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 09:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 09:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 10:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 10:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 10:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 11:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 11:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 11:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 12:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 12:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 12:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 13:00:00+00:00",
+      "action": 8,
+      "resolved_action": 8,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 13:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 13:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 14:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 14:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 14:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 15:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 15:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 15:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 16:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 16:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 16:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 17:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 17:00:00+00:00",
+      "action": 6,
+      "resolved_action": 6,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 17:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 18:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 18:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 18:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 19:00:00+00:00",
+      "action": 4,
+      "resolved_action": 4,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 19:00:00+00:00",
+      "action": 3,
+      "resolved_action": 3,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 19:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 20:00:00+00:00",
+      "action": 9,
+      "resolved_action": 9,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 20:00:00+00:00",
+      "action": 1,
+      "resolved_action": 1,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 20:00:00+00:00",
+      "action": 2,
+      "resolved_action": 2,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 21:00:00+00:00",
+      "action": 5,
+      "resolved_action": 5,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 21:00:00+00:00",
+      "action": 0,
+      "resolved_action": 0,
+      "supported": true
+    },
+    {
+      "group": "train-bandar-abbas-2021-e1",
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "time": "2021-05-20 21:00:00+00:00",
+      "action": 7,
+      "resolved_action": 7,
+      "supported": true
+    }
+  ],
+  "failures": [],
+  "teacher": "cassette-v2.0 + B1 hourly wall/ground boundary; no CFD closure qualification"
+}

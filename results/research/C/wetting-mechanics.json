@@ -1,0 +1,215 @@
+{
+  "contact_angle_sensitivity": [
+    {
+      "condition": "nominal",
+      "adv_deg": 161.2,
+      "rec_deg": 159.4,
+      "angle_deg": 20,
+      "depinning_mass_kg": 0.2433405553791476,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "nominal",
+      "adv_deg": 161.2,
+      "rec_deg": 159.4,
+      "angle_deg": 50,
+      "depinning_mass_kg": 0.0725957292173725,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "nominal",
+      "adv_deg": 161.2,
+      "rec_deg": 159.4,
+      "angle_deg": 80,
+      "depinning_mass_kg": 0.049804069836296504,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "low_hysteresis",
+      "adv_deg": 160.4,
+      "rec_deg": 160.3,
+      "angle_deg": 20,
+      "depinning_mass_kg": 0.0031749912035356053,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "low_hysteresis",
+      "adv_deg": 160.4,
+      "rec_deg": 160.3,
+      "angle_deg": 50,
+      "depinning_mass_kg": 0.0009471943602671742,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "low_hysteresis",
+      "adv_deg": 160.4,
+      "rec_deg": 160.3,
+      "angle_deg": 80,
+      "depinning_mass_kg": 0.0006498196874094284,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "high_hysteresis",
+      "adv_deg": 162.0,
+      "rec_deg": 158.5,
+      "angle_deg": 20,
+      "depinning_mass_kg": 0.6620927846036698,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "high_hysteresis",
+      "adv_deg": 162.0,
+      "rec_deg": 158.5,
+      "angle_deg": 50,
+      "depinning_mass_kg": 0.19752198080165553,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    },
+    {
+      "condition": "high_hysteresis",
+      "adv_deg": 162.0,
+      "rec_deg": 158.5,
+      "angle_deg": 80,
+      "depinning_mass_kg": 0.1355093286079304,
+      "footprints_m2": 1000000.0,
+      "model": "Furmidge monodisperse population diagnostic, not droplet dynamics validation"
+    }
+  ],
+  "mechanical_loss_sensitivity": [
+    {
+      "bearing_friction_Nm": 0.1,
+      "wind_m_s": 2,
+      "force_N": 16.521855525,
+      "required_drive_Nm": 17.57720855026024,
+      "required_hold_Nm": 17.57720855026024,
+      "required_tilting_Nm": 3.304371105,
+      "required_radial_N": 572.086105202752,
+      "drive_utilization": 0.02929534758376707,
+      "hold_utilization": 0.005859069516753414,
+      "tilt_utilization": 0.00220291407,
+      "radial_utilization": 0.035755381575172,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.1,
+      "wind_m_s": 8,
+      "force_N": 264.3496884,
+      "required_drive_Nm": 235.91352931313523,
+      "required_hold_Nm": 235.91352931313523,
+      "required_tilting_Nm": 52.86993768,
+      "required_radial_N": 1067.7417709527522,
+      "drive_utilization": 0.39318921552189207,
+      "hold_utilization": 0.07863784310437841,
+      "tilt_utilization": 0.03524662512,
+      "radial_utilization": 0.06673386068454701,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.1,
+      "wind_m_s": 12,
+      "force_N": 594.7867989,
+      "required_drive_Nm": 527.0286236636354,
+      "required_hold_Nm": 527.0286236636354,
+      "required_tilting_Nm": 118.95735978,
+      "required_radial_N": 1728.6159919527522,
+      "drive_utilization": 0.8783810394393923,
+      "hold_utilization": 0.17567620788787847,
+      "tilt_utilization": 0.07930490652000001,
+      "radial_utilization": 0.10803849949704701,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.3,
+      "wind_m_s": 2,
+      "force_N": 16.521855525,
+      "required_drive_Nm": 17.977208550260244,
+      "required_hold_Nm": 17.977208550260244,
+      "required_tilting_Nm": 3.304371105,
+      "required_radial_N": 572.086105202752,
+      "drive_utilization": 0.02996201425043374,
+      "hold_utilization": 0.0059924028500867475,
+      "tilt_utilization": 0.00220291407,
+      "radial_utilization": 0.035755381575172,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.3,
+      "wind_m_s": 8,
+      "force_N": 264.3496884,
+      "required_drive_Nm": 236.31352931313523,
+      "required_hold_Nm": 236.31352931313523,
+      "required_tilting_Nm": 52.86993768,
+      "required_radial_N": 1067.7417709527522,
+      "drive_utilization": 0.3938558821885587,
+      "hold_utilization": 0.07877117643771174,
+      "tilt_utilization": 0.03524662512,
+      "radial_utilization": 0.06673386068454701,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.3,
+      "wind_m_s": 12,
+      "force_N": 594.7867989,
+      "required_drive_Nm": 527.4286236636353,
+      "required_hold_Nm": 527.4286236636353,
+      "required_tilting_Nm": 118.95735978,
+      "required_radial_N": 1728.6159919527522,
+      "drive_utilization": 0.8790477061060589,
+      "hold_utilization": 0.17580954122121178,
+      "tilt_utilization": 0.07930490652000001,
+      "radial_utilization": 0.10803849949704701,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.6,
+      "wind_m_s": 2,
+      "force_N": 16.521855525,
+      "required_drive_Nm": 18.57720855026024,
+      "required_hold_Nm": 18.57720855026024,
+      "required_tilting_Nm": 3.304371105,
+      "required_radial_N": 572.086105202752,
+      "drive_utilization": 0.030962014250433736,
+      "hold_utilization": 0.006192402850086747,
+      "tilt_utilization": 0.00220291407,
+      "radial_utilization": 0.035755381575172,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.6,
+      "wind_m_s": 8,
+      "force_N": 264.3496884,
+      "required_drive_Nm": 236.91352931313523,
+      "required_hold_Nm": 236.91352931313523,
+      "required_tilting_Nm": 52.86993768,
+      "required_radial_N": 1067.7417709527522,
+      "drive_utilization": 0.3948558821885587,
+      "hold_utilization": 0.07897117643771175,
+      "tilt_utilization": 0.03524662512,
+      "radial_utilization": 0.06673386068454701,
+      "screen_pass": true
+    },
+    {
+      "bearing_friction_Nm": 0.6,
+      "wind_m_s": 12,
+      "force_N": 594.7867989,
+      "required_drive_Nm": 528.0286236636354,
+      "required_hold_Nm": 528.0286236636354,
+      "required_tilting_Nm": 118.95735978,
+      "required_radial_N": 1728.6159919527522,
+      "drive_utilization": 0.880047706106059,
+      "hold_utilization": 0.1760095412212118,
+      "tilt_utilization": 0.07930490652000001,
+      "radial_utilization": 0.10803849949704701,
+      "screen_pass": true
+    }
+  ],
+  "electrical_motion_energy_note": "catalogue running-power envelope used; load-dependent motor/gear efficiency curve unavailable, not inferred from torque",
+  "depinning_population_note": "C full-solver footprint stress cases 1e3 and 1e5 per m2 are both below nominal 1e6; they are not a symmetric confidence interval"
+}

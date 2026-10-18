@@ -1,0 +1,23 @@
+{
+  "source_url": "https://energycodes.gov/sites/default/files/2023-10/ASHRAE901_OfficeMedium_STD2019.zip",
+  "archive_member": "ASHRAE901_OfficeMedium_STD2019_HoChiMinh.idf",
+  "archive_sha256": "8431a33c3c27c0c34b1efc31be5f558b2b17e29a8850accc1bbce5f4f0dc5f7c",
+  "idf_sha256": "2335c894b6a9552341bf5cacdb6e939771fc77ea2676f5c7f49eee69108e0d34",
+  "vertices_examined": 316,
+  "min_xyz_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_xyz_m": [
+    49.911,
+    33.2738,
+    11.8872
+  ],
+  "dimensions_xyz_m": [
+    49.911,
+    33.2738,
+    11.8872
+  ],
+  "note": "Only reference geometry was imported. No claim that DOE envelope/HVAC simulates the new facade."
+}

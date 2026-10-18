@@ -1,0 +1,232 @@
+{
+  "protocol": {
+    "train_years": [
+      2020,
+      2021
+    ],
+    "selection_years": [
+      2022
+    ],
+    "test_years": [
+      2023
+    ],
+    "train_cities": [
+      "singapore",
+      "bandar-abbas",
+      "mumbai",
+      "phoenix"
+    ],
+    "test_only_cities": [
+      "rasht",
+      "dubai",
+      "seville",
+      "istanbul"
+    ]
+  },
+  "datasets": [
+    {
+      "city": "bandar-abbas",
+      "year": 2022,
+      "role": "selection",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/bandar-abbas-2022.csv.gz",
+      "normalized_sha256": "5e5a6afbe2cec80860a5eed8d8cd35db98d732d50d7480c6eda8b3162ee44a73",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "mumbai",
+      "year": 2022,
+      "role": "selection",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/mumbai-2022.csv.gz",
+      "normalized_sha256": "19a875cdc940d1b3b64502b36cafd90f643a6e96933dbfa9d26d5d2572cdb45e",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "phoenix",
+      "year": 2022,
+      "role": "selection",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/phoenix-2022.csv.gz",
+      "normalized_sha256": "ddd5765c600346306d1ecc26de00028e1c05f5411a25becbed7fa900b2096aa7",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "singapore",
+      "year": 2022,
+      "role": "selection",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/singapore-2022.csv.gz",
+      "normalized_sha256": "b42a6150cdd1204e293681bcf4ed89d42a0033174946c7a765b2248224668ef0",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "bandar-abbas",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/bandar-abbas-2023.csv.gz",
+      "normalized_sha256": "25d0156d57350e92a63b766b08bb165288efbd295504101d3543443f9ea20512",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "dubai",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/dubai-2023.csv.gz",
+      "normalized_sha256": "73a86c4ec42e0cbbee6ea30f256197037c1b26b339c058d273a0e95e8d647881",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "istanbul",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/istanbul-2023.csv.gz",
+      "normalized_sha256": "9fc68c5098dddc921ea397ebadda40e04d717f9564c23bb5120384cb81b28694",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "mumbai",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/mumbai-2023.csv.gz",
+      "normalized_sha256": "ab5e3f0e6fe4190aa1d331c93d23252badb5d33ada6bc49fd30835feeb336f2d",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "phoenix",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/phoenix-2023.csv.gz",
+      "normalized_sha256": "42de90f8fe6afb7f10485354b4df4f6b23d3297be5b9aab23dfe65dd23d907c6",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "rasht",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/rasht-2023.csv.gz",
+      "normalized_sha256": "49af4a60da0d788ee822f1fb76d896fd1892cb62e548058c278d7c0bc1db619c",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "seville",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/seville-2023.csv.gz",
+      "normalized_sha256": "3d29260a81fe832201eef3a8bd14491c03c3a3fdb630b9e6ed86a016a3af427c",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "singapore",
+      "year": 2023,
+      "role": "test",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/singapore-2023.csv.gz",
+      "normalized_sha256": "3efa08b721ba260692333694c37b513da7b0f1f4da06b57361c5d2ab4a6e4429",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "bandar-abbas",
+      "year": 2020,
+      "role": "train",
+      "status": "passed",
+      "hours": 8784,
+      "path": "data/normalized/bandar-abbas-2020.csv.gz",
+      "normalized_sha256": "705454a9e147313f2485908232fc73439dd7cd8c8fd0468702b66b301899daf0",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "bandar-abbas",
+      "year": 2021,
+      "role": "train",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/bandar-abbas-2021.csv.gz",
+      "normalized_sha256": "2111e1ab2c562c8186855baa8ddee31418e493f7aeff21562ef4bed8eeaf82e6",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "mumbai",
+      "year": 2020,
+      "role": "train",
+      "status": "passed",
+      "hours": 8784,
+      "path": "data/normalized/mumbai-2020.csv.gz",
+      "normalized_sha256": "39d2a9128f162400092a08e5af345974ebcc3d3a057d12304eac069b0725f44a",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "mumbai",
+      "year": 2021,
+      "role": "train",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/mumbai-2021.csv.gz",
+      "normalized_sha256": "217ccf6d6f63447a79bb56d4576ce83bd8e8fbc46984ebcb8cb89145c217b7b7",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "phoenix",
+      "year": 2020,
+      "role": "train",
+      "status": "passed",
+      "hours": 8784,
+      "path": "data/normalized/phoenix-2020.csv.gz",
+      "normalized_sha256": "ff53fd7edfeb9edef1a2022c7a8b7d07999ec35f52b2912e5d42a80f063f005d",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "phoenix",
+      "year": 2021,
+      "role": "train",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/phoenix-2021.csv.gz",
+      "normalized_sha256": "99ff431bdb9104909e473369098d36ef17965e62bed58cb5581fecdfff5212b1",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "singapore",
+      "year": 2020,
+      "role": "train",
+      "status": "passed",
+      "hours": 8784,
+      "path": "data/normalized/singapore-2020.csv.gz",
+      "normalized_sha256": "aa71eb7953caaebb183fc16cea369441a901755eae67016a47e06a335c9c98fc",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    },
+    {
+      "city": "singapore",
+      "year": 2021,
+      "role": "train",
+      "status": "passed",
+      "hours": 8760,
+      "path": "data/normalized/singapore-2021.csv.gz",
+      "normalized_sha256": "551180a1d5be58632a980cfe59b9a317967188893df5344d8e110ead63cbf8c3",
+      "raw_source_warning": "ERA5 shortwave is preceding-hour average; meteorology is instantaneous. NASA UTC hour labels are associated directly as a working assumption; +/-1 h sensitivity required."
+    }
+  ],
+  "test_year_used_for_tuning": false,
+  "issued_forecasts_available": false,
+  "independent_observational_weather": false,
+  "weather_is_reanalysis_not_experimental_validation": true
+}

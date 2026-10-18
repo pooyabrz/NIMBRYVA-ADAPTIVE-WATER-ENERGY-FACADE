@@ -1,0 +1,6 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=31.9&longitude=54.37&start_date=2024-01-01&end_date=2024-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Cdew_point_2m%2Csurface_pressure%2Cwind_speed_10m%2Cwind_direction_10m%2Cprecipitation%2Crain%2Csnowfall%2Ccloud_cover%2Cshortwave_radiation%2Cdirect_normal_irradiance%2Cdiffuse_radiation%2Cis_day&models=era5&timezone=UTC&wind_speed_unit=ms",
+  "retrieved_at_UTC": "2026-10-16T19:30:37.094544+00:00",
+  "sha256": "0078c203b2d0fd6efc26a9dc725568ce0c3b8d0aa74ad597c02812502e03941a",
+  "bytes": 706033
+}

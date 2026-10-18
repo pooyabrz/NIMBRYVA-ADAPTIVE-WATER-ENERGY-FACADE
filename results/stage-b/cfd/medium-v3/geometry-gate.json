@@ -1,0 +1,20 @@
+{
+  "patch_faces": {
+    "inlet": 1232,
+    "outlet": 1232,
+    "side1": 1232,
+    "side2": 1232,
+    "ground": 2224,
+    "top": 1936,
+    "building": 2318,
+    "cassette": 43
+  },
+  "passed": false,
+  "cassette_area_m2": 1.5695487173418405,
+  "physical_closed_box_area_m2": 4.405143603567995,
+  "relative_area_error": 0.6437008963633859,
+  "face_centre_bounds_error_m": 0.1863859384999999,
+  "geometry_tolerance_for_screening": 0.15,
+  "geometry_qualified_to_two_percent": false,
+  "reason": "Cassette geometry area/bounds differ excessively from physical STL"
+}

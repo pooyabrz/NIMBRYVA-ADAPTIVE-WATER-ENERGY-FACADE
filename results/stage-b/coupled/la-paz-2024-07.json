@@ -1,0 +1,20 @@
+{
+  "city": "la-paz",
+  "month": 7,
+  "hours_scored": 0,
+  "cassette_warmup_hours": 6,
+  "status": "COLD_OR_SNOW_V2_EXCLUDED",
+  "rejected_step": {
+    "time": "2024-07-13 06:00:00+00:00",
+    "status": "COLD_OR_SNOW_V2_EXCLUDED",
+    "reason": "Use independent enthalpy reference; v2 cassette cold scope remains excluded"
+  },
+  "mean_emitter_shift_K": null,
+  "max_emitter_shift_K": null,
+  "v2_supported_scored_hours": 0,
+  "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+  "CFD_h_hm_or_rain_closure_used": false,
+  "two_way_CFD_CHT": false,
+  "physical_yield_claim_supported": false,
+  "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Active unit normal and conceptual wall clearance only; not structural/CFD validation.",
+  "checks": [
+    {
+      "mode": "solar",
+      "tilts_checked": 71,
+      "normal_and_clearance": "passed"
+    },
+    {
+      "mode": "dew",
+      "tilts_checked": 71,
+      "normal_and_clearance": "passed"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "city": "rasht",
+  "month": 1,
+  "hours_scored": 12,
+  "cassette_warmup_hours": 48,
+  "status": "COMPLETE_REFERENCE",
+  "rejected_step": null,
+  "mean_emitter_shift_K": 1.277803450741377,
+  "max_emitter_shift_K": 2.958782376350575,
+  "v2_supported_scored_hours": 12,
+  "connection": "B1 wall and ground temperatures -> finite-view spectral radiation of v2 cassette",
+  "CFD_h_hm_or_rain_closure_used": false,
+  "two_way_CFD_CHT": false,
+  "physical_yield_claim_supported": false,
+  "reason": "Current CFD scalar wall treatment is not qualified for transfer coefficients; cold v2 exclusions remain"
+}

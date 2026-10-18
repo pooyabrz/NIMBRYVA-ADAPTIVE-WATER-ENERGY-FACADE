@@ -1,0 +1,33 @@
+{
+  "tested_from_extracted_release_archive": true,
+  "physical_code_changed_by_accounting": false,
+  "base_unit_tests": {
+    "passed": 31,
+    "total": 31
+  },
+  "stage_b_checks": {
+    "passed": 35,
+    "total": 35
+  },
+  "CDE_checks": {
+    "passed": 29,
+    "total": 29
+  },
+  "presentation_checks": {
+    "passed": 62,
+    "total": 62
+  },
+  "native_python_view_check": {
+    "passed": true,
+    "image_file_created": false
+  },
+  "experimental_validation": false,
+  "note": "Subsequent report-only axis-label edit does not alter tested simulations; final archive integrity is verified by the packager.",
+  "log_sha256": {
+    "results/presentation/release-smoke-base.log": "d988df5c9a8701c6f40f78f045aa8d3049bcef5fa51f323ff7743240f6596519",
+    "results/presentation/release-smoke-stage-b.log": "6e188b3dd96eec4a58760951786d385e800d2abe731c32e02484fbc1e72c2cd1",
+    "results/presentation/release-smoke-research.log": "628366f8deb523e0711d92f5b17cbc35818f178e34ae82fc591ce8ab2121bd7e",
+    "results/presentation/release-smoke-presentation.log": "b0fe47a4ff707bc1af0cb8fd0f4f91bad73f6d072acec3725ba6c82e9b842c5d",
+    "results/presentation/release-smoke-view.log": "ac092e0b04966255222217c186201f29bbc600b4cdd7599f23b94cf9b6f0822b"
+  }
+}

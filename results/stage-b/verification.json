@@ -1,0 +1,178 @@
+{
+  "checks": [
+    {
+      "name": "layered steady conduction including massless R",
+      "pass": true,
+      "flux_W_m2": 31.842097457587442,
+      "analytic_W_m2": 31.84209745758686
+    },
+    {
+      "name": "massless resistance has no invented heat capacity",
+      "pass": true
+    },
+    {
+      "name": "conduction matrix conserves heat",
+      "pass": true
+    },
+    {
+      "name": "slab Fourier mode spatial convergence",
+      "pass": true,
+      "rms_K": [
+        0.00205045941117481,
+        0.0005393613463642994,
+        0.00016142892290610858
+      ]
+    },
+    {
+      "name": "slab Fourier mode backward Euler temporal convergence",
+      "pass": true,
+      "rms_K": [
+        0.002834537527538297,
+        0.0014409442422021258,
+        0.0007382251428483213
+      ]
+    },
+    {
+      "name": "wall and ground temperatures solved independently",
+      "pass": true,
+      "wall_C": 23.11462735677177,
+      "ground_C": 31.884629514463644
+    },
+    {
+      "name": "scene energy includes deep-ground boundary",
+      "pass": true,
+      "residual_J": -7.82310962677002e-08
+    },
+    {
+      "name": "ice/water saturation matches independent project API",
+      "pass": true
+    },
+    {
+      "name": "enthalpy inverse preserves melting plateau",
+      "pass": true
+    },
+    {
+      "name": "latent heat ledger exact",
+      "pass": true
+    },
+    {
+      "name": "analytic constant-flux freezing plateau",
+      "pass": true
+    },
+    {
+      "name": "analytic constant-flux melting plateau",
+      "pass": true
+    },
+    {
+      "name": "Nusselt smooth-film initial drainage flux analytic",
+      "pass": true,
+      "computed_kg": 2.2717285128052885e-06,
+      "analytic_kg": 2.2717285128052885e-06
+    },
+    {
+      "name": "evaporation cannot consume missing water",
+      "pass": true
+    },
+    {
+      "name": "wet film drainage and re-evaporation coexist",
+      "pass": true
+    },
+    {
+      "name": "film transport conserves mass and enthalpy",
+      "pass": true,
+      "energy_residual_J": -7.275957614183426e-12
+    },
+    {
+      "name": "spatial rain handoff preserves integrated mass",
+      "pass": true
+    },
+    {
+      "name": "snow forcing is water-equivalent mass",
+      "pass": true
+    },
+    {
+      "name": "cold surface retains solid inventory and closes balances",
+      "pass": true
+    },
+    {
+      "name": "sublimation is present",
+      "pass": true
+    },
+    {
+      "name": "supercooled rain rejected explicitly",
+      "pass": true
+    },
+    {
+      "name": "terminal drag balance D=0.00025m",
+      "pass": true,
+      "terminal_m_s": 0.9433457139216455
+    },
+    {
+      "name": "terminal drag balance D=0.001m",
+      "pass": true,
+      "terminal_m_s": 3.866462791617576
+    },
+    {
+      "name": "terminal drag balance D=0.004m",
+      "pass": true,
+      "terminal_m_s": 9.946768431114814
+    },
+    {
+      "name": "DSD integrates to specified horizontal rain",
+      "pass": true
+    },
+    {
+      "name": "nonlinear particle trajectory converges to independent DOP853 ODE",
+      "pass": true,
+      "relative_position_errors": [
+        0.002083390621620614,
+        0.001022651880916002,
+        0.0005063476357767696
+      ]
+    },
+    {
+      "name": "thin surface first impact without tunnelling",
+      "pass": true
+    },
+    {
+      "name": "uniform flow reproduced by interpolation",
+      "pass": true
+    },
+    {
+      "name": "corner rain source retains upstream AND roof patches",
+      "pass": true
+    },
+    {
+      "name": "CFD cannot be invented when no execution record exists",
+      "pass": true
+    },
+    {
+      "name": "compact CFD export corruption rejected",
+      "pass": true
+    },
+    {
+      "name": "DOE seed is reproducible",
+      "pass": true
+    },
+    {
+      "name": "DOE atmospheric constraints physical",
+      "pass": true
+    },
+    {
+      "name": "DOE flags buoyancy outside neutral-flow model",
+      "pass": true
+    },
+    {
+      "name": "executed Stefan front converges to analytic Neumann solution",
+      "pass": true,
+      "relative_errors": [
+        0.0058430328995380965,
+        0.001579685790850278,
+        0.0006252284374830086
+      ]
+    }
+  ],
+  "passed": 35,
+  "total": 35,
+  "experimental_validation": false
+}

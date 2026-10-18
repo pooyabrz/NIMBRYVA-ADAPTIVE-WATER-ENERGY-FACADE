@@ -1,0 +1,11 @@
+{
+  "patch_faces": {
+    "inlet": 1232,
+    "outlet": 1232,
+    "side1": 1232,
+    "side2": 1232,
+    "ground": 1936,
+    "top": 1936
+  },
+  "passed": true
+}

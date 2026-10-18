@@ -1,0 +1,9 @@
+{
+  "model_version": "cassette-v2.0",
+  "tests": 31,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "seconds": 8.553805112838745,
+  "empirical_validation_performed": false
+}
