@@ -67,13 +67,6 @@ For reports, install `requirements-presentation.txt` and run `python run.py pres
 
 For research and trained-policy replay, read [the original research guide](docs/CDE-RUN-fa.md) and install the appropriate research dependencies. The selected frozen policy `results/research/E/control/ppo-7.zip` and its selection/test metadata remain in this repository. The publication preparation did not retrain it.
 
-## Video and publication
-
-- [Three-minute narration](video/NARRATION-en.md)
-- [Timed shots and actions](video/SHOT-LIST.md)
-- [Persian recording guide](video/RECORDING-fa.md)
-- [GitHub upload guide](docs/GITHUB-UPLOAD-fa.md)
-- [Package contents and omissions](docs/GITHUB-PACKAGE.md)
 
 ## Data and reproducibility
 
